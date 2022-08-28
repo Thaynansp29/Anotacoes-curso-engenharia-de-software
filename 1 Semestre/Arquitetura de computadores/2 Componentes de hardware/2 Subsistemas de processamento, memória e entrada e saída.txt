@@ -1,0 +1,142 @@
+
+						Subsistemas de processamento
+Um processador ou Unidade Central de Processamento – UCP (Central Process Unit – CPU) possui basicamente duas funções principais:
+
+						Função processamento:
+					Responsável pelo processamento dos dados.
+
+						Função controle:
+É a parte funcional que realiza as atividades de buscar a instrução; interpretar as ações; gerar os sinais de controle para ativar as atividades requeridas 
+(dentro ou fora do processador).
+
+							Tipos de memória
+A memória é um sistema constituído de vários componentes, cada um com velocidades, custos e capacidades diferentes. Todos, no entanto, com mesma função – armazenar e recuperar valores, quando desejado.
+
+Existem diferentes tipos de memória, para diferentes finalidades, no que é conhecido como hierarquia de memórias:
+
+Registradores;
+Memória cache;
+Memória principal– MP (ex.: RAM);
+Memória secundária (ex.: HDs, Pendrive);
+Memória virtual.
+
+							Registradores
+Os registradores são memórias com as características do topo da pirâmide, localizadas dentro do processador.
+
+Existem:
+
+*Registradores de dados:
+Armazenam os dados que serão processados pelas unidades de cálculo, separados em unidades para números inteiros e números de ponto flutuante.
+
+*Registrador de dados de memória -RDM(Memory Buffer Register- MBR)
+Para transferências externas de dados.
+
+*Registrador de endereço - REM (Memory Adress Register - MAR)
+Para transferências externas de endereços de memória.
+
+*Contador de instrução ou contador de programa - CI (Program Counter - PC)
+Para buscar a próxima instrução.
+
+*Registrador de instrução - RI(Instrucion Register -IR)
+Armazena instrução.
+
+*Segmentos
+Para armazenar endereços de Segmentos [apontam para determinados segmentos (programa, dados, pilha, etc.)].
+
+*Flags
+Podem ser usadas para indicar o resultado de certas instruções.
+
+							Memória cache
+A memória cache é uma memória de pequena capacidade, situada entre a memória principal (MP) e o processador. Essa memória armazena certa quantidade dos dados que estão 
+sendo utilizados no momento, e que são transferidos para o processador em alta velocidade.
+
+
+							Memória principal (MP)
+A memória principal (MP) é a memória básica, na qual o programa que será executado e seus dados são armazenados, para que o processador busque cada instrução ao longo do tempo de
+processamento.
+
+Memórias muito antigas usavam o método de acesso sequencial, em que o endereço de cada acesso era sempre relativo ao endereço inicial. Exemplo de acesso sequencial é o dos sistemas 
+VHS (videocassete) e das fitas magnéticas.
+
+A memória principal (RAM) permite a realização de duas operações:
+
+	Escrita (armazenar)							Leitura (recuperar)
+O dado anteriormente armazenado é apagado.				Normalmente se recupera uma cópia do dado.
+
+
+A memória é organizada como um conjunto de N partes iguais, com cada parte possuindo um conteúdo fixo de M bits.
+
+O valor de M depende do tipo de memória. Usualmente é 8 bits (1 Byte) nas memórias RAM, mas existem valores maiores para outras memórias.
+
+Cada parte (chama-se célula ou, em alguns casos, palavra nas memórias RAM, linha nas memórias cache, setor nos HDs etc.) é identificada por um número, chamado endereço. 
+Todos os N endereços têm mesma largura de endereço, de E bits. Vejamos um breve exemplo.
+
+As memórias eletrônicas que empregam o acesso aleatório podem ser fabricadas para permitir duas aplicações:
+
+Para leitura e escrita			Somente para leitura
+Read/Write – R/W			Read Only Memory – ROM
+
+					
+						SCRAM(Static Random-Access Memory)				
+*Cada bit é constituído de 5 a 7 transístores;
+*Não requer recarregamento, sendo, por isso, mais rápidas, mas ocupam mais espaço e são mais caras;
+*Usadas como memória cache.
+
+						DRAM(Dynamic Random-Acess Memory)
+*Cada bit é constituído por 1 capacitor e 1 transístor;
+*O capacitor serve para representar o valor do bit e o transístor para ser usado nas leituras/escritas;
+*Como o capacitor se descarrega, é preciso recarregar periodicamente (sinal de refresh – gasta tempo);
+*Usadas como memória principal.
+
+							Memória secundária
+Terminando a pirâmide da hierarquia de memória, a memória secundária objetiva o armazenamento persistente (permanente) aos programas de usuário e seus dados.
+
+O emprego de diferentes tecnologias para compor os diferentes tipos de memórias da hierarquia pode ser feito através de parâmetros para análise, tais como:
+
+*Tempo de acesso: Também conhecido como tempo de acesso para leitura ou tempo de leitura.
+
+*Ciclo de memória: É outro parâmetro (apenas para memórias eletrônicas), indica o tempo entre 2 operações sucessivas de leitura ou escrita.
+
+*Capacidade.
+
+*Volatilidade.
+
+*Tecnologia de fabricação: Memórias de semicondutores, memórias de meio magnético, memória de meio óptico.
+
+*Temporariedade: Permanente, transitório
+
+*Custo.
+
+Como funciona a operação de leitura de um processador:
+
+
+1.Irá verificar primeiro se o dado está localizado na cache L1.
+
+
+2.Caso não esteja, verificará se o dado se encontra na cache L2 e L3 (se houver).
+
+3.Finalmente, irá buscar o dado na memória principal, caso o dado não esteja localizado em nenhuma das memórias cache consultadas.
+
+O mesmo raciocínio pode ser aplicado na operação de escrita, na qual o processador escreverá sempre na cache mais próxima dele, mas o dado precisa estar atualizado na memória 
+principal (RAM) para, em seguida, ser armazenado na memória permanente (HD, por exemplo).
+
+registradores sao memorias que ficam dentro do processador, sao bem rapidos, RDM E REM
+
+Subsistema de entrada e saída (E/S)
+
+Objetivos e funções
+
+O subsistema de entrada e saída (E/S) tem por função interligar o mundo exterior (o nosso mundo) ao mundo interior (processador-memória). Os dispositivos de entrada e saída também são chamados periféricos, pois estão na periferia do núcleo processador/memória principal.
+
+São funções do subsistema de E/S:
+
+*Receber ou enviar informações do/para o meio exterior..
+
+Transmissão paralela
+Na transmissão paralela, um grupo de bits é transmitido de cada vez, cada um sendo enviado por uma linha separada de transmissão.
+
+Transmissão serial
+Na transmissão serial, o periférico é conectado ao dispositivo controlador por uma única linha de transmissão de dados, um bit de cada vez.
+*Converter as informações (de entrada ou de saída) em uma forma inteligível para a máquina (se estiver recebendo) ou para o operador (estar enviando).
+
+

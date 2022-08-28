@@ -1,0 +1,76 @@
+					Tabelas de representação de dados
+Em uma tabela de representação de dados, cada símbolo possui uma correspondência com um grupo de bits que identifica exclusivamente determinado caractere. Quando alguém escreve um 
+texto no teclado, os caracteres do alfabeto são convertidos em outros codificados em bits.
+
+Os tipos primitivos de dados podem ser classificados em:
+
+Caractere
+Representa símbolos (não numéricos). Modo primário de introduzir dados no computador. Serve para escrever um texto em algum idioma.
+
+Lógico
+Representa verdadeiro ou falso.
+
+Numérico
+Representa os números.
+
+					ASCII
+American Standard Code for Information Interchange (em português, Código Padrão Americano para Troca de Informações).
+
+Cada caractere tem sete bits. O ASCII possui um total de 128 caracteres (27) que podem ser expressos em hexadecimal.
+
+Os códigos 0 a 1F, por sua vez, não são impressos, pois ambos são caracteres de controle.
+
+
+Tanembaum (2007) informa que o ASCII ainda possui:
+
+Letras maiúsculas
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+Letras minúsculas
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+Sinais de pontuação
+* ~ . , : ; " + = ! ? @ / # ( ) { } [ ]
+
+Símbolos matemáticos
++ * / - =
+
+
+Hex	Caractere.Hex	Car.	Hex	Car.	Hex	Car.	Hex	Car.	Hex	Car.
+20	(Space)	30	0	40	@	50	P	60	`	70	p
+21	!	31	1	41	A	51	Q	61	a	71	q
+22	"	32	2	42	B	52	R	62	b	72	r
+23	#	33	3	43	C	53	S	63	c	73	s
+24	$	34	4	44	D	54	T	64	d	74	t
+25	%	35	5	45	E	55	U	65	e	75	u
+26	&	36	6	46	F	56	V	66	f	76	v
+27	'	37	7	47	G	57	W	67	g	77	w
+28	(	38	8	48	H	58	X	68	h	78	x
+29	)	39	9	49	I	59	Y	69	i	79	y
+2A	*	3A	:	4A	J	5A	Z	6A	j	7A	z
+2B	+	3B	;	4B	K	5B	[	6B	k	7B	{
+2C	,	3C	<	4C	L	5C	\	6C	l	7C	|
+2D	-	3D	=	4D	M	5D	]	6D	m	7D	}
+2E	.	3E	>	4E	N	5E	^	6E	n	7E	~
+2F	/	3F	?	4F	O	5F	_	6F	o	7F	DEL
+
+
+Unicode
+
+O ASCII é um bom conjunto de caracteres para textos de língua inglesa, mas não tanto para os demais idiomas, como japonês, chinês, árabe etc. Isso levou um grupo de empresas a criar 
+o Unicode, padrão internacional no qual cada caractere possui um único valor: 16 bits. Com isso, podemos ter um total de 65.536 símbolos (216).
+
+Além do alfabeto e dos símbolos de pontuação, existem códigos para:
+
+Símbolos monetários
+£ ¥ ₣ ₤ € $
+
+Símbolos matemáticos
++ * / - =
+
+Formas geométricas
+■ ▭ △ ◯ ◆ ▱
+
+Emojis
+😀 😂 😇 😍 😎 😜
+

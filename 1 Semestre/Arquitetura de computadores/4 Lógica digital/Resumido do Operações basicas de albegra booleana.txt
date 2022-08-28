@@ -1,0 +1,14 @@
+	OR						AND					NOT=INVERSOR ELE INVERTE O RESULTADO DAS OUTRAS OPERAÇÕES	
+A	B	X= A+B				A	B	X=A.B
+0	0	0				0	0	0				EX: SE O OR DEU 0111 O NOR VAI SER 1000	
+0	1	1				0	1	0				    SE O AND DEU 1101 O NAND VAI SER 0010
+1	0	1				1	0	0					NOR: X=A+B
+1	1	1				1	1	1					NAND: X=A.B
+
+
+	XOR						XNOR
+A	B	X= A(+)B			A	B	X=A(.)B
+0	0	0				0	0	1
+0	1	1				0	1	0
+1	0	1				1	0	0
+1	1	0				1	1	1

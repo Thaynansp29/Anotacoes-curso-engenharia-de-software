@@ -1,0 +1,112 @@
+De uma base X para outra Y
+A conversão sempre precisa ser realizada tendo a base 10 como intermediária, pois ela é a utilizada para efetuar cálculos aritméticos.
+
+Após a conversão da base X (origem) para a base 10, o resultado será convertido para a base Y (destino).
+
+Conseguiremos entender isso melhor com o seguinte passo a passo:
+
+1
+Vamos converter 234 da base 6 para um valor equivalente na base 8. O número a ser convertido é expresso em N produtos, em que N é igual à quantidade algarismo do número. Assim, temos:
+
+2346 = 2 * 62 + 3 * 61 + 4 * 60
+
+2
+Calcularemos, agora, os produtos usando a aritmética da base 10. Desse modo, o resultado será expresso em valores decimais. Continuando a realizar o cálculo, teremos:
+
+(2 * 36) + 18 + 4 = 9410
+
+3
+Dessa vez, o resultado (decimal 94) será convertido para a base desejada (8). Esse processo é o inverso do anterior — afinal, o inverso da multiplicação é a divisão. Dividimos o valor 
+(94) pela base desejada (8). O resto obtido é o primeiro algarismo do número desejado (aquele mais à direita):
+
+94 / 8 = 11 e resto = 6
+
+4
+O quociente obtido na divisão é novamente dividido por 8. A seguir, o novo resto é acrescentado à esquerda do primeiro algarismo:
+
+11 / 8 = 1 e resto = 3
+
+5
+O número a ser obtido na base 8 é: 36.
+
+6
+Novamente, faremos a divisão até obtermos um quociente 0 (zero):
+
+1 / 8 = 0 e resto = 1
+
+7
+O número obtido, portanto, é: 1368.
+
+Toda vez que o dígito 1 for inserido em uma posição, ela corresponderá ao valor relativo da posição (escrito em decimal). Em outras palavras, toda vez que você colocar:
+
+1
+“Liga” o bit na posição.
+
+0
+“Desliga” o bit na posição.
+
+20 = 1	27 = 128
+21 = 2	28 = 256
+22 = 4	29 = 512
+23 = 8	210 = 1024
+24 = 16	211 = 2048
+25 = 32	212 = 4096
+26 = 64	(...)
+
+bases 2 e 8
+Como 8 = 23, dividimos o valor, partindo da direita para a esquerda, em grupos de três bits:
+	(111010111)2		=(  )8
+(111)	(010)	(111)2	=(727)8
+7	2	7	
+
+	
+Bases 2 e 16
+Como 16 = 24, dividimos o valor, partindo da direita para a esquerda, em grupos de quatro bits:
+	(1011011011)2		=(  )16
+(0010)	(1101)	(1011)2	=(2DB)16
+2	D	B	
+
+
+Bases 8 e 16
+
+Converte-se primeiramente para a base 2 e, em seguida, para a desejada:
+
+(3174)8 = ( )16
+
+Observemos, agora, as conversões para as bases:
+
+2 -> (011) (001) (111) (100)2 = (011001111100)2
+16 -> (0110) (0111) (1100) = (67C)16
+O resultado da conversão, portanto, será: 67C.
+
+							Lógica booleana
+Além de sabermos que um computador representa seus dados usando bits, já compreendemos como são realizadas algumas operações matemáticas, bem como a conversão de valores para outras 
+bases numéricas responsáveis por compactar os números binários.
+
+Os valores binários seguem a lógica booleana. Nela, dois valores são referidos como verdadeiro e falso, sim e não ou 0 e 1. Não importa a escolha feita para essa referência: seu conceito
+ é o mesmo.
+
+A conexão íntima entre a lógica booleana e os circuitos que executam tarefas computacionais é um conceito fundamental na estruturação da infraestrutura computacional da qual desfrutamos 
+atualmente.
+
+Entender essa conexão significa compreender a pergunta de Sedgewick e Wayne (2017): "Como os circuitos calculam?". Afinal, quando você passa a saber e “sentir” como é o funcionamento
+dos circuitos lógicos, também consegue entender a importância da representação dos valores binários 0 e 1 em outras bases numéricas.
+
+
+
+Para fazer a converção da base x para a y é simples: exemplo: converter 214 da base 5 para base 7.
+primeiro pega o valor que esta na base x que é 214 e separamos ele para entender, 4 esta na posicao 0, o 1 na posicao 1 e o 2 na posicao 2= pegamos o 2 e multiplicamos pela base atual que é
+5 sobre a posição dele que é 2 entao fica 214=2x5^2 soma com a posicao 1 e faz o mesmo raciocinio 1 vezes a base que é 5 elevado pela posição dele que é 1 fica 1x5^1 e novamente soma com a 
+posicao 0 que é 4x5^0, a função fica 214=2x5^2+1x5^1+4x5^0, 2x5^2 da 2x25=50 ,1x5^1 = 5, 4x5^0=4 somando todos os resultados da 59 na base 10, assim transformamos a base x que era 5 na base
+10, ele estando na base na 10 para base 7 fazemos assim: pegamos o valor que deu para base 10 e dividimos para a base y que no caso é 7, 59/7= 8 e resta 3, pega o resultado e divide novamente
+pela base que queremos converter que é 7 8/7=1 e resta 1 e fazemos de novo, 1/7=0 resta 1, entao pegamos todos os numeros que ficaram no resta na ordem do ultimo para o primeiro e temos 
+nosso numero da base 7 que é 1 1 3, 113
+
+
+
+3 10 base 16 para base 8 vai da 72
+
+3 10= 3x16^1 + 10x16^0=48+10=    58/8=7 resta 2, 7/8=0
+				
+
+

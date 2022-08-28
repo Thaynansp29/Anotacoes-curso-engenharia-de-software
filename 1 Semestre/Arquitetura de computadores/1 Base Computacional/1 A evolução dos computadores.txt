@@ -1,0 +1,65 @@
+A maquina de turing, final do sec 19 inicio do 20, inventado por alan turing o matematicao ingles pensou em como maquinas poderiam ser
+programadas para resolver problemas nisso veio a maquina de turing que foi o percursor do computador que foi composto por 4 elementos 
+
+1* uma fita infinita dividida em células que pode ser lida e escrita.
+2* Um cabeçote capas de ler ou escrever em uma célula da fita e mover-se para esquerda ou direta sobre a fita.
+3* Um registrador que mantém o estado atual da máquina.
+4* Uma função de transição que calcula, a partir do estado atual e do símbolo lido, qual o novo estado e se o cabeçote deve se mover ou 
+escrever na fita.
+
+ele criou o Algoritmo que é o conjunto finito de passos capaz de resolver um dado problema, ele foi considerado como o pai da ciencia da
+computação e foi chamado pelo o governo ingles para trabalhar na quebra dos criptogramas alemâes durante a segunda grande guerra.
+
+durante ainda na segunda guerra o Claude Elwood Shannon desenvolveu estudos na parte de comunicação entre equipamentos, a mathematical theory
+of communication que foi criado a unidade mínima para guardar uma informação dígito binário o "BIT" [BINARY DIGIT].
+
+o o binaria sendo 0 e 1 , o 0 = falso ou desligado; 1 = verdadeiro ou ligado.
+
+Shannon foi conhecido como a criação da teoria da informação pela publicação desse artigo.
+
+Com isso houve 4 gerações para o desenvolvimento da computação.
+
+1* Vávulas termiônicas: Ainda durante a Segunda Guerra Mundial, nos Estados Unidos, foi desenvolvido o primeiro computador eletrônico da história.
+Trata-se do ENIAC, um computador integrador numérico eletrônico. 
+
+Componentes: 17000 válvulas termiônicas.
+
+Peso: Cerca de 30 toneladas.
+
+Espaço utilizado: Sala de 150m².
+
+Capacidade de processamento (número de cálculos por segundo): 1 bilhão de vezes menor que a dos celulares usados hoje em dia.Para evoluirmos desse
+verdadeiro elefante até os computadores atuais, foi preciso substituir as válvulas, já que elas eram pesadas e espaçosas.Quem possibilitou isso foi
+o transistor, cuja criação iniciou a era da microeletrônica.
+
+2* Transistores: Os primeiros transistores ocupavam apenas alguns milímetros, precisando de bem menos energia que as válvulas. Assim, foi possível
+reduzir o tamanho de rádios, equipamentos eletrônicos em geral e computadores.
+
+3* Circuitos integrados: Na década de 1960, o próximo salto de evolução foi dado com a criação dos circuitos integrados (CI): pastilhas de silício
+que contêm um circuito eletrônico miniaturizado. É o que, de forma comum, chamamos de chip de computador. Em meados da década de 1970, houve a
+eclosão dos computadores pessoais (denominados PCs, sigla em inglês para Personal Computers).Duas famosas empresas do setor, aliás, surgiram nesse 
+período: 
+						
+							Microsoft Corporation
+Empresa de maior faturamento em programas de computador, conhecida pelo sistema operacional Windows e pelo conjunto de ferramentas chamado de Office.
+Fundada em 1975, nos Estados Unidos, por Bill Gates (um dos homens mais ricos do mundo) e Paul Allen.
+
+
+							     Apple Inc.
+Em 1976, vendeu 200 unidades do seu primeiro PC, o Apple I. No ano seguinte, contudo, o Apple II vendeu milhares de unidades. A organização, então, 
+abriu seu capital na bolsa de Nova York.
+
+
+4* Microprocessadores: A década de 1980 presenciou a proliferação de PCs cada vez mais potentes, baratos e conectados por meio do surgimento das redes
+ locais de computadores e da internet: a rede mundial.
+
+Além disso, um novo equipamento aparecia nos lares: o videogame, um tipo de computador especializado, cujos programas são jogos eletrônicos com ênfase
+nos gráficos e na interação com os usuários.
+
+Após o fim do século XX, os computadores já eram tão pequenos e potentes que se encontravam embarcados em diversos equipamentos cotidianos, como automóveis,
+aviões e videogames, além de se tornar mais comum a presença dos laptops (microcomputadores pessoais portáteis) nas casas das pessoas.
+
+Não tardou muito para que eles fossem integrados a televisões e celulares. Nos anos 2010, essa integração passou a ser feita por intermédio de smartphones 
+e smart TVs.
+
+

@@ -1,0 +1,61 @@
+Sistemas de numeração
+Bases de numeração
+Os fundamentos dos sistemas de numeração posicionais são indispensáveis para o entendimento da formação dos números nas chamadas bases de numeração. Daremos um enfoque às seguintes bases:
+
+Decimal
+Base numérica mais utilizada no nosso cotidiano.
+
+Binária
+Base usada pelos computadores no processamento de dados.
+
+Octal e hexadecimal
+Múltiplos da base binária.
+
+Base 10 (decimal) – 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+Base 2 (binária) – 0, 1.
+Base 8 (octal) – 0, 1, 2, 3, 4, 5, 6, 7.
+Base 16 (hexadecimal) – 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+
+Operações aritméticas com números inteiros em qualquer base
+Agora, vamos estudar as operações aritméticas em bases numéricas diferentes. Dentro de uma unidade especializada (unidade lógica e aritmética), o processador usa seus circuitos 
+lógicos digitais para realizar operações lógicas e aritméticas, tendo o bit como unidade para representação de dados.
+
+Veremos, a seguir, as operações de adição e subtração.
+
+Subtração
+As parcelas são subtraídas algarismo por algarismo (pares da mesma coluna) do mais à direita até o último à esquerda.
+
+Em relação ao minuendo (algarismo superior) e ao subtraendo (inferior), há duas possibilidades no processo de subtração:
+
+Minuendo maior que subtraendo
+Realiza a operação e registra sua diferença embaixo.
+
+Minuendo menor que subtraendo
+É subtraída uma unidade do algarismo à esquerda (trata-se do famoso “pedir 1 emprestado”).
+
+
+					BINARIO
+Quando temos 0 - 1, precisamos "pedir emprestado" do primeiro algarismo diferente de 0. Esse empréstimo vale 2 (valor dois em decimal) por ser um número binário.
+
+Então, no caso da coluna 0 - 1 = 1, a operação feita é 2 - 1 = 1. Como esse processo se repete, o elemento que cedeu o "empréstimo" e valia 1 passa a valer 0.
+
+É possível verificar que, quando encontramos 0 - 1:
+
+O zero desta coluna vale 2.
+Todos os zeros à esquerda até o primeiro "número 1" valem 1.
+Este "primeiro número 1" vale 0 (zero).
+Se acontecer novamente 0 - 1, o processo se repetirá.
+
+
+                                        tabela hexadecima
+
+Base 10	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15
+Base 16	0	1	2	3	4	5	6	7	8	9	A	B	C	D	E	F
+
+Base 10	16	17	18	19	20	21	22	23	24	25	26	27	28	29	30	31
+Base 16	10	11	12	13	14	15	16	17	18	19	1A	1B	1C	1D	1E	1F
+
+
+
+
+

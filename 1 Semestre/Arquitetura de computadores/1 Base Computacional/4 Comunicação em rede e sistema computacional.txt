@@ -1,0 +1,48 @@
+								Origem da internet
+Na década de 1960, os computadores já eram uma realidade consolidada. Desse modo, o Departamento de Defesa Norte-Americano resolveu iniciar os estudos para a construção de uma rede
+de comunicação capaz de permitir trabalhos em conjunto de pessoas muito distantes geograficamente. Assim, a ARPANET foi criada.
+
+Internet discada
+Por uma questão de simplicidade, as empresas de telefonia assumiram o papel de prover conexão à internet para os usuários domésticos.
+
+Surgia, assim, o modem de internet discada, que se conectava como se estivéssemos fazendo um telefonema e atingia taxas de transmissão de 14400 bps (s por segundo).
+
+Uma das barreiras a serem vencidas para interligar tantas máquinas foi a forma de endereçamento, ou seja, como identificar unicamente um computador com o qual se deseja falar. 
+A solução foi dar um endereço – como o da sua casa, por exemplo – para cada máquina. Trata-se de um processo denominado endereço IP, abreviação de Internet Protocol 
+(ou Protocolo de Internet, em português).
+
+O endereço IP consistia em uma sequência de quatro números entre 0 a 255 (representados em 8 bits).
+
+Internet - Rede Mundial de Computadores.
+
+Tier 3 Network - Rede de camada 3, que costuma prover acesso à internet para a maioria dos usuários caseiros.
+
+Metro-fiber - Fibra ótica metropolitana, geralmente usada por empresas para ter acesso de banda larga à internet.
+
+Ethernet - Rede local cabeada.
+
+PSTN - Public Switched Telephone Network - Rede de telefonia local, base de conexão inicial à internet.
+
+Leased line - Linha (alugada) que fornece conexão dedicada à PSTN.
+
+Router - Roteador.
+
+PABX - Private Automatic Branch Exchange - Serviço de ramais telefônicos locais, geralmente usados em empresas.
+
+Cable Operator - Empresa de serviço de televisão a cabo que também pode prover acesso à internet.
+
+Cable plant - Interligação do cabo até a casa do assinante.
+
+Cable customer - Assinante do serviço de TV a cabo.
+
+DSLAM - Digital Subscriber Line Access Multiplexer - Multiplexador que permite o uso de linhas telefônicas convencionais para acesso à internet (banda larga).
+
+ADSL - Assymetrical Digital Subscriber Line - Tecnologia para transmissão de dados em banda larga sobre o par trançado de cobre (linha telefônica comum).
+
+ADSL customer - Assinantes de linha ADSL (geralmente telefone mais acesso à internet via empresa telefônica). O triple play indica que também há sinal de televisão e que todo o serviço 
+é feito via internet (roteador na entrada da casa).
+
+POTS - Plain Old Telephone Service - Linha telefônica comum. Nas origens de acesso à internet, os modems enviavam sinais por meio de uma ligação telefônica convencional entre o usuário 
+e o provedor de serviço de acesso à internet.
+
+

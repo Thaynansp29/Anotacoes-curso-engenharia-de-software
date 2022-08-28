@@ -1,0 +1,59 @@
+							Sistema operacional
+Definição:
+Um sistema operacional (SO) é um conjunto de rotinas, assim como um programa, porém funciona de maneira diferente de programas tradicionais, atuando como intermediário entre o usuário 
+e o hardware de um computador, tornando sua utilização mais simples, rápida e segura.
+
+Desse modo, o sistema operacional é:
+
+O único programa executado em modo núcleo (kernel), possuindo acesso completo ao hardware e execução de qualquer instrução possível.
+
+Um programa de controle que comanda a execução dos programas do usuário e as operações dos dispositivos de E/S.
+
+Um gerenciador de recursos (hardware) que dirige e aloca as partes de todo um sistema complexo.
+
+Tipos de sistemas operacionais
+Os sistemas operacionais podem ser enquadrados nos seguintes tipos:
+
+Sistemas monoprogramáveis/monotarefas
+O processador, memória e periféricos permanecem dedicados exclusivamente à execução de somente um programa. Um exemplo é o MS-DOS.
+
+Sistemas multiprogramáveis/multitarefas
+Os recursos computacionais são compartilhados entre os diversos usuários e aplicações. Exemplos são Windows, Linux, macOS.
+
+Sistemas com múltiplos processadores
+Possuem duas ou mais UCPs (CPUs) interligadas e trabalhando em conjunto. Sistemas como Linux e Windows oferecem esse suporte.
+
+Vantagens de sistemas com múltiplos processadores:
+
+Escalabilidade ---------> Disponibilidade ------------> Balanceamento de carga.
+
+			   !----------------------!
+			   !	Sistemas	  !
+			   !  multiprogramaveis/  !
+			   !	Multitarefas      !
+                           !---------!------------!
+				     !
+       !--------!--------------------!-------------------------------------!
+       !Sistemas!		     !					   !
+       !  Batch !	     !-------!--------------!		!----------!-----------!
+       !--------!	     !	    Sistemas de     !           !     Sistemas de      ! 
+			     !	tempo compartilhado !		!     tempo real       !
+                             !----------------------!		!----------------------!
+
+
+*Sistemas batch
+Processam tarefas de rotina sem a presença interativa do usuário. Exemplo: Processamento de apólices de companhia de seguro; relatório de vendas de uma cadeia de lojas.
+
+*Sistemas de tempo compartilhado
+Permitem que múltiplos usuários remotos executem suas tarefas simultaneamente no computador. Exemplo: Realização de consultas a um banco de dados.
+
+*Sistemas em tempo real
+Possuem o tempo como parâmetro fundamental. Exemplo: Linha de montagem de um carro.
+
+Veja a seguir a diferença entre sistemas forte e fracamente acoplados:
+
+Sistemas fortemente acoplados
+Existem vários processadores compartilhando uma única memória física e dispositivos de E/S sendo gerenciados por apenas um SO.
+
+Sistemas fracamente acoplados
+Existem dois ou mais sistemas computacionais conectados através de linhas de comunicação.

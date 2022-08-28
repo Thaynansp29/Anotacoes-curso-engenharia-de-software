@@ -1,0 +1,92 @@
+A definição de computação pode ser entendida como a realização de cálculos de forma ordenada ou apenas a manipulação de valores.
+
+Partindo dessa definição, como você definiria um sistema de computação?
+
+Resposta
+Um sistema de computação é um conjunto de partes coordenadas que concorrem para a realização do objetivo de computar (dados).
+
+						Dados:
+Constituem um conjunto de fatos em estado bruto a partir dos quais conclusões podem ser tiradas.
+
+		Informação:
+É a inteligência e o conhecimento derivados dos dados.
+
+Outro termo importante que devemos incluir no vocabulário é o data processing ou, processamento de dados que consiste em uma série de atividades ordenadamente realizadas 
+(receita de bolo), com o objetivo de produzir um arranjo determinado de informações a partir de outras obtidas inicialmente.
+
+etapas de um processamento de dados:
+
+	Entrada ----------> Processamento -------------> Saída
+	
+	Digitação do 	   Cálculo e testes	     Impressão dos
+	programa e 					resultados
+	dos dados
+
+
+
+A partir do que foi apresentado e com base em seus conhecimentos, você sabe definir qual é a função do barramento?
+
+
+Resposta
+Barramento é um conjunto de fios que têm por função transportar sinais de informação e sinais de controle e comunicação entre os componentes interligados.
+
+				Barramentos de dados(BD)
+São bidirecionais, transportam bits de dados entre o processsador e outro componete, vice-versa.
+
+				Barramentos de endereços(BE)
+São unidirecionais, transportam bits de um endereço de acesso de  memória ou de um dispositivo de E/S, do processador para o controlador do barramento.
+
+				Barramentos de controle(BC)
+Possuem fios que enviam sinais específicos de controle e comunicação durante uma determinada operação
+
+ 
+				1 bit = 8byte
+		n = numero de celulas endereçado
+		n = 2l
+
+		2¹0= kilo
+!------------------------------------------------------------------------------------------------------------------------------------------------!
+!unidade			valor em 			valor unitário			valor em			valor unitário   !
+!			potência de 2							potência de 10						 !	
+!																		 !
+!																		 !
+!1k(kilo)		2¹0				1024				10³					1.000            !
+!1M(mega)		2²0				1.048.576			10^6					1.000.000        !
+!1G(giga)		2³0				1.073.741.824			10^9					1.000.000.000    !
+!1T(tera)		2^40				1.099.511.627.776		10¹²					1.000.000.000.000!
+!------------------------------------------------------------------------------------------------------------------------------------------------!
+
+
+capacidade da memoria, se tiver uma memoria com uma celula com capacidade d 8 bits com 8 celulas será 8x8=64bits
+
+
+para saber a velocidade de processamento voce pega a velocidade dele x a largura
+
+ex:Velocidade = 20Hz Largura = 2Bits        20x2=40Bit/s
+
+
+							Processadores
+Os processadores são projetados com a capacidade de realizarem diretamente (pelo hardware) pequenas e simples (primitivas) operações, tais como:
+
+
+Executar operações aritméticas com 2 números (somar, subtrair, multiplicar, dividir).
+
+Mover um número (dado) de um local para outro.
+
+Mover um número (dado) de dispositivo de entrada ou de saída.
+
+Desviar a sequência de controle.
+
+Podemos citar como exemplos de operações primitivas:
+
+*Operações aritméticas– Somar, subtrair, multiplicar e dividir;
+*Operações lógicas– AND, OR, XOR;
+*Operações de entrada e saída de dados;
+*Operações de desvio de controle;
+*Operações de movimentação de dados.
+
+Conjunto de instruções são todas as possíveis instruções que podem ser interpretadas e executadas por um processador. Por exemplo, o Intel 8080 tinha 78 instruções de máquina, 
+o Pentium 4 tinha 247;
+
+Ciclo de instruções é um conjunto de instruções de máquina sequencialmente organizadas para a execução de um programa.
+

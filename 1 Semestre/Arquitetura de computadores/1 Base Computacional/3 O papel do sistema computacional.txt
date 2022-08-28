@@ -1,0 +1,63 @@
+
+Confira agora algumas funções do OS!
+
+A
+Servir como uma camada de abstração entre o hardware e a aplicação do usuário.
+
+B
+Cuidar da alocação do armazenamento e da memória principal.
+Ao pedir para executar um programa, o OS deve alocar espaço na memória tanto para ele quanto para os dados que ele precisará manipular.
+
+C
+Nos computadores atuais, diversos programas executam simultaneamente. Por uma solicitação do usuário, alguns o fazem em primeiro plano, enquanto outros rodam em segundo (ou em background).
+ Exemplo: Sempre que iniciamos o computador, mandamos executar alguns programas, como antivírus e demais programas de comunicação, a saber: Skype, Discord e WhatsApp.
+
+D
+Informar quando e quais programas ganham acesso ao uso do processador.
+
+E
+Escolher quando determinados programas devem passar o uso do processador para outro programa.
+Este subsistema do OS é chamado de escalonador. Como os processadores atuais são normalmente compostos por muitos núcleos, para decidir a alocação de seu tempo a cada programa, o 
+escalonador precisa levar em conta:
+Todos os núcleos disponíveis.
+
+Características de cada programa a ser executado.
+
+O Sistema Operacional é um programa intermediário que: gerencia os recursos de hardware do computador, fornece acesso a eles para os demais programas.
+
+
+Peça fundamental de um computador, o OS é carregado quando o ligamos. Mas os sistemas computacionais carregam, primeiramente, um programa chamado BIOS (Basic Input/Output System).
+
+Ele fica gravado em uma memória não volátil, geralmente em um chip da placa-mãe.
+
+Ao ligarmos o computador, a memória está vazia, pois é volátil. Se não houvesse o BIOS, não seria possível carregar o OS (que está em uma memória secundária, geralmente, o disco rígido) 
+em memória para ser executado.
+
+							
+							Anos 70
+ surge o Unix, um OS de uso geral muito difundido por ter sido distribuído gratuitamente para o setor acadêmico e o público nos EUA.
+
+Como ele não possuía uma interface gráfica, todos os seus comandos eram dados via console a partir de um texto.
+
+							ANOS 80
+
+A Microsoft começa a vender seu OS, o MS-DOS, presnete nos computadores comercializados pela IBM. Com isso, esse sistema ganhou uma grande projeção no mundo da computação.
+
+<b>Microsoft:</b> a Microsoft, porém, destaca-se em relação a sua concorrente direta ao apresentar um novo OS. O Windows, afinal, permite a execução de programas em janelas ou quadros que 
+se superpunham a uma area de trabalho. O OS Windows chegou a ocupar 90% do mercado dos PCs.
+
+<b>Apple:</b> a empresa Apple, por sua vez, lança uma versão de seu OS que contém: interface gráfica e conceito de ícones para representar programas.
+
+							SÉCULO XX
+Vemos o nascimento de OS para o dispositivos móveis (mobiles) que surgiam:
+
+	*Smartphones;
+	*Tablets;
+	*Smart TVs.
+A Apple lança um OS exclusivo para seus aparelhos: o IOS.
+
+Enquanto isso, a Google e alguns parceiros desenvolvem o OS Android. Amboos disputam o mercado de OS para mobile e destronam a microsoft, que , apesar de desenvolver o Windows Mobile, depois,
+desiste dessa competição.
+
+
+

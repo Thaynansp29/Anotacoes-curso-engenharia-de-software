@@ -1,0 +1,264 @@
+						Portas lógicas e lógica booleana
+As operações que são realizadas por um computador digital (binário), vistas como complexas, podem ser compreendidas como simples combinações de operações aritméticas e lógicas básicas,
+como visto a seguir:
+
+Somar bits
+
+Complementar bits
+
+Mover bits
+
+Comparar bits
+
+Estas operações lógicas são implementadas através de circuitos eletrônicos denominados circuitos lógicos, os quais também são conhecidos como gates ou portas lógicas.
+
+Na lógica digital, há somente duas condições, 1 e 0, e os circuitos lógicos utilizam faixas de tensões predefinidas para representar esses valores binários. Assim, é possível
+construir circuitos lógicos que possuem a capacidade de produzir ações que irão permitir tomadas de decisões inteligentes, coerentes e lógicas.
+
+Análise
+A função de um circuito digital é descrita de acordo com a análise de um modo simplificado.
+
+Projeto
+A lógica booleana é utilizada para que seja desenvolvida uma implementação simplificada desta função, ao especificar uma determinada função de um circuito.
+
+										Tabela-verdade
+É uma técnica utilizada para descrever como a saída de um circuito lógico é dependente dos níveis lógicos de entrada, isto é, são tabelas que conterão todas as possíveis combinações 
+das variáveis de entrada de uma determinada função e, como resultado, os valores de saída.
+
+Neste caso, a tabela-verdade conterá o número necessário de linhas para representar todas as combinações possíveis das suas variáveis de entrada.
+
+Os valores 0 e 1 são considerados como 0 = FALSO e 1 = VERDADEIRO.
+
+Operadores e portas lógicas básicas
+Portas lógicas
+Uma porta lógica é um componente de hardware que terá um ou muitos sinais de entrada e, como consequência, produzirá um sinal de saída de acordo com a lógica estabelecida na construção 
+do circuito em questão.
+
+Os operadores booleanos básicos também denominados como funções lógicas básicas são:
+
+
+							*OR			*AND			*NOT
+
+O operador e a porta OR (OU)
+O operador OR (OU) é a primeira das três operações básicas que vamos estudar e, para ilustrar a sua aplicação, vamos utilizar o seguinte cenário:
+
+Ao abrir a porta de um automóvel, a lâmpada de iluminação da cabine do veículo deverá acender?
+
+A resposta é sim.
+
+E, ao fechar a porta, a lâmpada deverá ser desligada.
+
+Dessa forma, a lâmpada estará acesa em duas situações distintas, se a porta do veículo estiver aberta OU (OR) o interruptor da lâmpada for acionado, mesmo com a porta fechada.
+
+
+Neste cenário, vamos representar cada uma dessas seguintes possibilidades:
+
+A variável A representará a abertura da porta;
+A variável B representará o interruptor;
+A variável X representará o estado da lâmpada, se está acesa ou apagada.
+Assim, a expressão booleana para a operação OR é definida como:
+
+					X = A + B
+
+Em que o sinal (+) não representa uma soma, e sim a operação OR, cuja expressão é lida como:
+
+		x É IGUAL a A OR B.
+
+Ao analisar as combinações possíveis, levando em consideração os valores, temos o seguinte:
+
+
+					!-> 0 se a porta estiver fechada.
+	Para a variável A será igual a: !
+					!-> 1 se a porta estiver aberta.
+
+					!-> 0 se o interruptor estiver desativado.
+	Para a variável B será igual a: !
+					!-> 1 se o interruptor estiver ativado.
+
+					!-> 0 para a lâmpada apagada.
+	Para a variável X será igual a: !
+					!-> 1 para a lâmpada acesa.
+
+
+Seja A = 1100, B = 1111 e C = 0001, para calcular L = A + B + C (A or B or C), o cálculo deve ser realizado em duas etapas, utilizando a seguinte Tabela Verdade da porta OR:
+
+
+Na primeira etapa, vamos calcular M = A + B (A or B) e, em seguida, o resultado parcial será obtido (M), combinado com C em outra operação lógica OR (M or C), sempre utilizando 
+as combinações de entrada e os resultados definidos nas seguintes tabelas-verdade da porta OR, uma de resultado parcial M = 1111 e outra de resultado: L = 1111:
+
+
+					O operador e a porta AND (E)
+O operador AND (E) é a segunda das três operações básicas que vamos estudar e, apenas para ilustrar a sua aplicação, vamos utilizar o seguinte cenário:
+
+Ao acionar a botoeira da cabine de um elevador, será acionado o motor do elevador imediatamente?
+
+Esta resposta dependerá de que outras condições estejam atreladas ao seu acionamento.
+
+Vamos analisar o acionamento deste botão em conjunto com um sensor que identificará se a porta do elevador está fechada. Logo, a resposta será sim.
+
+Se a porta estiver fechada, então o motor será ligado. O motor será acionado (valor igual a 1, verdadeiro) em uma única situação, se a porta do elevador estiver fechada (valor igual a 
+1, verdadeiro) E (AND) o botão do elevador for acionado (valor igual a 1, verdadeiro).
+
+
+Neste cenário, vamos representar cada uma dessas possibilidades:
+
+A variável A representará o sensor da porta;
+A variável B representará o botão;
+A variável X representará o acionamento do motor.
+
+Deste modo, a expressão booleana para a operação AND é definida como:
+
+			X = A.B
+
+Em que o sinal ( • ) não representa uma multiplicação, e sim a operação AND e a expressão é lida como:
+
+			X É IGUAL a A AND B.
+
+				!-> 0 se a porta estiver aberta.
+Para a variável A será igual a: !
+				!-> 1 se a porta estiver fechada.
+
+				!-> 0 se o botão estiver desativado.
+Para a variável B será igual a: !
+				!-> 1 se o botaão estiver ativado.
+
+				!-> 0 para o motor em repouso.
+Para a variável x será igual a: !
+				!-> 1 para o motor acionado.
+
+
+Ao analisar a tabela-verdade, chegaremos à conclusão de que o motor será acionado (valor igual a 1, verdadeiro) se — e somente se — tanto o botão quanto o sensor da porta possuírem o 
+valor igual a verdadeiro (igual a 1) e, para as demais combinações, o motor estará desligado (igual a 0).
+
+
+
+			TRADUZIR ISSO TUDO
+AND PRECISA ESTÁ TOTALMENTE VERDADE PARA SER VERDADE, SE HOUVER UM FALSE ELA SERÁ FALSE, ex:
+0 SENDO FALSE E 1 SENDO TRUE E L SENDO O RESULTADO:
+
+	a	b	l
+	0	0	0	
+	0	1	0
+	1	0	0
+	1	1	1
+
+OR NÃO PRECISA ESTÁ TOTALMENTE VERDADE PARA PODER SER VERDADEIRA SE HOUVER UM FALSE ELA É VERADEIRA PARA SER O TOTAL FALSE ELA PRECISA SER TODO FALSE, EX:
+0 SENDO FALSE E 1 SENDO TRUE E L SENDO O RESULTADO:
+
+	a	b	l
+	0	0	0
+	0	1	1
+	1	0	1
+	1	1	1
+
+O operador e a porta NOT (NÃO)
+O operador NOT (NÃO) ou inversor é a terceira das três operações básicas que estudaremos, sendo este operador totalmente diferente dos outros já estudados, porque pode ser 
+realizado através de uma única variável.
+
+Como exemplo, se uma variável A for submetida à operação de inversão, o resultado X pode ser expresso como:
+
+	
+
+				X=Ã
+
+Como utilizaremos a barra para identificar a negação, outra representação também é utilizada para a inversão por outros autores, que é a seguinte:
+
+				A´=A
+
+
+X é igual a NOT A ou X é igual a A negado ou X é igual ao inverso de A ou X é igual ao complemento de A
+
+Outras portas lógicas fundamentais
+A porta NOR (Não OU)
+Para ampliar o nosso estudo sobre as portas lógicas, é importante perceber que o inversor, ou a função NOT (NÃO), pode ser aplicada tanto em variáveis como em portas lógicas inteiras, 
+assim invertendo toda sua saída.
+
+Neste contexto, seria possível concatenar a saída de uma porta lógica com a entrada do inversor conforme apresentado na figura a seguir, produzindo, assim, a inversão de todos os seus 
+valores de saída.
+
+Você pode perceber que o símbolo da porta NOR de duas entradas representado na imagem a seguir é o mesmo símbolo utilizado para representar a porta OR, com apenas uma diferença — a 
+inclusão de um pequeno círculo na sua saída, que representa a inversão da operação OR.
+
+A expressão que representa a porta NOR é:
+
+				X=A+B
+
+Ao analisar as combinações possíveis com duas entradas, levando em consideração os valores para as variáveis de entrada A e B, somente produzirá uma saída 1 (VERDADEIRO) se — e 
+somente se — todas as entradas sejam 0 (FALSO) e, para as demais condições, produzirá como resultado na saída igual a 0 (FALSO).
+
+Variável A, B e X
+Nós podemos representar a aplicação desta função como: a lâmpada poderá estar apagada em duas situações distintas, se a porta do veículo estiver aberta e o interruptor da lâmpada for 
+acionado. Neste cenário, vamos representar cada uma dessas possibilidades: a variável A representará a abertura da porta, a variável B representará o interruptor e a variável X 
+representará o estado da lâmpada; se está acesa ou apagada.
+
+Igual a 0 e igual a 1
+Ao analisarmos as combinações possíveis, levando em consideração os valores para a variável A, será igual a 0 se a porta estiver fechada e será igual a 1 se a porta estiver aberta. 
+Em relação à variável B, temos o valor igual a 0 para o interruptor ativado e 1 para o interruptor desativado e, por fim, a variável X possuirá o valor 0 para a lâmpada apagada e 1 
+para a lâmpada acesa.
+
+
+Você pode perceber que o símbolo da porta NAND de duas entradas, representado na imagem a seguir, é o mesmo símbolo utilizado para representá-la, com apenas uma diferença – a 
+inclusão de um pequeno círculo na sua saída, que representa a inversão da operação AND.
+
+A expressão que representa a porta NAND é:
+
+			X=A.B
+Em que a barra sobre o nome da variável representa a operação de inversão e a expressão é lida como:
+
+X é igual a NOT A ou X é igual a A negado ou X é igual ao inverso de A ou X é igual ao complemento de A.
+
+A seguinte A tabela-verdade mostra que a saída da porta NAND é exatamente o inverso da saída da porta AND:
+
+Ao analisar as combinações possíveis, levando em consideração os valores para as variáveis de entrada A e B, somente produzirá uma saída 0 (FALSO) se — e somente se — todas as entradas 
+forem 1 (VERDADEIRO) e, para as demais condições, produzirá como resultado na saída igual a 1 (VERDADEIRO).
+
+Conforme apresentado anteriormente, vamos exibir um cenário:
+
+Um semáforo para bicicletas e um sensor de movimento para a passagem de pedestres.
+
+Assim, o sinal verde (liberando a passagem para ciclistas) estará ligado (0, FALSO) se duas condições forem atendidas: um botão seja acionado (1, VERDADEIRO) e o sensor de movimento 
+não detecte a existência de um pedestre naquele momento (1, VERDADEIRO). Para as demais possibilidades, o semáforo estará com o farol vermelho acionado (1, VERDADEIRO), bloqueando o
+tráfego de ciclistas.
+
+A porta XOR (Ou exclusivo)
+A porta XOR que é uma abreviação do termo exclusive or, poderá ser considerada como um caso particular da função OR.
+
+Neste sentido, a porta XOR produzirá um resultado igual a 1 (VERDADEIRO), se pelo menos um dos valores das entradas for diferente dos demais (exclusividade de valor da variável), 
+isto é, a porta produzirá o resultado 0 (FALSO) se — e somente se — todos os valores das entradas forem iguais, conforme é apresentado na tabela-verdade a seguir:
+
+	ELE SO É FALSO QUANDO TODOS FOREM IGUAIS E VERDADEIRO QUANDO TODOS FOREM DIFERENTES EX:
+
+		A	B	X=A⊕B
+		0	0	0
+		0	1	1
+		1	0	1
+		1	1	0
+
+A expressão que representa a porta XOR é:
+
+					X=A⊕B
+
+Para ilustrar a sua aplicação, vamos utilizar o seguinte cenário: ao se acionar um motor elétrico de um equipamento por dois botões distintos em dois locais diferentes. O motor somente 
+será acionado se — e somente se — um dos botões for acionado (valor igual a 1, VERDADEIRO). Para os demais casos, o botão não fará a atuação do motor (valor igual a 0, FALSO), isto é, se 
+ambos os botões não forem acionados ou ambos forem acionados ao mesmo instante, o equipamento não será ligado. Assim, podemos, neste exemplo, utilizar uma função XOR.
+
+A porta XNOR (coincidência)
+A expressão que representa a porta XNOR é:
+
+	X=A (·) B
+AO CONTRARIO DO XOR SE TODOS FOREM IGUAIS DA VERDADEIRO E SE TODOS FOREM DIFERENTES DA FALSE
+
+		A	B	X=A(.)B
+		0	0	1
+		0	1	0
+		1	0	0
+		1	1	1
+
+Poderíamos citar um exemplo que negue a condição definida pela função XOR. Para ilustrar a sua aplicação, vamos utilizar o seguinte cenário:
+
+Ao se acionar uma porta rotatória em um banco através de dois botões distintos, localizados nos dois lados da porta. A porta será liberada (0, FALSO) se — e somente se — um dos botões for 
+acionado (valor igual a 1, VERDADEIRO).
+
+Para os demais casos, ele manterá a porta bloqueada (valor igual a 0, FALSO), isto é, se ambos os botões não forem acionados ou ambos forem acionados ao mesmo instante. Assim, podemos, 
+neste exemplo, utilizar uma função XNOR.
+	

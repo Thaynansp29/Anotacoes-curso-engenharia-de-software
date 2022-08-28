@@ -1,0 +1,161 @@
+Os computadores são feitos com um conjunto de componentes dividido em dois grandes grupos:
+
+	Hardware (HW)
+Componentes físicos, ou seja, o que pode ser visto e tocado.
+
+	Software (SW)
+Programas executados no computador.
+
+Processador
+Também conhecido como CPU (Central Processing Unit ou Unidade Central de Processamento, em português), processador é o cérebro do computador,
+pois recebe as instruções e as executa sequencialmente. Seu principal componente é a unidade lógica e aritmética, responsável por operações 
+como adicionar e subtrair.
+
+A execução das instruções em um processador é regulada pela presença de um pulso de frequência constante denominado clock, que é medido em 
+Hertz (Hz) – número de pulsos por segundo.
+
+Uma das principais características de um processador é a velocidade com que consegue executar instruções. Isso depende diretamente da 
+frequência do clock.
+
+Como vimos, os processadores foram criados na década de 1970. Inicialmente, eles tiveram sua velocidade aumentada, gerando uma competição 
+acirrada entre as produtoras de microprocessadores. Era comum medir a qualidade do CPU pela velocidade de seu clock. Entendia-se que um 
+processador de 1800 MHz era melhor que um de 1600 MHz.
+
+							OVERCLOCKING:
+por sua vez, é o processo para customizar a velocidade do clock do processador acima de sua frequência de uso normal. Tal prática deixa o 
+computador mais rápido, pois uma maior quantidade de operações pode ser realizada ao mesmo tempo. Há certos riscos envolvidos no overclocking,
+como danos ao processador e sobreaquecimento.
+
+O aumento de clock a cada geração de processadores seguiu ao longo dos anos, até que, por conta de interferências físicas entre seus 
+componentes, ficou inviável a continuação desse procedimento. A solução dada pelos projetistas foi colocar diversos miniprocessadores 
+(chamados de núcleos) dentro de um mesmo chip de processador. Em termos práticos, é como se houvesse dois, quatro ou até mais processadores 
+trabalhando em um mesmo chip.
+
+Essa técnica é conhecida como multicore, mas, em função do número de núcleos, também é chamada de: Dual core (dois núcleos); Quad core (quatro núcleos).
+
+Atualmente, a maioria dos processadores de mercado (inclusive os de celulares) utiliza ao menos quatro cores e frequências de clock de alguns
+bilhões de pulsos por segundo (GHz).
+
+Além do clock e do número de núcleos, outra característica importante do processador é a sua memória cache.
+
+Ela funciona como uma pequena parte da memória principal dentro do próprio chip do processador.
+
+As informações são lidas ou escritas na memória cache com muito mais velocidade que nos pentes de memória.
+
+Por isso, uma boa quantidade dela consegue acelerar a velocidade do processador.
+
+Por fim, outra característica importante a ser considerada na avaliação do processador é seu encaixe (conhecido como pinagem). Para permanecer
+encaixado na placa-mãe, ele conta com pinos cujo formato deve corresponder ao dos buracos disponíveis (chamados de soquete).
+
+
+							MEMÓRIA PRINCIPAL:
+
+A memória principal é parte fundamental do computador, pois se trata do espaço onde são armazenados os dados e os programas executados 
+no processador. Ela funciona como uma série de células em que cada uma armazena um conjunto de oito bits (chamado de um byte). Essas células
+funcionam como caixas de correio: cada uma tem seu endereço, embora só armazene uma carta por vez.
+
+ memória também é chamada de RAM (em seu formato mais comum) por permitir o acesso a qualquer endereço em qualquer ordem.
+
+Disso resulta o nome Memória de Acesso Aleatório (em inglês, Random Access Memory). Normalmente, as memórias RAM são vendidas em pentes de 
+memória.
+
+		A MEMÓRIA RAM É VOLÁTIL, OU SEJA, SEUS DADOS SÃO APAGADOS QUANDO O SISTEMA FICA SEM ENERGIA.
+
+						CAPACIDADE DE ARMAZENAMENTO:
+se possui 4GB de armazenamento, a memória RAM conta com 4 bilhões dessas células, podendo armazenar até 32 bilhões de bits de dados.
+
+						VELOCIDADE DE COMUNICAÇÃO COM O BARRAMENTO.
+Trata-se da velocidade com que a memória consegue transferir os dados para o processador.
+Por exemplo, uma memória de 400MHZ consegue transferir dados para o processador com uam taxa de até 3200 MBPS(3 bilhões e 200 milhões de  bits/s).
+
+
+								PLACA-MÃE:
+A placa-mãe consiste em um circuito elétrico impresso e uma série de componentes conectados nela.
+
+Os principais são: Soquetes de enxaixe dos pentes de memória, Soquete do processador, barramentos de periféricos(PCIx, por exemplo)
+
+A função básica da placa-mãe é conectar o processador, a memória principal e os periféricos (outros componentes não essenciais do computador). 
+Essas conexões são chamadas de barramentos.
+
+Conforme a tecnologia se desenvolve, a placa-mãe começa a integrar em si periféricos que, até então, precisavam ser encaixados nela, 
+como placas de vídeo, placas de rede, placas controladoras de portas seriais e paralelas.
+
+As placas-mãe dos celulares atuais são circuitos altamente complexos, contando com processador, memória, controladora de vídeo, 
+controladora de tela touchscreen, acelerômetros, GPS e placa de rede sem fio e celular. Todos eles estão diretamente integrados
+à sua placa-mãe.
+
+								PERIFÉRICOS:
+
+Por se conectarem à parte central do computador, seus demais componentes são chamados, em geral, de periféricos. Muitos mostram ser tão 
+relevantes que não seríamos capazes de imaginar sistemas computacionais sem eles.
+
+O primeiro computador usava apenas uma série de lâmpadas como saída e alguns cartões perfurados como entrada. Inicialmente, são necessários 
+apenas dois instrumentos nesse processo, embora haja outro que também precisa ser apontado.
+
+							      DISPOSITIVOS DE ENTRADA:
+
+Usados para interagir com o computador. Os mais comuns são:
+
+1. Tela touchscreen: permite a seleção de elementos sem precisar de um mouse.
+
+2. Teclado: segue um padrão já difundido das máquinas de escrever, facilitando seu uso e sua aceitação.
+
+3. Mouse: abre novos rumos por permitir a indicação de pontos na tela e a seleção deles, o que gerou um grande impacto no desenvolvimento de interfaces gráficas.
+
+4. Microfone: capta o áudio.
+
+5. Câmera: capta áudio com vídeo.
+
+6. Placa de rede: recebe os dados transmitidos pela rede.
+
+								DISPOSITIVOS DE SAÍDA:
+Sistema de vídeo
+Composto, geralmente, por uma placa de vídeo e um monitor ou uma tela.
+
+
+Alto-falantes ou caixas de som
+Emite sons e sinais sonoros.
+
+
+Impressora
+Imprime documentos elaborados no computador.
+
+
+Placa de rede
+Envia os dados pela rede.
+
+
+							MEMÓRIAS SECUNDÁRIAS(HDS;SSDS):
+
+Mais conhecidas como HD (Hard Disk ou Disco Rígido, em português), elas possuem essa nomenclatura porque sua tecnologia predominante envolve 
+discos magnéticos lidos e escritos por um cabeçote.
+
+Atualmente, essa tecnologia tem sido substituída por Discos de Estado Sólido (SSD), que são muito mais rápidos e menos propensos a falhas e 
+desgaste por não haver partes móveis mecânicas neles.
+
+Hoje, a principal tecnologia de barramento de memória secundária é o SATA2, que é capaz de atingir taxas de transmissão de 3 Gb/s 
+(3 gigas por segundo).
+
+
+								SOFTWARE:
+As possibilidades criadas pela presença de um hardware no computador requerem a execução de um conjunto de programas, trazendo, assim, suas funcionalidades à tona, 
+que definem o software.
+
+Softwares finalísticos ou de aplicação: Geralmente, são rodados de forma consciente nos computadores, entregando as funcionalidades desejadas por seu usuário.Observe 
+alguns exemplos a seguir:
+
+Navegadores de internet - Chrome, Firefox e Internet Explorer;
+
+Planilhas: - Excel e Libreoffice Calc;
+
+Editores de texto - Word e Libreoffice Writer;
+
+Jogos eletrônicos - LoL e Fortnite.
+
+Softwares de sistema:
+
+Permitem que os finalísticos rodem em muitas máquinas com hardwares diversificados. Os softwares de sistema incluem os drivers dos dispositivos instalados no computador, ou seja, programas que controlam como se acessa e comanda determinado periférico.
+
+Exemplo: Uma placa de rede.
+
+O principal software de sistema é o conhecido sistema operacional.

@@ -1,0 +1,15 @@
+Expressões lógicas
+Em muitos casos, a interpretação de um circuito digital exige uma análise aprofundada e meticulosa sobre o circuito com o objetivo de conhecer o seu funcionamento, ou mesmo para analisar 
+situações de criação, falha, expansão e alterações, entre outras possibilidades.
+
+Neste contexto, é interessante que se utilize de uma forma para a representação de um circuito que esteja em formato de uma expressão algébrica.
+
+As expressões lógicas, também denominadas como funções lógicas, podem ser definidas da mesma forma que uma expressão algébrica, isto é, com o uso de sinais de entrada 
+(variáveis lógicas — binárias), ligados por conectivos lógicos (símbolos que representarão uma operação lógica, com parênteses, opcionalmente) e também com o sinal de igualdade (=), 
+produzindo, como resultado, um único sinal de saída.
+
+
+Equivalência de funções lógicas
+Conceito
+Duas funções lógicas são equivalentes se — e somente se — para a mesma entrada, produzirem iguais valores de saída, isto é, quando duas funções lógicas possuírem o mesmo resultado 
+na sua tabela-verdade, esses circuitos serão considerados como equivalentes.

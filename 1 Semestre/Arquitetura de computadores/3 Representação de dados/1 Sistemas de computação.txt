@@ -1,0 +1,21 @@
+Apontaremos, a seguir, quatro conjuntos formados nas unidades de informação:
+
+*Um conjunto ordenado de bytes, que representa uma informação útil para os computadores, constitui uma palavra.
+*Um conjunto estruturado de palavras forma um registro.
+*Um conjunto organizado de registros forma um arquivo.
+*Um conjunto organizado de arquivos forma um banco de dados.
+
+Por exemplo, para cada tipo de dado, serão amplamente utilizados os seguintes métodos padrão de codificação:
+
+Padrão ASCII
+O padrão ASCII pode associar um número binário de 7 bits a cada um dos 128 caracteres distintos possíveis.
+
+
+Formato de arquivo MP3
+O formato de arquivo MP3 especifica o modo de codificar um arquivo de áudio como uma sequência de 0s e 1s.
+
+
+Formato de imagem .png
+O formato de imagem .png especifica os pixels das imagens digitais como uma sequência de 0s e 1s.
+
+  
