@@ -1,0 +1,66 @@
+					Arquitetura CISC
+O conceito da arquiterura
+A abordagem CISC (Complex Instruction Set Computer - Computador com Conjunto Complexo de Instruções) está relacionada às possibilidades na hora de se projetar a arquitetura de um 
+processador, com instruções específicas para o maior número de funcionalidades possível. Além disso, essas instruções realizam operações com diferentes níveis de complexidade, buscando, 
+muitas vezes, operandos na memória principal e retornando a ela os resultados.
+
+Isso faz com que a quantidade de instruções seja extensa e que a Unidade de Controle do processador seja bastante complexa para decodificar a instrução a ser executada. Entretanto, a 
+complexidade é compensada por poucos acessos à memória e soluções adequadas para problemas específicos.
+
+Origem
+A abordagem CISC surgiu de uma evolução dos processadores. Essa sigla só começou a ser usada após a criação do conceito de RISC no início da década de 1980 (a ser visto no próximo módulo),
+quando os processadores anteriores passaram a ser chamados de CISC de forma retroativa.
+
+Conforme a tecnologia de fabricação e a capacidade computacional evoluíam, problemas mais complexos puderam ser resolvidos pelos processadores. Para esses problemas, foram sendo criadas 
+novas instruções específicas.
+
+Processador	Ano	Tamanho da instrução	Quantidade de instruções	Tamanho do registrador	Endereçamento
+IBM 370		1970	2 a 6 bytes			208				32 bits		R-R; R-M; M-M
+VAX11		1978	2 a 57 bytes			303				32 bits		R-R; R-M; M-M
+Intel 8008	1972	1 a 3 bytes			49				8 bits		R-R; R-M; M-M
+Intel 286	1982	2 a 5 bytes			175				16 bits		R-R; R-M; M-M
+Intel 386	1985	2 a 16 bytes			312				32 bits		R-R; R-M; M-M
+
+
+
+		R-R
+
+Para instruções que usam registradores como entrada e saída.
+
+		R-M
+Quando um dos elementos (operandos ou resultado) deve ser buscado/escrito na memória e ao menos um em registrador.
+
+		M-M
+Para instruções em que os operandos e o resultado estão na memória.
+
+Clock
+Para operar de forma organizada, o processador utiliza um relógio (Clock) que gera pulsos em intervalos regulares. A cada vez que um pulso de clock é recebido, uma “etapa” é executada, 
+e todo o circuito avança um passo.
+
+Dessa forma, uma instrução que leve 2 pulsos (ciclos) de clock será executada após dois pulsos serem emitidos para o circuito.
+
+Registrador Escrita em memória BI - Buscar Instrução DI – Decodificar Instrução  EXE – Execução WB – WriteBack AM – Acesso à Memória
+
+Microarquitetura	Estágios de Pipeline
+P5 (Pentium)			5
+P6 (Pentium 3)			14
+P6 (Pentium Pro)		14
+NetBurst (Willamette)		20
+NetBurst (Northwood)		20
+NetBurst (Prescott)		31
+NetBurst (Cedar Mill)		31
+Core				14
+Broadwell			14 a 19
+Sandy Bridge			14
+Silvermont			14 a 17
+Haswell				14 a 19
+Skylake				14 a 19
+Kabylake			14 a 19
+
+
+
+A abordagem CISC tem como principal característica a execução de operações complexas, como a combinação de operações aritméticas e o acesso direto à memória (para busca ou escrita de dados)
+A única opção que garante que tal operação complexa está acontecendo é a letra A , pois as demais podem ocorrer em operações simples.
+(a)Operação Aritmética na ULA e armazenamento na memória.
+
+Por conter muitas instruções possíveis e diferentes, a Unidade de Controle CISC é complexa. Ela precisa decodificar qual instrução será executada e gerar todos os seus sinais de controle.

@@ -1,0 +1,15 @@
+Muitas das limitações associadas ao desenvolvimento de dispositivos e equipamentos com maior desempenho estavam relacionadas ao problema de controle da temperatura gerada pelos seus 
+componentes, isto é, com transistores menores, buscava-se construir processadores mais rápidos e, como consequência, esses dispositivos consumiam mais energia, produzindo um aumento de 
+calor (energia térmica).
+
+Soluções que buscavam aumentar o desempenho, simplesmente com o objetivo de serem mais rápidos, produziam processadores instáveis e não confiáveis. Além disso, outros fatores inibiam o 
+desenvolvimento, seja em função de restrições físicas, como a estabilidade dos materiais utilizados, ou da redução de suas dimensões (litografia).
+
+As arquiteturas paralelas vieram ao encontro desses objetivos, por trazerem a possibilidade de integrar elementos do hardware, permitindo que o aumento do desempenho estivesse vinculado 
+não somente à velocidade de processamento desses dispositivos, mas à capacidade de tratar as suas execuções de forma paralelizada.
+
+As diferentes soluções idealizadas em processamento paralelo, como as estruturas superescalares, superpipeline e multiprocessadores simétricos, permitiram a construção de computadores e 
+dispositivos que convergissem na direção de soluções de alto desempenho.
+
+Os processadores multicore, por sua vez, são economicamente viáveis para a produção em larga escala de dispositivos, que buscam uma alta capacidade de processamento, por serem confiáveis 
+e estáveis, além de permitir a sua integração com os demais componentes de cada equipamento.
