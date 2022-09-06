@@ -1,0 +1,94 @@
+A segurança da informação age dessa forma. Ela é entendida como camadas justapostas que permitem à informação ficar cada vez mais protegida, como, por 
+exemplo, uma cebola e suas camadas.
+
+Quanto ao ambiente, em uma instalação empresarial, por exemplo, é possível observar as camadas de segurança físicas e, a partir daí, estabelecer um 
+paralelo com a imagem da cebola.
+
+É necessário evitar o uso compartilhado de conexões entre fornecedores distintos. Desse modo, se, para um fornecedor, a conexão é feita por meio de fibra
+ótica, para o outro ele poderia ser realizada por intermédio de link rádio.
+
+Sobre a parte de energia elétrica, o uso de bancos de baterias(e/ou no-breaks) e ed geradores revela ser algo fundamental na maioria dos casos. Quanto
+aos geradores, deve-se levar em consideração o fornecimento de insumos necessários e periódicos, como o combustível.
+
+Em relação aos equipamentos, a ideia de segurança tem relação com o acesso físico aos componentes de hardware e aos dispositivos de entrada. Devem
+ser adotadas medidas como senha na BIOs e configuração de botões fisicos e de ordem de execução na inicialização dos computadores.
+
+							SEGURANÇA LÓGICA
+Em adição às medidas de segurança física, há as de segurança lógica, que correspondem às medidas baseadas em software. Dessa lista, podemos destacar as 
+senhas, as listas de controle de acesso, a criptografia, e o firewall.
+
+Atualmente, os leitores de digitais têm dado espaço para o reconhecimento facial pela disseminação dos sensores e da tecnologia empregada. Há diversas APIs 
+disponibilizadas para uso gratuito e comercial, como a do Amazon Rekognition. Esses controles atuam na proteção da confidencialidade da informação.
+
+A criptografia corresponde ao conjunto de técnicas que permite o embaralhamento de dados por intermédio do uso de chaves e de algoritmos computacionais 
+baseados em funções matemáticas. Essas funções propiciam, em linhas gerais, a presença de duas grandes classes de algoritmos: os simétricos e os assimétricos
+
+Criptografia simétrica
+Utiliza funções matemáticas mais simples e uma única chave para criptografar e decriptografar. Esta classe de algoritmos é composta por, entre outros exemplos, Cifra de César, Blowfish, Twofish e Rijnadel. Graças a esse controle, é possível assegurar a confidencialidade da informação.
+
+Algoritmo				Tamanho da chave
+
+AES (Rijnadel)				128, 192 e 256 bits
+
+Twofish					128, 192 e 256 bits
+
+Serpent					128, 192 e 256 bits
+
+Blowfish				32 a 448-bits
+
+RC4					40-128 bits
+
+3DES (baseado no DES)			168 bits
+
+IDEA					128 bits
+
+
+					Criptografia assimétrica
+Caracteriza-se por algoritmos que normalmente envolvem técnicas matemáticas mais sofisticadas, como a fatoração de números grandes e o logaritmo discreto.
+
+Esta família emprega duas chaves: uma é utilizada para cifrar; a outra, para decifrar. Essas chaves são conhecidas como:
+
+Pública
+
+Normalmente, ela fica disponibilizada em um servidor de confiança.
+
+Privada
+
+Ela está sob a posse do usuário.
+
+Com a combinação dessas duas chaves, é possível assegurar não somente a confidencialidade, mas também o não repúdio ou irretratabilidade. Afinal, 
+pode-se combinar o uso desse controle tanto com a chave privada do emissor (não repúdio) quanto com a pública do destinatário (confidencialidade).
+
+Diffie-Hellman, El Gamal e Curvas Elípticas são alguns dos algoritmos desta família. Quanto aos controles aplicados às redes, destacam-se os firewalls,
+os sistemas detectores de intrusão e os VPNs.
+
+Esses controles permitem a criação de zonas de segurança dentro e fora da instituição. Tais zonas, por sua vez, possibilitam a criação de segregações 
+de funcionalidades.
+
+Das zonas de segurança, a mais comumente encontrada é a DMZ. Zona desmilitarizada, ela limita, conforme demonstra a figura a seguir, a região onde os 
+servidores web e de aplicação podem ficar.
+
+				Firewalls
+Equipamentos que filtram o tráfego de rede relacionado à troca de dados entre clientes e servidores.
+
+Negar por padrão
+Todo o tráfego é negado. Apenas os servidores e os protocolos são autorizados.
+
+Trata-se da política normalmente encontrada e recomendada no mercado. Como todos os tráfegos são negados, apenas podem trafegar aqueles cujas regras 
+(R1) são aceitas.
+
+Aceitar por padrão
+Nesta política, todo o tráfego é autorizado, embora o destinado para determinados servidores seja negado.
+
+Qualquer tráfego é aceito por padrão. Regras específicas (R1 e R2) definem quais serão negados.
+
+Mecanismos ou controles de segurança podem ser lógicos e físicos. A segurança da informação é baseada em três aspectos fundamentas: confidencialidade, 
+integridade e disponibilidade. Desse modo, a perda de qualquer um dos três aspectos já impacta na segurança. A pior situação ocorre quando perdemos os 
+três juntos: trata-se praticamente de uma catástrofe. Por fim, os mecanismos lógicos, por definição, envolvem algoritmos.
+
+A segurança física está relacionada ao acesso às dependências das instalações; a lógica, aos algoritmos que protegem os dados.
+
+O firewall é um importante ativo de rede; desse modo, encontrá-lo em um projeto de rede torna-se imprescindível. Ele protege uma rede interna analisando
+e bloqueando, por meio de algoritmos proprietários de cada marca, o acesso e o transporte de dados para dentro dela. Por manipulá-los, este ativo é 
+classificado como segurança lógica.
+

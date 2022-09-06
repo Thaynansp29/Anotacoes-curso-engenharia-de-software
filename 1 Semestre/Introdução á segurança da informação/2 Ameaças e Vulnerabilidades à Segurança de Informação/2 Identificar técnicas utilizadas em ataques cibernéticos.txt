@@ -1,0 +1,137 @@
+Neste módulo, abordaremos as seguintes ameaças cibernéticas: ataques, engenharia social, pichação de sites e softwares maliciosos. Esses tópicos 
+correspondem à maioria das atividades relacionadas com este tema. Deve-se ter em mente que, por mais que possamos explorar esses itens, eles nunca estarão 
+totalmente completos porque constantemente são criadas novas técnicas e metodologias envolvidas na atividade 
+hacktivista.
+
+As ameaças cibernéticas são concretizadas por meio do uso de técnicas que normalmente exploram a vulnerabilidade de uma tecnologia, de um processo ou de 
+uma metodologia.
+No caso de uma vulnerabilidade relacionada à tecnologia, ela se vincula com a forma de desenvolvimento da ferramenta e, certamente, novas versões daquele 
+software trarão a correção adequada. Um bom exemplo disso é o ping da morte (ping of death) que durante muitos anos foi o pesadelo dos gerentes de TI e 
+atualmente não passa de história nos livros sobre segurança.
+
+ATAQUES CIBERNÉTICOS
+São ações maliciosas intencionais, provocadas por hackers ou por funcionários insatisfeitos. Essas ameaças humanas já foram objeto de explicação no módulo 
+anterior e vimos que as pessoas estão envolvidas. Aqui falaremos do que essas pessoas poderiam realizar.
+
+As razões e motivações já foram explicadas, mas podermos resumi-las ao estímulo de se obter determinada informação (ferindo a confidencialidade), danificar 
+a informação (ferindo a integridade) e interromper o funcionamento de determinado sistema (ferindo a disponibilidade).
+
+No campo do exibicionismo que motiva essas pessoas, podemos exemplificar as informações divulgadas pelo site zone-h, que possui uma lista dos últimos 
+ataques que aconteceram, funcionando como um hall da fama, onde os hackers disputam a quantidade e qualidade dos ataques realizados. Percebe-se que o 
+principal fator é a motivação do hacker em proferir o ataque.
+
+				ATAQUES DE NEGAÇÃO DE SERVIÇO (DOS)
+Corresponde a um tipo de ataque que tem por objetivo indisponibilizar determinado sistema ou equipamento. Ou seja, o equipamento pode até estar 
+funcionando, mas seu uso fica prejudicado pela impossibilidade de acesso ao serviço prestado. Nesse tipo de ataque, são exploradas vulnerabilidades de 
+softwares, de equipamentos e de algoritmos/protocolos.
+
+São exemplos o pod (ping of death), syn flood, udp flood e o tcp flood. Esses ataques exploram vulnerabilidades na implementação de algum serviço de rede, 
+sistema operacional ou protocolo utilizado. Foram muito famosos no início de disseminação desse tipo de ataque e atualmente são utilizados com mais de um 
+agente (fonte), caracterizando assim uma nova classe de ataques, os distribuídos, que é interpretada como uma variante do DoS quando a fonte do ataque é 
+distribuída, ou seja, quando há mais de uma fonte de emissão de sinais de ataques destinados para uma ou mais vítimas.
+
+					ENGENHARIA SOCIAL
+Situação em que são usadas as fraquezas humanas para se obter informação (ferir a confidencialidade) de uma pessoa ou organização. Normalmente, comenta-se 
+que o elo mais fraco, exatamente aquele que poderá ser o primeiro a ser explorado, é o humano. Em uma organização é difícil que todos os colaboradores 
+tenham o mesmo entendimento e a mesma maturidade com relação ao sigilo de informações.
+
+O exemplo mais comum desse tipo de ataque é o phishing, comumente utilizado para obter dados de cartões de crédito, visando ao ganho financeiro.
+
+Ações de phishing podem acontecer de diversas formas. Pode ser um e-mail semelhante ao de uma instituição financeira, um SMS com um link para regularizar 
+uma situação, uma página (ou post) em uma rede social e até mesmo um site inteiro clonado.
+
+Outro exemplo bem comum na década de 1990 eram dispositivos, que possuíam várias formas e partes diferentes, que liam os cartões de crédito (naquela época 
+sem chip) para copiar a tarja magnética. No Brasil, eles ganharam o apelido de chupa-cabra, fazendo menção a uma situação ocorrida em Minas Gerais, que era 
+creditada à presença de alienígenas naquela região, na mesma época da aparição desses mecanismos.
+
+					PICHAÇÃO DE SITE
+Corresponde à técnica mais utilizada e se caracteriza pela alteração não autorizada de determinado site na internet. Também conhecido como defacement, essa 
+técnica objetiva a adulteração do portal, sem o consentimento do proprietário. São exploradas as vulnerabilidades dos portais e, por meio disso, são 
+realizadas as modificações.
+
+Esse ataque é mais popular pela repercussão gerada após a sua realização. É relativamente fácil encontrá-lo em ferramentas de gestão de conteúdos (CMS), 
+onde o proprietário do site apenas customiza determinados assuntos no portal, ou faz uso de plug-ins para ofertar novas formas de interação com o usuário.
+
+					    BOTNETS
+Também conhecido como rede zumbi, é um conjunto de equipamentos que sofreu um ataque, resultando no controle do equipamento pelo hacker. O ataque é 
+realizado através de um software chamado bot, que explora uma vulnerabilidade do equipamento e faz a instalação nele.
+
+Na botnet, existem alguns equipamentos cuja finalidade é orquestrar o ataque, permitindo a manutenção do sigilo do hacker. Esses equipamentos são chamados 
+de centros de comando e controle. Os bots se assemelham aos worms no que se refere à forma de proliferação, porém divergem por acatarem às ordens dos 
+centros de comando e controle. Através de botnets é possível fazer ataques de negação de serviço, envios de e-mails em massa e vários outros.
+
+
+IP 					SPOOFING
+Ocorre quando o atacante forja o seu endereço IP, colocando outro valor nesse campo, fingindo ser a fonte dos dados de outra origem. É muito comum por 
+explorar a vulnerabilidade do protocolo.
+
+				PHARMING OU DNS CACHE POISONING
+Ocorre quando os servidores de DNS são atacados, visando alterar a troca dos nomes de domínios por endereços IPs e, assim, destinando a vítima para 
+equipamentos e softwares falsos. Explora vulnerabilidades em determinadas implementações e marcas de equipamento. É uma técnica difícil de ser identificada 
+pelo usuário final.
+
+IP 					SESSION HIJACKING
+A conexão entre o cliente e o servidor na internet é realizada através de troca de comandos HTTP de requisição e resposta, por exemplo. Durante esse 
+processo, é comum ter alguma sessão de usuário (HTTP Session) configurada e em execução, visando identificar o usuário que está acessando o portal.
+
+Uma das técnicas utilizadas, seja para quebrar a confidencialidade do usuário, ou para realizar um ataque ao portal, é o sequestro de sessão do usuário. 
+Logo, o invasor captura essa troca de informações e se faz passar por um dos equipamentos. Trata-se de uma técnica com certo grau de sofisticação e difícil 
+de ser identificada por gerentes de rede e usuários finais.
+
+
+					QUEBRA DE SENHAS
+As senhas nos sistemas de informação ficam codificadas no servidor. A codificação pode ser realizada por meio de técnicas proprietárias do sistema, onde 
+são desenvolvidos algoritmos específicos de codificação, ou por meio de funções de condensação, também conhecidas como hash.
+
+As quebras de senha podem usar conjuntos especiais de tabelas, conhecidas como rainbow tables, ou até mesmo a testagem de todas as combinações possíveis, 
+chamada de força bruta. Nessa técnica, o grau de conhecimento do atacante determinará a eficácia do ataque.
+
+						HASH
+São algoritmos criados usando manipulações algébricas que transformam os dados de entrada em um conjunto finito de números hexadecimais, chamado de hash do 
+dado. Essas manipulações impedem que os valores iniciais sejam recuperados a partir dos dados gerados.
+
+					TRASHING DUMPSTER DIVING
+Nessa técnica, são realizadas buscas nos lixos corporativos na expectativa de ter sido realizado algum descarte de forma inapropriada. Isso nos remete ao 
+primeiro módulo, onde tratamos do ciclo de vida da informação. Se o descarte não for feito de forma apropriada, técnicas como essa permitem a recuperação 
+da informação direto do lixo. Em muitos países, não há legislação que torne essa técnica ilegal.
+
+
+						WARDRIVING
+Pesquisa de locais físicos contendo sinal de Wi-Fi desprotegido visando à exploração da vulnerabilidade encontrada. Nessa técnica, o invasor percorre os 
+espaços públicos procurando os sinais desprotegidos, podendo ser a pé, de carro ou utilizando drones.
+
+
+						Malwares
+São softwares maliciosos que objetivam a infecção dos ativos de TI. Nessa categoria, há uma variação muito grande e com diversos tipos. Podemos citar os 
+vírus, cavalos de Troia (referenciado na imagem) relacionados com propaganda, ferramentas de suporte usadas indevidamente, exploits e worms..
+
+
+						Cavalos de Troia
+Inspirado no exemplo histórico que deu origem à técnica, mascara-se um vetor de ataque, normalmente um malware, dentro de um documento ou ferramenta, 
+enganando a vítima do ataque.
+
+						Exploits e worms
+São as aplicações construídas especificamente para explorar determinadas vulnerabilidades existentes e os worms, muitas vezes confundidos com os vírus, 
+utilizam as estruturas de comunicação para sua disseminação.
+
+Há divergências entre as formas de classificação dos tipos de malwares. Porém, de maneira geral, pode-se dizer que os vírus são os malwares que precisam de 
+um ambiente para a sua execução.
+
+Os vírus relacionados com propaganda, como os spywares (por exemplo, aplicações que capturam tudo o que é digitado pelo usuário, conhecidas como keyloggers)
+ e adwares (aplicações que trazem propaganda para o usuário, sem sua autorização) monitoram o usuário de alguma forma, visando explorar o aspecto 
+comportamental humano.
+
+Ainda há o uso mal-intencionado de ferramentas de suporte, como sniffers (farejadores) de rede e port scanners. O primeiro permite analisar o tráfego de 
+rede e o segundo permite verificar quais são as portas de comunicação dos protocolos da camada de transporte que estão disponíveis para conexão.
+
+
+
+						RANSOMWARE
+Software malicioso, com alto poder de reprodutibilidade, que invade a máquina da vítima, criptografa os seus dados e solicita um resgate. Nos últimos anos, 
+esse tipo de ataque tem sido bem frequente, tendo como caso emblemático o WannaCry (referenciado na imagem).
+
+Um backdoor é um software malicioso que permite o acesso remoto de um invasor a um sistema comprometido.
+
+
+
+

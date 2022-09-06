@@ -1,0 +1,54 @@
+					ATIVOS TANGÍVEIS LÓGICOS
+São aqueles que envolvem a informação e sua representação em algoritmos, como, por exemplo, uma fórmula química, os detalhes sobre a safra da 
+laranja no mercado norte-americano, o algoritmo principal de busca do Google, os detalhes técnicos das baterias dos carros do Elon Musk.
+
+					ATIVOS TANGÍVEIS FÍSICOS
+São aqueles que conseguimos tocar, como a usina hidrelétrica de Itaipu, a ponte Golden Gate e o Cristo Redentor. Esses são exemplos de infraestruturas
+cuja ausência poderá provocar uma perda significativa que ficará marcada na memória. Provavelmente, você se lembra de onde estava no dia 11 de 
+setembro de 2001. Em termos de equipamentos, podemos citar as prensas de papel moeda da Casa da Moeda; o supercomputador Santos Dumont, que permite 
+fazer o sequenciamento do genoma de diversos seres vivos etc.
+
+					ATIVOS TANGÍVEIS HUMANOS
+Referem-se aos colaboradores e prestadores de serviço, como, por exemplo, a troca de jogadores de futebol e técnicos nos clubes e as cifras 
+astronômicas que circulam nesse mercado. A mesma situação ocorre em outros esportes, como automobilismo, basquete etc.
+
+A perda ou a danificação desses ativos poderia acarretar problemas financeiros gigantescos. Vamos analisar o caso da Apple. Em 1997, Steve Jobs 
+(1955-2011) retornou para a Apple e, até o seu falecimento, as ações da empresa aumentaram 9000%. Em termos comparativos, nos últimos dois anos de 
+vida de Jobs, os valores das ações mais do que dobraram, enquanto os da Microsoft subiram 5,1% e os da Intel valorizaram 14% no mesmo período. 
+Quando Jobs faleceu, as ações da Apple tiveram uma queda, não tão acentuada, mas ainda assim uma queda. Trata-se de um claro exemplo de um ativo 
+humano e da perda financeira causada quando ocorre um problema desse tipo. Do mesmo modo, pode ocorrer também a hipervalorização quando um novo 
+ativo é obtido.
+
+Para proteger esses ativos, precisamos criar barreiras de proteção aos diversos tipos de problemas que possam acontecer. Os controles de segurança 
+da informação, também conhecidos como medidas de proteção, são as ferramentas, os equipamentos, as metodologias e os processos que usamos para 
+proteger um ativo contra uma ameaça e a(s) sua(s) vulnerabilidade(s) associada.
+
+Na animação, o coiote tentava jogar uma bigorna em cima do pássaro, mas vamos trocar nossos atores. Em vez do pássaro, imaginemos um refrigerante, 
+cuja fórmula está salva em um dispositivo de armazenamento externo (pen drive). Nesse caso, a bigorna é uma ameaça contra o nosso dispositivo. Para 
+proteger o nosso pen drive, podemos colocá-lo dentro de uma caixa de metal hiper-resistente. Certamente criamos uma proteção (controle) contra a 
+ameaça (bigorna).
+
+Vamos agora trocar o pen drive por uma folha de papel. Uma bigorna é uma ameaça contra uma folha de papel? Não necessariamente. Mas o fogo seria uma 
+ameaça antes e continua sendo agora. Então, nesses dois casos, o fogo persiste e provavelmente o controle anterior não protegeria o pen drive nem a 
+folha de papel contra essa ameaça. Podemos perceber, portanto, que para explorar a vulnerabilidade de um ativo pode existir uma ou mais ameaças. Da 
+mesma forma, contra uma vulnerabilidade pode haver uma ou mais ameaças.
+
+Nos últimos meses, as ocorrências de pessoas relatando problemas de invasão nas contas de WhatsApp multiplicaram. Esse incidente permite que alguém se 
+aproprie da conta do serviço de mensagem de outra pessoa para pedir dinheiro em nome do dono da conta. Nesse exemplo, podemos perceber o acesso não autorizado, 
+que poderia ser corrigido pelo uso de senhas, evitando possíveis problemas de alteração de dados, ou pela adoção de métodos múltiplos de autenticação. São exemplos 
+clássicos de perdas de confidencialidade e integridade. Poderá, ainda, haver recuperação de dados dos usuários por meio de backups realizados pelo sistema. Para esse 
+problema, recomenda-se o uso da confirmação em duas etapas.
+
+Outro exemplo que podemos citar é o armazenamento de documentos eletrônicos. Atualmente, em termos de aplicações que conseguem colocar o rosto de uma pessoa
+ em outra,alterar documentos torna-se uma ação simples de ser realizada. Logo, uma forma de proteger o documento eletrônico é guardar um selo de autenticidade 
+para assegurar que o documento está íntegro. Uma ferramenta bem disseminada é o uso de funções de hashes.
+
+No caso de uma inundação em um data center, o principal problema gerado é a disponibilidade. Dependendo dos controles (proteções) escolhidos pelo gestor, 
+até mesmo problemas de integridade dos dados podem ser gerados. Por isso, sempre é necessário realizar a abordagem em camadas. Nesse cenário, alguns 
+controles simples poderiam ser desenvolvidos:
+     
+1	Contingência: desenvolvimento de alguma técnica/metodologia para suprir a ausência ou falha do data center.
+2	Processo e treinamento do uso da contingência.
+3	Processo e realizações de cópias de segurança, bem como a verificação do status dessas cópias, inclusive com simulação de desastres.
+
+
