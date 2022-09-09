@@ -1,0 +1,176 @@
+A ISO ‒ International Organization for Standardization (Organização Internacional de Padronização) é uma entidade fundada em 1947, sediada na Suíça e que 
+congrega organismos de normalização nacionais.  
+
+
+
+Sua principal atividade é elaborar padrões para especificações e métodos de trabalho nas mais diversas áreas da sociedade.
+
+
+A ISO colabora estreitamente com a International Electrotechnical Commission (IEC) em todos os assuntos de padronização eletrotécnica.
+
+As normas internacionais para sistemas de gerenciamento fornecem um modelo a ser seguido para a configuração e operação de um sistema de gerenciamento.
+
+Por meio do uso da família de padrões de um Sistema de Gestão da Segurança da Informação ‒ SGSI (do inglês Information Security Management System – ISMS), 
+torna-se possível o desenvolvimento e a implementação de uma estrutura visando à gerência da segurança dos ativos de informações.
+
+A norma cita alguns fatores de influência para o seu estabelecimento e a sua implementação, como:
+
+1
+Necessidades;
+
+2
+Objetivos;
+
+3
+Requisitos de segurança;
+
+4
+Processos organizacionais;
+
+5
+Tamanho e estrutura da organização.
+
+O SGSI preserva a tríade CID (confidencialidade, integridade e disponibilidade) da informação, aplicando um processo de gestão de riscos. Com isso, as 
+partes interessadas (stakeholders) poderão ter uma maior confiança de que os riscos serão convenientemente gerenciados.
+
+Segundo a ABNT (2013), é importante que um SGSI seja parte, e esteja integrado com os processos da organização e com a estrutura de administração global, 
+e que a segurança da informação seja considerada no projeto dos processos, sistemas de informação e controles.
+
+APRESENTAÇÃO
+MÓDULO 0
+MÓDULO 1
+CONCLUSÃO
+DEFINIÇÃO
+A importância e a adoção de normas técnicas para o estabelecimento, implementação, manutenção e melhoria de um Sistema de Gestão da Segurança da Informação (SGSI) em uma organização, e a seleção de controles inserida no processo de implementação de um SGSI.
+
+PROPÓSITO
+Apresentar as normas reconhecidas internacionalmente como referências para o estabelecimento e implementação de um Sistema de Gestão da Segurança da Informação.
+
+OBJETIVOS
+Módulo 1
+ Reconhecer as finalidades e os benefícios da adoção das normas ISO/IEC 27001 e 27002
+
+Módulo 2
+Identificar as aplicações das normas ISO/IEC 27001 e ISO/IEC 27002
+
+Fonte: Por Alexander Supertramp / Shutterstock.
+CONCEITO
+A ISO ‒ International Organization for Standardization (Organização Internacional de Padronização) é uma entidade fundada em 1947, sediada na Suíça e que congrega organismos de normalização nacionais.  
+
+
+
+Sua principal atividade é elaborar padrões para especificações e métodos de trabalho nas mais diversas áreas da sociedade.
+
+
+A ISO colabora estreitamente com a International Electrotechnical Commission (IEC) em todos os assuntos de padronização eletrotécnica.
+
+As normas internacionais para sistemas de gerenciamento fornecem um modelo a ser seguido para a configuração e operação de um sistema de gerenciamento.
+
+Por meio do uso da família de padrões de um Sistema de Gestão da Segurança da Informação ‒ SGSI (do inglês Information Security Management System – ISMS), torna-se possível o desenvolvimento e a implementação de uma estrutura visando à gerência da segurança dos ativos de informações.
+
+Dentre outros documentos que eventualmente podem existir, a família ISO/IEC 27000 oferece um conjunto de normas relacionadas à Segurança da Informação.
+
+Saiba mais
+A norma ISO/IEC 27000 traz os princípios e o vocabulário utilizados nas normas seguintes da família 27000. O download pode ser feito gratuitamente (em inglês) na página da ISO.
+
+De acordo com a ABNT NBR ISO/IEC 27001:2013:
+
+A norma ISO/IEC 27001 (Information Technology ‒ Information Security Management Systems ‒ Requirements foi preparada para prover requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI).
+
+Cabe à alta direção de cada organização decidir pela adoção de um Sistema de Gestão da Segurança da Informação (SGSI).
+A norma cita alguns fatores de influência para o seu estabelecimento e a sua implementação, como:
+
+1
+Necessidades;
+
+2
+Objetivos;
+
+3
+Requisitos de segurança;
+
+4
+Processos organizacionais;
+
+5
+Tamanho e estrutura da organização.
+
+O SGSI preserva a tríade CID (confidencialidade, integridade e disponibilidade) da informação, aplicando um processo de gestão de riscos. Com isso, as 
+partes interessadas (stakeholders) poderão ter uma maior confiança de que os riscos serão convenientemente gerenciados.
+
+Segundo a ABNT (2013), é importante que um SGSI seja parte, e esteja integrado com os processos da organização e com a estrutura de administração global, e 
+que a segurança da informação seja considerada no projeto dos processos, sistemas de informação e controles.
+
+A norma ISO/IEC 27001, em conjunto com a norma ISO/IEC 27002 (Código de Boas Práticas da Gestão da Segurança da Informação), formam as principais 
+referências, atualmente, para quem procura tratar a questão da segurança da informação de maneira eficiente e com eficácia.
+As normas técnicas nacionais são estabelecidas por um organismo nacional de normalização para aplicação em um dado país. No Brasil, as Normas Brasileiras 
+(NBRs) são elaboradas pela ABNT (Associação Brasileira de Normas Técnicas).
+
+
+Importante
+A ABNT é reconhecida pelo Estado brasileiro como o Fórum Nacional de Normalização, e as NBRs são reconhecidas formalmente como as normas brasileiras.
+
+As nomenclaturas das normas ISO/IEC 27001 e 27002 são, respectivamente, ABNT NBR ISO/IEC 27001 e ABNT NBR ISO/IEC 27002.
+
+ISO/IEC 27001 É:
+ 
+*Uma metodologia estruturada reconhecida internacionalmente dedicada á segurança da informação.
+
+*Um processo definido para validar, implementar, manter e gerenciar a segurança da informação.
+
+*Um grupo detalhado de controles compreendidos das melhores práticas da segurança da informação.
+
+*Desenvolvido pelas empresas para as empresas.
+
+
+Cláusula 1:	Escopo
+Cláusula 2:	Referência normativa
+Cláusula 3:	Termos e definições
+Cláusula 4:	Contexto da organização
+Cláusula 5:	Liderança
+Cláusula 6:	Planejamento
+Cláusula 7:	Suporte
+Cláusula 8:	Operação
+Cláusula 9:	Avaliação de Desempenho
+Cláusula 10:	Melhoria
+
+A norma ISO/IEC 27001 é passível de certificação acreditada.
+
+Alguns benefícios da certificação ISO/IEC 27001 incluem:
+
+Responsabilidade reduzida devido às políticas e aos procedimentos não implementados ou reforçados.
+
+Oportunidade de identificar e eliminar fraquezas.
+
+A Gerência participa da Segurança da Informação.
+
+Revisão independente do seu SGSI.
+
+Fornece segurança a todas as partes interessadas.
+
+Melhor consciência da segurança.
+
+Une recursos com outros sistemas de gerenciamento.
+
+Mecanismo para medir o sucesso do sistema.
+
+Controle
+Define a declaração específica do controle, para atender ao objetivo de controle.
+
+Segundo a ISO/IEC 27000 (2018), o controle é uma medida que pode modificar o risco, seja ele através de um processo, política, dispositivo, prática ou 
+outras ações que modifiquem a ameaça e/ou a vulnerabilidade e, consequentemente, o risco.
+
+Diretrizes para implementação
+Apresenta informações mais detalhadas para apoiar a implementação do controle e alcançar o objetivo do controle.
+
+As diretrizes podem não ser totalmente adequadas ou suficientes em todas as situações e podem, portanto, não atender completamente aos requisitos de 
+controle específicos de uma organização.
+
+Orientações do que DEVE ser feito. Os requisitos definidos nesta norma são genéricos e é pretendido que sejam aplicáveis a todas as organizações, 
+independentemente de tipo, tamanho e natureza. A exclusão de quaisquer dos requisitos especificados nas seções de 4 a 10 na versão 2013 não é aceitável 
+quando uma organização reivindica conformidade com esta norma.
+
+A norma contém orientações do que CONVÉM ser feito. Embora todos os controles sejam importantes e devam ser considerados, a relevância de qualquer controle 
+deve ser determinada segundo os riscos específicos a que uma organização está exposta. Nem todos os controles e diretrizes contidos na norma podem ser 
+aplicados, e controles adicionais e recomendações não incluídos podem ser necessários. Ela possui 35 objetivos de controles e 114 controles básicos 
+distribuídos em 14 seções.
