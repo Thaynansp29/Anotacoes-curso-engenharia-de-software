@@ -1,0 +1,100 @@
+Nos sistemas de controle de acesso, os usuários devem apresentar credenciais antes de obter o acesso. Essas credenciais podem ser de várias formas como, por exemplo, físicas, biométricas, 
+senhas, portas eletrônicas. Existem três tipos de sistemas de controle de acesso:
+
+			CONTROLE DE ACESSO DISCRICIONÁRIO OU DISCRETIONARY ACCESS CONTROL (DAC)
+Nesse método, o administrador do sistema, dos dados ou de recursos protegidos define as políticas de quem tem permissão de acesso, ou seja, o sistema responsabiliza o proprietário da 
+empresa por decidir quais pessoas são permitidas em um local específico, física ou digitalmente.
+
+O DAC é menos restritivo em comparação aos outros sistemas, pois permite, essencialmente, um controle completo individual sobre quaisquer objetos que se possua, bem como sobre os programas
+associados a esses objetos. A desvantagem do controle de acesso discricionário é o fato de fornecer ao usuário final o controle completo para definir configurações de nível de segurança 
+para outros usuários. Além disso, as permissões concedidas ao usuário final são herdadas em outros programas usados, o que pode levar à execução de malware, ainda que o usuário final não 
+esteja ciente disso.
+
+			CONTROLE DE ACESSO OBRIGATÓRIO OU MANDATORY ACCESS CONTROL (MAC)
+De acordo com Red Hat (2020), esse mecanismo de segurança restringe o nível de controle dos usuários (sujeitos) sobre os objetos que eles criam. Diferentemente da implementação do DAC, 
+em que os usuários têm controle total sobre seus próprios arquivos, diretórios etc., o MAC acrescenta rótulos ou categorias adicionais a todos os objetos do sistema de arquivos. Usuários 
+e processos devem ter acesso apropriado a essas categorias antes de interagir com os objetos.
+
+Para entender melhor, o sujeito é normalmente um processo ou thread enquanto objetos são construções, como arquivos, diretórios, portas TCP/UDP, segmentos de memória compartilhada, 
+dispositivos de entrada e saída. Sujeitos e objetos possuem um conjunto de atributos de segurança. Sempre que um sujeito tenta acessar um objeto, uma regra de autorização imposta pelo 
+kernel do sistema operacional examina esses atributos de segurança e decide se o acesso pode ocorrer.
+
+		CONTROLE DE ACESSO BASEADO EM FUNÇÃO OU ROLE-BASED ACCESS CONTROL (RBAC)
+Concede acesso com base em funções de negócios definidas e não na identidade do usuário. A meta é fornecer aos usuários somente o acesso a dados considerados necessários para exercer sua 
+função nas organizações. Esse método é baseado em uma combinação de atribuições de funções, autorizações e permissões.
+
+Quando se trata da proteção dos recursos computacionais, os itens que devem ser contemplados são: aplicativos e arquivos de dados, além de utilitários e o sistema operacional das máquinas 
+tanto dos usuários como da rede institucional.
+
+Podemos dizer, então, que os objetivos dos controles de acesso são garantir:
+
+O acesso aos recursos apenas por usuários autorizados.
+
+Correspondência entre os recursos necessários e as atividades dos usuários.
+
+Monitoramento e restrição do acesso a recursos críticos.
+
+Execução de transações compatíveis com as funções e responsabilidades dos usuários.
+
+Em relação à identificação e autenticação dos usuários nos sistemas, essas ações são feitas durante o logon. Esse processo permite conceder acesso aos dados e aplicativos em um sistema 
+computacional e envolve a entrada de um ID (identificação do usuário), normalmente chamado de login, e uma senha (autenticação do usuário).
+
+Devido à importância de entrar no sistema, o procedimento de logon deve divulgar o mínimo de informações que possam ser utilizadas por um invasor para conseguir identificar um usuário 
+legítimo. Nesse sentido, um procedimento de logon eficiente deve:
+
+Informar que o sistema só deve ser acessado por pessoas autorizadas.
+
+Não apresentar informações sobre o sistema até que o processo de logon esteja completamente concluído.
+
+Não fornecer, durante o processo de logon, mensagens de ajuda que possam auxiliar um usuário não autorizado a acessar o sistema.
+
+Validar os dados de entrada só após a conclusão do processo de logon. O sistema não deve indicar qual parte do dado de entrada está correta ou incorreta, como, por exemplo, ID ou senha, 
+caso ocorra algum erro.
+
+Limitar a quantidade de tentativas de logon sem sucesso, como, por exemplo, um máximo de três tentativas.
+
+Guardar as tentativas de acesso inválidas para futura verificação.
+
+Forçar um tempo de espera antes de permitir novas tentativas de entrada no sistema ou rejeitar qualquer tentativa posterior de acesso sem autorização específica.
+
+Terminar as conexões com o sistema.
+
+Limitar o tempo para o procedimento de logon. Se demorar, o sistema deverá encerrar o procedimento.
+
+Quando o procedimento de logon no sistema finalizar corretamente, mostrar as seguintes informações:
+
+Data e hora do último logon com sucesso;
+Detalhes de qualquer tentativa de logon sem sucesso, desde o último procedimento realizado com sucesso.
+
+Todos os computadores conectados à rede de uma instituição devem ter um antivírus padrão instalado, programado para ser executado em intervalos regulares. Além disso, o software antivírus 
+e os arquivos de definição de vírus devem ser sempre atualizados.
+
+Todos os computadores devem ser configurados de forma a agendar atualizações regulares dos servidores antivírus centralizados dos serviços de rede.
+
+Todos os arquivos de dados e programas que foram transmitidos eletronicamente para um computador de outro local, interno ou externo, devem ser verificados quanto à existência de vírus 
+imediatamente após o recebimento.
+
+Todos os dispositivos de armazenamento, como, por exemplo, pen drives e HDs externos, são uma fonte potencial de vírus de computador. Portanto, eles devem ser verificados quanto à infecção
+por vírus antes de usá-los em um computador ou servidor da rede.
+
+Os computadores e servidores de rede nunca devem ser inicializados a partir de um dispositivo externo recebido de uma fonte externa.
+
+O software de proteção contra vírus deve ser carregado em cada computador e servidor de rede como um programa residente para monitorar constantemente possíveis ataques de vírus e impedir 
+que infectem a rede.
+
+
+									Atenção
+É importante que as empresas realizem testes com os backups a fim de garantir que os dados salvos possam ser restaurados e disponibilizados quando for preciso.
+
+						Backup completo
+Faz cópias de todos dados, inclusive dos logs de transações associadas para outro conjunto de mídia, como, por exemplo, disco rígido, DVDs, CDs, pen drives, entre outros, independentemente
+de terem sido modificados ou não.
+
+						Backup incremental
+Grava somente arquivos alterados desde o último backup, por isso é mais rápido que o backup completo e ocupa menos espaço. O último backup pode ser completo, diferencial ou incremental. 
+No início, é feito um backup completo e nos subsequentes são copiados apenas os dados que foram alterados ou criados desde o último backup.
+
+						Backup diferencial
+É a cópia dos dados criados e modificados desde o último backup. Após realizar o primeiro backup completo, cada backup diferencial compara o conteúdo a ser copiado com o do último backup 
+completo e copia todas as alterações realizadas. Esse tipo de backup também é chamado de backup incremental cumulativo.
+
