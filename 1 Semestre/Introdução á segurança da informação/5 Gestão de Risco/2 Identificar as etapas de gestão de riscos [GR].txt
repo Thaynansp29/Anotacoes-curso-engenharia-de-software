@@ -1,0 +1,86 @@
+1. Definição do contexto
+Inicialmente, deve-se fazer a listagem e um breve resumo dos objetivos organizacionais, pois, se seus riscos não forem atingidos, eles terão de ser gerenciados. Dessa forma, é feito um 
+levantamento de informações relevantes sobre o ambiente no qual será executada a análise de riscos.
+
+Deve estar claro nesse levantamento o entendimento sobre as atividades da organização e os propósitos que a levaram à GSI, como, por exemplo, suporte ao SGSI, conformidade legal, plano de
+continuidade de negócios e de resposta a incidentes. (BEZERRA, 2013)
+
+Por fim, são estabelecidos parâmetros para o gerenciamento dos riscos. 
+
+2. Processo de análise/avaliação de riscos de segurança da informação
+
+A identificação de riscos mapeia os eventos de risco que podem impedir uma empresa de atingir os objetivos desejados. A análise de riscos, por sua vez, compreende a identificação e a 
+estimativa deles.
+
+Pode-se começar com uma lista dos eventos de risco associados aos objetivos institucionais, evoluindo, em seguida, para um nível maior de detalhamento. Após realizar o mapeamento e a 
+relação desses eventos, listam-se as suas possíveis causas e consequências de cada um deles.
+
+Já a estimativa de riscos mede os eventos de risco por meio do cálculo do nível de risco. Deve-se iniciar tal processo realizando o cálculo do nível de risco bruto.
+
+Para isso, são avaliados a probabilidade e o impacto de um evento de risco antes que uma medida de controle qualquer seja implementada, conforme os exemplos das duas tabelas a seguir:
+
+Probabilidade							Termo								Definição
+71 a 90%							Alta						Chance de a ameaça se concretizar em um ano
+31 a 70%							Média						Possibilidade de a ameaça se concretizar no próximo ano
+31 a 30%							Baixa						Dificilmente a ameaça ocorrerá no próximo ano
+
+								Impacto
+
+Termo								Definição
+Alto					Grave comprometimento da missão da organização
+Médio					As perdas são restritivas a um segmento dela
+Baixo					Sem muita relevância para seus negócios
+
+A avaliação de riscos, por sua vez, define as medidas de tratamento a serem implementadas para cada um dos eventos de risco, entre as quais destacamos:
+
+1*Aceitar:
+Quando o nível se encontra nas faixas de apetite a risco, nenhum novo controle precisa ser implementado para mitigá-lo.
+
+2*Mitigar:
+Adotar medidas que diminuam o impacto.
+
+3*Transferir:
+Terceirizar uma responsabilidade ou fazer um seguro para cobrir eventuais prejuízos.
+
+4*Evitar:
+Empreender medidas que reduzem ou eliminam a exposição a um risco.
+
+Medidas de Controle ou Proteção
+*Preventiva: Evita que incidentes ocorram;
+
+*Desencorajadora: Desencoraja a prática de ações;
+
+*Monitoradora: Monitora o estado e o funcionamento;
+
+*Corretiva: Corrige falhas existentes;
+
+*Recuperadora: Repara danos causados por incidentes;
+
+*Reativa: Reage a determinados incidentes;
+
+*Detectora: Detecta a ocorrência de incidentes;
+
+*Limitadora: Diminui os danos causados;
+
+6. Monitoramento e análise crítica de riscos de segurança da informação
+Nesta etapa, é avaliado se tudo o que foi feito saiu de acordo com o planejado. Além disso, são averiguados, dentre outros, os seguintes casos:
+
+*Necessidade de atualizações;
+
+*Listagem correta dos objetivos;
+
+*Impossibilidade de um risco ser visto como esperado pelas atividades de controle;
+
+*Cálculo correto dos níveis de risco.
+
+					Qual é o papel da GRC neste cenário?
+
+Governança corporativa
+Cuida para que o controle da gestão seja tão importante quanto ela própria.
+
+Gestão de riscos
+Gerencia o efeito da incerteza nos objetivos.
+
+Compliance
+Adere aos padrões da legislação (regulamentos oficiais vigentes, políticas empresariais e normas internas de procedimentos).
+
