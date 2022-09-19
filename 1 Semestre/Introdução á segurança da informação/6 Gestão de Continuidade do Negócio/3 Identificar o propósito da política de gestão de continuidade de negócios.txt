@@ -1,0 +1,60 @@
+					POLÍTICA DE GESTÃO DE CONTINUIDADE DE NEGÓCIOS (PGCN)
+A Política de Gestão de Continuidade de Negócios (PGCN) é o conjunto dos processos e das atividades que uma organização deve ter para garantir resistência aos diversos problemas e gerenciar
+ adequadamente os riscos. As PGCNs caracterizam-se pelas particularidades de cada organização e dos setores em que atuam. Além disso, devem ser revisadas periodicamente à medida que as 
+tecnologias evoluem e os riscos comerciais mudam.
+
+De acordo com a NBR15999-1 (2007) — norma que estabelece o processo, os princípios e a terminologia da PGCN —, o propósito da PGCN é fornecer uma base para que se possa entender, 
+desenvolver e implementar a continuidade de negócios em uma organização, além de fortalecer a confiança nos negócios junto aos clientes e a outras organizações. A PGCN permite também que a 
+organização avalie sua capacidade de Gestão de Continuidade de Negócios (GCN) de uma maneira consistente e reconhecida.
+
+A PGCN é um processo de gestão que identifica as potenciais ameaças para uma organização e os possíveis danos nas operações de negócio. Portanto, ela cria uma estrutura de ações direcionada
+s a capacitar as organizações no caso de desastres. Assim, as organizações aumentam a sua capacidade de responder de forma eficaz e eficiente na concretização dos cenários de adversidades.
+
+ PGCN deve garantir o controle das crises dentro de um sistema de gerenciamento por meio da clara identificação dos responsáveis por cada ação e da descrição das ações que devem ser 
+executadas para garantir a continuidade dos negócios.
+
+Na descrição da PGCN, a organização deve considerar:
+
+1 - Alocação dos recursos para gestão contínua dos negócios (GCN).
+
+2 - Definição dos princípios, dos guias e das políticas que precisem ser incluídos ou que possam ser utilizados como referência.
+
+3 - Referência às normas pertinentes, aos regulamentos, às legislações ou às políticas que tenham de ser incluídos ou que possam ser usados como parâmetro.
+
+Os processos da biblioteca ITIL estão incluídos em cinco publicações separadas:
+
+ESTRATÉGIA DE SERVIÇO
+Define os serviços como ativos estratégicos.
+
+DESIGN DE SERVIÇO
+Inclui a avaliação dos processos de gerenciamento de negócios (nível de serviço, disponibilidade, capacidade etc.) para projetar e desenvolver novas ofertas de serviços ou melhorar as 
+ofertas existentes.
+
+TRANSIÇÃO DE SERVIÇO
+Abrange a transição do desenvolvimento para as operações de produção, incluindo testes e controle de qualidade.
+
+OPERAÇÃO DE SERVIÇO
+Define como gerenciar serviços quando eles estão operando.
+
+MELHORIA CONTÍNUA DE SERVIÇO
+Define novos requisitos para as fases anteriores da ITIL, com base nas informações, sugestões e reclamações oriundas da aplicação do serviço. Nesta fase, ocorre a aplicação do PDCA para 
+apoiar a evolução do serviço.
+
+CONTINUIDADE DE SERVIÇOS DE TECNOLOGIA DA INFORMAÇÃO (GCSTI)
+O objetivo do GCSTI é gerenciar riscos capazes de afetar os serviços de TI. Desse modo, ajuda a manter de maneira adequada a capacidade de recuperação de serviços de TI para atender às 
+necessidades acordadas, aos requisitos e aos prazos do negócio.
+
+O GCSTI garante que o prestador de serviços sempre possa fornecer os níveis mínimos de qualidade preestabelecidos. Para isso, aplica a Análise de Impacto nos Negócios e Gerenciamento de 
+Riscos, produzindo o plano de continuidade de serviços de TI, que é um aspecto do Plano Geral de Continuidade de Negócios.
+
+Finalizando, o GCSTI atua no fornecimento de consultoria e assistência para evitar que, na ocorrência de um desastre, haja problemas de continuidade e de recuperação. Além disso, mantém 
+um conjunto de planos sobre a continuidade e recuperação dos serviços de TI que dá suporte aos planos gerais de continuidade de negócios. Desse modo, auxilia na minimização de incertezas
+ao desenvolver ações proativas que possam ser implementadas na ocorrência de desastres.
+
+A PGCN é o conjunto dos processos e das atividades que uma organização deve ter para poder minimizar as perdas caso ocorra um desastre. Portanto, ela é essencial para garantir a 
+continuidade dos negócios de uma organização.
+
+A biblioteca ITIL dá suporte para que as organizações atinjam seus objetivos alinhados com os serviços de tecnologia da informação mediante descrição das diversas etapas do ciclo de vida 
+deles.
+
+

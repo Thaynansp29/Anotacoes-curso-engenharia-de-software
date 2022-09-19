@@ -1,0 +1,61 @@
+Desmenbrando a palavra PDCA.
+
+P = Planejar D = "do" Fazer C = Checar  A = "act" agir
+
+								1. PLANEJAR
+Definir os objetivos e determinar as condições e os métodos necessários para alcançá-los. É crucial descrever claramente as metas e políticas necessárias para alcançar os objetivos nesta 
+fase. Um objetivo específico deve ser documentado numericamente se for possível. Os procedimentos e as condições para alcançar os objetivos devem ser descritos nesta fase.
+
+								2. EXECUTAR
+Nesta etapa, deve-se executar todos os planos definidos no planejamento. A coleta de dados, inclusive, deve ser feita também nesta etapa, ainda que essas informações sejam utilizadas apenas
+nas fases posteriores.
+
+								3. CHECAR
+É verificado se a progressão do trabalho está ocorrendo de acordo com o plano e se os resultados esperados estão sendo obtidos. De forma periódica, os resultados do trabalho devem ser 
+comparados com os objetivos preestabelecidos. Se for detectada alguma anormalidade, ou seja, se o valor real for diferente do valor esperado, deve ser iniciada uma busca pela causa da 
+anormalidade para impedir sua recorrência. Às vezes é necessário treinar novamente os trabalhadores e revisar os procedimentos. É importante garantir que essas alterações sejam refletidas 
+para o próximo planejamento.
+
+								4. AGIR
+Se o exame revelar que o trabalho não está sendo realizado de acordo com o plano ou que os resultados não estão em concordância com o que foi antecipado, medidas devem ser planejadas para
+realizar a ação apropriada.
+
+O próximo esquema ilustra como um ciclo PDCA pode ser aplicado ao PCN:
+
+1* Mapeamento de negócios
+
+2* Análise de impacto
+
+3* Definição de melhores estratégias
+
+4* Documentação de planos
+
+5* Testes e simulações
+
+1. MAPEAMENTO DE NEGÓCIOS
+Caracteriza as unidades que compõem o negócio e descreve os relacionamentos entre elas.
+
+2. ANÁLISE DE IMPACTO DE NEGÓCIOS
+Quais são os pontos frágeis nos processos das unidades de negócio? É essencial responder a essa pergunta com objetividade, pois é a partir dessa identificação que será possível fazer uma 
+previsão do impacto que uma situação de desastre pode causar para o negócio.
+
+3. DEFINIÇÃO DE MELHORES ESTRATÉGIAS
+A construção da estratégia de continuidade é feita após a análise dos impactos de um ou de vários cenários de desastre. Na estratégia, são definidas as ações que devem ser executadas. As 
+descrições delas e dos respectivos responsáveis são apresentadas na próxima etapa.
+
+4. DOCUMENTAÇÃO DE PLANOS
+Aqui é descrito o PCN com todas as etapas: Plano de Contingência, Plano de Administração de Crises, Plano de Recuperação de Desastres e Plano de Continuidade Operacional.
+
+5. TESTES E SIMULAÇÕES
+Com as estratégias e os planos definidos, é necessário testar sua eficácia. Isso é obtido a partir da criação de situações que estejam sob controle, mas que permitam verificar se os 
+planos foram bem compreendidos. Além disso, é nesta etapa que todos os indivíduos da organização se integram a fim de divulgar quais procedimentos devem ser adotados caso ocorra uma 
+situação de desastre.
+
+O PDCA é um modelo que considera a dinâmica em que os processos estão inseridos e como são compreendidos pelos responsáveis das organizações. A melhoria contínua é obtida a partir do 
+mapeamento dos processos do negócio e da avaliação da sua execução.
+
+O PRD é um componente do PCN. Dado um cenário de desastre, a ideia é aumentar as chances de a organização retomar as suas operações dentro de um período mínimo, previamente estabelecido.
+
+
+
+
