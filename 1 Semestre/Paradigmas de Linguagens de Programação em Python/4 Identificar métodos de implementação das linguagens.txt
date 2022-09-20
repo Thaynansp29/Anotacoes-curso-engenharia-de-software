@@ -1,0 +1,111 @@
+							TRADUÇÃO
+Nesse processo de conversão, o programa escrito em uma linguagem de alto nível é traduzido para uma versão equivalente em linguagens de máquina, antes de ser executado. O processo de 
+tradução pode ser executado em várias fases, que podem ser combinadas e executadas em simultaneidade. O processo de tradução é erroneamente chamado de compilação, que na verdade é uma de 
+suas fases.
+
+As fases que compõem o tradutor, ou seja, iniciando na leitura do programa-fonte (linguagem de alto nível) e terminando com a geração do código executável (entendido pela máquina), são: 
+Compilação, Montagem, Carga e Ligação.
+
+Código-fonte >>>>Compilador >>>>Código Assembly >>>>Montador >>>>Ligador >>>>Código-objeto relocável >>>>Carregador >>>>Código objeto >>>>Código executável.
+
+							Compilador
+É o elemento central do processo de tradução, responsável pelo custo de compilação, visto no modulo anterior. Em função dessa relevância, muitas vezes o processo como um todo é erroneamente
+chamado de compilação, uma vez que o ambiente integrado das linguagens atuais já integra todos os componentes (montador, compilador, carregador e ligador) quando necessário.
+O projeto da linguagem tem no compilador a sua figura central.
+
+
+							ANÁLISE LÉXICA
+Identifica os tokens (elementos da linguagem), desconsidera partes do código-fonte, como espaços em branco e comentários e gera a Tabela de símbolos, com todos esses tokens, que são 
+identificadores de variáveis, de procedimentos, de funções, comandos, expressões etc.
+
+							ANÁLISE SINTÁTICA
+Verifica se os tokens são estruturas sintáticas (exemplos: expressões e comandos) válidas, aplicando as regras gramaticais definidas no projeto da linguagem.
+
+							ANÁLISE SEMÂNTICA
+Verifica se as estruturas sintáticas possuem sentido. Por exemplo, verifica se um identificador de variável ou constante é usado adequadamente, se operandos e operadores são compatíveis. 
+Monta a árvore de derivação conforme ilustrado abaixo para formação das expressões.
+
+							GERADOR DE CÓDIGO INTERMEDIÁRIO, OTIMIZADOR DE CÓDIGO E GERADOR DE CÓDIGO
+Em distintas fases geram o programa-alvo ou programa-objeto.
+
+*Gerador de código intermediário, que contém toda a informação para gerar o código-objeto.
+Na imagem a seguir, o código intermediário está representado no último quadro – código em Assembly:
+
+
+*O otimizador tem por objetivo eliminar redundâncias do código intermediário e tornar o objeto mais enxuto e eficiente.
+
+							TRATADOR DE ERROS
+Em todas as fases existem erros: léxicos, sintáticos e semânticos. Um bom compilador apresenta uma boa tratativa de erros.
+
+							GERENCIADOR DA TABELA DE SÍMBOLOS
+Mantém a tabela de símbolos atualizada a cada passo do compilador.
+
+As principais características dos compiladores são:
+
+*Gerar código-objeto mais otimizado.
+*Execução mais rápida que o processo de interpretação.
+*Traduz um mesmo comando apenas uma vez, mesmo que usado em várias partes do programa – tanto iterações como repetição de código.
+*Processo de correção de erros e depuração é mais demorado.
+*A programação final (código-objeto) é maior.
+*O programa-objeto gerado é dependente de plataforma — processador + SO (Sistema Operacional) — necessitando de um compilador diferente para cada família de processadores/sistema operacional
+
+							INTERPRETAÇÃO
+
+					Programa-Fonte >>>> Interpretador >>>> Resultados.
+
+Na conversão por interpretação, cada comando do programa-fonte é traduzido e executado (um a um) imediatamente. O interpretador traduz um comando de cada vez e chama uma rotina para 
+completar a sua execução.
+
+O interpretador é um programa que executa repetidamente a seguinte sequência:
+
+1
+Obter a próxima instrução do código-fonte.
+
+2
+Interpretar a instrução (conversão para comandos em linguagem de máquina).
+
+3
+Executar a instrução.
+
+							PRINCIPAIS CARACTERÍSTICAS DO INTERPRETADOR
+Dentre as principais características do interpretador, podemos citar:
+
+*Atua a cada vez que o programa precisa ser executado.
+*Não produz programa-objeto persistente.
+*Não traduz instruções que nunca são executadas.
+*O resultado da conversão é instantâneo: resultado da execução do comando ou exibição de erro – interpretador puro.
+*Útil ao processo de depuração de código devido a mensagens de erros em tempo de execução (tanto análise sintática como semântica).
+*Execução mais lenta do que outros processos de tradução (compilação), pois toda vez que o mesmo programa é executado, os mesmos passos de interpretação são executados.
+*Consome menos memória.
+*O Código-fonte é portátil.
+
+-Não é gerado um código de máquina.
+-Pode executar o comando em alto nível diretamente ou gerar um código intermediário, que neste caso é interpretado por uma máquina virtual (VM). – Interpretador híbrido.
+-Se a máquina virtual foi desenvolvida para diferentes plataformas, temos a portabilidade do código-fonte. Este é o caso da linguagem Java.
+
+		Vantagens						Desvantagens
+
+Tradutores 1. Execução mais rápida 				1. Várias etapas de conversão.
+	   2. Permite estruturas de programas mais complexas.   2. Programação final é maior, necessitando de mais memória para sua execução.
+	   3. Permite a otimização de código.			3. Processo de correção de erros e depuração é mais demorado.
+
+Interpretadores 1. Depuração mais simples.			1. Execução do programa é mais lenta.
+		2. Consome menos memória.			2. Estruturas de dados demasiado simples.
+		3. Resultado imediato do programa (ou parte dele). 3. Necessário fornecer o código fonte ao utilizador.
+
+							SISTEMAS HÍBRIDOS
+O processo híbrido de implementação de uma linguagem de programação combina a execução rápida dos tradutores (compiladores) com a portabilidade dos interpretadores. O segredo é a geração 
+de um código intermediário mais facilmente interpretável, porém não preso a uma plataforma (SO/Hardware).
+
+Esse código intermediário não é específico para uma plataforma, possibilitando aos programas já compilados para esse código serem portados em diferentes plataformas, sem alterar e nem 
+fazer nada. Para cada plataforma desejada devemos ter um interpretador desse código.
+
+							Sistema de implementação de Python
+Python usa um sistema híbrido, uma combinação de interpretador e tradutor (compilador). O compilador converte o código-fonte Python em um código intermediário, que roda numa máquina virtual
+, a PVM (Python Virtual Machine).
+
+O interpretador converte para código de máquina, em tempo de execução. O compilador traduz o programa inteiro em código de máquina e o executa, gerando um arquivo que pode ser executado. 
+O compilador gera um relatório de erros e o interpretador interrompe o processo na medida em que localiza um erro.
+
+CPython é uma implementação da linguagem Python, um pacote com um compilador e um interpretador Python (Máquina Virtual Python), além de outras ferramentas para programar em Python.
+

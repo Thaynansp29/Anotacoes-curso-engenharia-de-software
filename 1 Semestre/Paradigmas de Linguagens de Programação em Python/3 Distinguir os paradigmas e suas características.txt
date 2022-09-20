@@ -1,0 +1,73 @@
+							PARADIGMA IMPERATIVO
+O paradigma imperativo agrega três paradigmas: estruturado, orientado a objeto e concorrente, os quais possuem em comum o fato de especificarem passo a passo o que deve ser feito para a 
+solução do problema. As linguagens do paradigma imperativo são dependentes da arquitetura do computador, pois especificam em seus programas como a computação é realizada.
+
+Vamos explicar as características de cada um dos paradigmas do subgrupo Imperativo.
+
+							Paradigma estruturado
+Caracteriza as principais linguagens de programação da década de 1970 e 1980 que seguiram os princípios da programação estruturada:
+
+1*Não usar desvios incondicionais (Goto, característico de linguagens como BASIC e versões iniciais do COBOL)
+
+2*Desenvolver programas por refinamentos sucessivos (metodologia top down), motivando o desenvolvimento de rotinas (procedimentos e funções) e a visão do programa partindo do geral para o 
+particular, ou seja, o programa vai sendo refinado à medida que se conhece melhor o problema e seus detalhes.
+
+3*Desenvolver programas usando três tipos de estruturas: sequenciais, condicionais e repetição.
+
+4*Visando eficiência, o paradigma estruturado baseia-se nos princípios da arquitetura de Von Neumann, onde:
+
+*Programas e dados residem, na memória (durante a execução).
+*Instruções e dados trafegam da memória para CPU e vice-versa.
+*Resultados das operações trafegam da CPU para a memória.
+
+							Paradigma orientado a objetos
+Com o crescimento do tamanho do código e complexidade dos programas, o paradigma estruturado começou a apresentar limitações nos sistemas que passaram a ter dificuldade de manutenção e 
+reuso de programas e rotinas padronizadas.
+
+A orientação a objetos surge como solução a esses problemas, permitindo, através de propriedades como abstração, encapsulamento, herança e polimorfismo, maior organização, reaproveitamento
+e extensibilidade de código e, consequentemente, programas mais fáceis de serem escritos e mantidos.
+
+							Paradigma concorrente
+Caracterizado quando processos executam simultaneamente e concorrem aos recursos de hardware (processadores, discos e outros periféricos), características cada vez mais usuais em sistemas 
+de informação.
+
+O paradigma concorrente pode valer-se de apenas um processador ou vários.
+
+Um processador : Os processos concorrem ao uso do processador e recursos.
+
+Vários processadores: Estamos caracterizando o paralelismo na medida em que podem executar em diferentes processadores (e de fato, ao mesmo tempo), os quais podem estar em uma mesma máquina
+ou distribuídos em mais de um computador.
+
+							PARADIGMA DECLARATIVO
+Diferentemente do paradigma imperativo, no declarativo o programador diz o que o programa deve fazer (qual a tarefa), ao invés de descrever como o programa deve fazer. O programador 
+declara, de forma abstrata, a solução do problema.
+
+Essas linguagens não são dependentes de determinada arquitetura de computador. As variáveis são incógnitas, tal qual na Matemática e não células de memória.
+
+							Paradigma funcional
+Abrange linguagens que operam tão somente funções que recebem um conjunto de valores e retornam um valor. O resultado que a função retorna é a solução do problema (foca o processo de 
+resolução de problemas).
+
+O programa resume-se em chamadas de funções, que por sua vez podem usar outras funções. Uma função pode invocar outra, ou o resultado de uma função pode ser argumento para outra função. 
+Usa-se também chamadas recursivas de funções.
+
+Naturalmente, esse paradigma gera programas menores (pouco código).
+
+							Paradigma lógico
+Um programa lógico expressa a solução da maneira como o ser humano raciocina sobre o problema: baseado em fatos, derivam-se conclusões e novos fatos.
+
+Quando um novo questionamento é feito, através de um mecanismo inteligente de inferência, deduz novos fatos a partir dos existentes.
+
+O paradigma lógico é usado no desenvolvimento de linguagens de acesso a banco de dados, sistemas especialistas (IA), tutores inteligentes etc.
+
+Python não tem características para implementar programas que atendam ao paradigma lógico.
+
+Python é uma linguagem multiparadigma, de forma nativa, estando compatível com os paradigmas estruturado, orientado a objeto, funcional e concorrente.
+
+Estruturado – Código com apenas três estruturas básicas: sequenciais, decisão e repetição orientado a objeto – a base são os objetos que podem ser herdados (herança) e estendidos 
+(polimorfismo).
+
+Concorrente – Permite escrever programas que concorrem ao uso dos recursos de hardware (CPU e acesso a disco, por exemplo).
+
+Funcional – Lisp é uma linguagem em que programa-se basicamente, usando funções, sendo uma linguagem do paradigma funcional.
+

@@ -1,0 +1,221 @@
+Considerando as diversas linguagens de programação existentes hoje no mercado, atendendo a propósito comuns, vamos destacar neste módulo os domínios da programação, que são seis:
+
+*Aplicações científicas
+
+*Aplicações comerciais
+
+*Aplicações com Inteligência Artificial
+
+*Programação de sistemas
+
+*Programação para web
+
+*Programação mobile
+
+APLICAÇÕES CIENTÍFICAS (MÁQUINAS DE CALCULAR COM ALTA PRECISÃO)
+O primeiro computador, o ENIAC, foi desenvolvido por 3 anos e ficou pronto no ano de 1946. Sua principal finalidade eram cálculos balísticos. Os computadores seguintes, nas décadas de 1940
+e 1950, também focaram em cálculos científicos complexos.
+
+As linguagens de programação nessa época eram a linguagem de máquina e Assembly. Na década de 1960 surgem as primeiras linguagens de programação de alto nível, com destaque para Fortran 
+(iniciais de FORmula TRANslator) e posteriormente para ALGOL60. As principais características dessas linguagens eram:
+
+*Estruturas de dados simples.
+*Alto volume de cálculos com aritmética de ponto flutuante (precisão).
+*Preocupação com a eficiência, pois sucederam a linguagem Assembly.
+
+APLICAÇÕES COMERCIAIS
+A segunda onda de aplicativos foi para suprir as demandas das empresas a partir de meados da década de 1950. Em 1960, surge a linguagem que seria o ícone das aplicações comerciais de 
+computadores de grande porte, naquele momento, o COBOL. As linguagens de programação que apoiaram o crescimento das aplicações comerciais têm como características:
+
+*Facilidade para produzir relatórios, fundamentais nos controles das operações contábeis, bancárias, estoque e financeiras (primeiros focos da época).
+*Precisão com números decimais e ponto flutuante, para representar as altas cifras das grandes empresas, as primeiras a investirem nessas aplicações.
+*Capacidade de especificar operações aritméticas comerciais.
+
+Cabe destacar que as linguagens destinadas a aplicações comerciais ganham força com a microcomputação a partir dos anos 1980, levando as aplicações comerciais aos médios e pequenos 
+empresários.
+
+APLICAÇÕES COM INTELIGÊNCIA ARTIFICIAL
+As linguagens que sustentam o desenvolvimento de aplicações apoiadas na Inteligência Artificial (IA) ganham força nos dias de hoje.
+
+A grande ruptura no pensamento computacional é que as linguagens que apoiam a IA usam a computação simbólica e não numérica, como a maioria das linguagens da época. Em 1959, surge a 
+linguagem Lisp, primeira linguagem projetada para apoio à computação simbólica, primeira referência da computação funcional. Prolog, criada em 1977, foi a primeira linguagem para apoio da 
+computação lógica, essência dos sistemas especialistas (sistemas que usam IA para simular o comportamento humano).
+
+PROGRAMAÇÃO DE SISTEMAS
+A programação de sistemas cabe a linguagens de programação que tenham comandos e estruturas para acessar, diretamente, o hardware. Tais linguagens são usadas para desenvolver softwares 
+básicos, como sistemas operacionais, tradutores e interpretadores de linguagens de programação. Antes de surgir a linguagem C, usada para desenvolver o sistema operacional Linux, Assembly 
+era a linguagem usada para esse fim. A linguagem C++ também é usada com essa finalidade.
+
+Com o crescimento da internet e tecnologias adjacentes, o uso dos sistemas se desloca do ambiente desktop (domínio dos anos 1980 e 1990) para o ambiente Web.
+
+No contexto de programação para Web, temos 2 diferentes ambientes de desenvolvimento: a camada de apresentação, que roda no navegador (lado cliente) e a camada de lógica do negócio, que 
+roda nos servidores web (lado servidor), juntamente com a camada de persistência, considerando o modelo de desenvolvimento em 3 camadas (apresentação, lógica do negócio e persistência de 
+dados).
+
+Para a camada de apresentação, usa-se as linguagens HTML (linguagem de marcação) e CSS (usada em conjunto com HTML para definir a apresentação da página web), além de JavaScript 
+(programação de scripts), no lado cliente (navegadores).
+
+Para o desenvolvimento das camadas de lógica do negócio, as principais LP são: C#, PHP, ASP, .NET, Java, Ruby e Python.
+
+PROGRAMAÇÃO MOBILE
+Considerando que hoje em dia, grande parte da população, no Brasil e no Mundo, tem acesso à internet pelo celular, cresceu vertiginosamente a quantidade de apps (aplicativos) para uso de aplicações via celular. Os apps, na verdade, são interfaces que rodam no lado cliente.
+
+As principais (não todas) linguagens que apoiam o desenvolvimento de apps para o mundo mobile, oficialmente indicadas por seus fabricantes, são:
+
+Android: Java e Kotlin.
+iOS: Swift (oficial da Apple) e Objective-C (código nativo para iOS).
+Windows: C#, Visual Basic (VB), C++, HTML, CSS, JavaScript e Java.
+O desenvolvimento de APP para iOS é baseado numa IDE chamada Xcode que permite o desenvolvimento de APP em várias linguagens, como: C, C++, Java e Python, mas oficialmente orienta o Swift 
+e Objective-C.
+
+A Google, por sua vez, tem por base o Android SDK, orienta a usar as linguagens Kotlin, Java e C++, mas as linguagens Python, Shell script, Basic4Android, LiveCode (para iOS e Windows 
+também), App Inventor (não necessita conhecer programação) e Unity (motor para games) e GO, também são usadas para desenvolver app para Android.
+
+No contexto de desenvolvimento de APP para Windows, foi lançado no Windows 8.1 e atualizado para atender também ao Windows 10, o App Studio, que permite a qualquer pessoa criar em poucos 
+passos um app Windows e publicá-lo na loja.
+
+Importante destacar que hoje existem plataformas de desenvolvimento mobile conectadas a nuvem que fomentam o desenvolvimento de apps nativos para iOS, Android e Windows.
+
+						VALIAÇÃO DE LINGUAGENS DE PROGRAMAÇÃO
+Segundo Sebesta (2018) são quatro grandes critérios para avaliação das linguagens de programação, dentro de um mesmo domínio de programação. Cada critério é influenciado por algumas 
+características da linguagem.
+
+Legibilidade :Um dos critérios mais relevantes é a “facilidade com que os programas podem ser lidos e entendidos” pelas pessoas que não necessariamente participaram do desenvolvimento.
+
+Facilidade de escrita :O quão facilmente uma linguagem pode ser usada para desenvolver programas para o domínio do problema escolhido.
+
+Confiabilidade :Um programa é dito confiável se ele se comporta conforme a sua especificação, repetidas vezes.
+
+Custo :O custo final de uma linguagem de programação é em função de muitas de suas propriedades e características.
+
+						SIMPLICIDADE
+Quanto mais simples for uma linguagem, melhor será a legibilidade do código por ela produzido. Uma linguagem com número elevado de construções básicas é mais difícil de ser aprendida do 
+que uma que tenha poucas. Tende a ser subutilizada.
+
+Uma segunda característica que afeta negativamente a legibilidade é a multiplicidade de recursos. Por exemplo, em Python, o programador pode incrementar uma variável, de duas formas 
+distintas:
+
+cont= cont + 1;
+cont +=1.
+Nas linguagens C e Java, ainda podemos usar para incrementar variáveis as seguintes estruturas: ++cont e cont++.
+
+Muita simplicidade pode tornar menos legíveis os códigos escritos. Na linguagem Assembly, a maioria das sentenças são simples, porém não são altamente legíveis devido à ausência de 
+estruturas de controle.
+
+Uma terceira característica que afeta negativamente a legibilidade é a sobrecarga de operadores, como por exemplo o “+”, usado para somar inteiros, reais, concatenar cadeias de caracteres
+ (strings), somar vetores, dentre outras construções permitidas pela linguagem.
+
+						ORTOGONALIDADE
+A ortogonalidade de uma linguagem refere-se a um conjunto relativamente pequeno de construções primitivas que pode ser combinado em um número, também, pequeno de maneiras para construir as
+ estruturas de controle e de dados de uma linguagem de programação.
+
+Em outras palavras: possibilidade de combinar, entre si, sem restrições, as construções básicas da linguagem para construir estruturas de dados e de controle.
+
+Boa ortogonalidade: Permitir, por exemplo, que haja um vetor, cujos elementos sejam do tipo registro (estrutura heterogênea).
+Má ortogonalidade: Não permitir que um vetor seja passado como argumento para uma rotina (procedimento ou função). Ou que uma função não possa retornar um vetor.
+Uma linguagem ortogonal tende a ser mais fácil de aprender e tem menos exceções.
+
+A falta de ortogonalidade leva a muitas exceções às regras da linguagem e ao excesso, o contrário (menos exceções às regras). Menos exceções implicam um maior grau de regularidade no 
+projeto da linguagem, tornando-a mais fácil de ler, entender e aprender.
+
+						INSTRUÇÕES DE CONTROLE
+Instruções como Goto (desvio incondicional) limitam a legibilidade dos programas, pois essa instrução pode levar o controle do código a qualquer ponto do programa, limitando o entendimento
+ e, consequentemente, a legibilidade do código escrito na linguagem. As linguagens modernas não implementam desvio incondicional, assim sendo, o projeto de estruturas de controle é menos 
+relevante na legibilidade do que anos atrás, quando surgiram as primeiras linguagens de alto nível.
+
+						TIPOS E ESTRUTURAS DE DADOS
+A facilidade oferecida pela linguagem para definir tipos e estruturas de dados é outra propriedade que aumenta a legibilidade do código escrito. Por exemplo, uma linguagem que permita 
+definir registros e vetores, mas não permite que um vetor tenha registros como seus elementos, terá a legibilidade afetada.
+
+A linguagem C não possui o tipo de dado lógico ou booleano. Muitas vezes, usa-se variáveis inteiras, permitindo apenas que receba os valores 0 e 1 para conteúdo, simulando o tipo booleano.
+ Por exemplo, para localizar um elemento em uma das posições de um vetor, usa-se uma variável lógica se a linguagem permitir e, assim, teríamos a instrução “achou=false” em determinado 
+trecho de código. Em outra linguagem que não permita o tipo de dado lógico, a instrução poderia ser “achou=0”, em que achou seria uma variável inteira. Qual das duas sentenças é mais clara 
+a quem lê o código? A primeira, não é? “achou=false”.
+
+						SINTAXE
+A sintaxe tem efeito sobre a legibilidade. Um exemplo é a restrição do tamanho (quantidade de caracteres) para um identificador (tipo, variável, constante, rotina – procedimento e função),
+ impedindo que recebam nomes significativos sobre sua utilidade. Na linguagem Fortran, o nome do identificador pode ser até 6 caracteres.
+
+Outra propriedade de sintaxe que afeta a legibilidade é o uso de palavras reservadas da linguagem. Por exemplo, em Pascal, os blocos de instrução são iniciados e encerrados com BEGIN-END, 
+respectivamente. A linguagem C usa chaves para iniciar e encerrar blocos de instruções. Já a linguagem Python usa a endentação obrigatória para marcar blocos de comandos, aumentando a 
+legibilidade, naturalmente.
+
+						Facilidade de escrita (redigibilidade)
+A facilidade de escrita é a medida do quão fácil a linguagem permite criar programas para um domínio da aplicação.
+
+A maioria das características que afeta a legibilidade também afeta a facilidade de escrita, pois se a escrita do código não flui, haverá dificuldade para quem for ler o código.
+
+As características que influenciam na facilidade de escrita são:
+
+						SIMPLICIDADE E ORTOGONALIDADE
+Quanto mais simples e ortogonal for a linguagem, melhor sua facilidade para escrever programas. O ideal são linguagens com poucas construções primitivas.
+
+Imagina que uma linguagem de programação possui grande número de construções. Alguns programadores podem não usar todas, deixando de lado, eventualmente, as mais eficientes e elegantes.
+
+							EXPRESSIVIDADE
+Uma linguagem de programação com boa expressividade contribui para o aumento da facilidade de escrita dos códigos.
+
+*Assembly: Baixa expressividade.
+*Pascal e C, boa expressividade: Ricas estruturas de controle. Exemplo: o comando FOR mais adequado que WHILE e REPEAT para representar lações com número fixo de vezes. Da mesma forma que o
+C, em que o FOR é mais indicado que o WHILE e DO-WHILE. Na linguagem Python, ocorre o mesmo entre os comandos FOR e WHILE.
+*Na linguagem C, temos construções diversas para incremento de variável: i++ é mais simples e conveniente de usar do que i=i+1, sendo i, uma variável inteira.
+Uma linguagem expressiva possibilita escrever linhas de código de uma forma mais conveniente ao invés de deselegante.
+
+							SUPORTE PARA A ABSTRAÇÃO
+O grau de abstração em uma linguagem é uma propriedade fundamental para aumentar a facilidade de escrita. Abstração pode ser de:
+
+*Processos, como o conceito de subprograma.
+*Dados, como uma árvore ou lista simplesmente encadeada.
+
+							Confiabilidade
+Dizemos que um programa é confiável se ele se comportar conforme sua especificação, sob todas as condições, todas as vezes em que for executado.
+
+Abaixo, alguns recursos das linguagens que exercem efeito sobre a confiabilidade de programas.
+
+							VERIFICAÇÃO DE TIPOS
+Significa verificar, em tempo de compilação ou execução, se existem erros de tipo. Por exemplo, atribuir um valor booleano a uma variável do tipo inteira, vai resultar em erro. As 
+linguagens fortemente tipadas, em tempo de compilação, como Python e Java, tendem a ser mais confiáveis, pois apenas valores restritos aos tipos de dados declarados poderão ser atribuídos 
+e diminuem os erros em tempo de execução. Linguagens, como C, em que não é verificado se o tipo de dado do argumento é compatível com o parâmetro, em tempo de compilação, podem gerar erros
+ durante a execução, afetando a confiabilidade. A verificação de tipos em tempo de compilação é desejável, já em tempo de execução é dispendiosa (mais lenta e requer mais memória), e mais 
+flexível (menos tipada).
+
+							VERIFICAÇÃO DE TIPOS
+Significa verificar, em tempo de compilação ou execução, se existem erros de tipo. Por exemplo, atribuir um valor booleano a uma variável do tipo inteira, vai resultar em erro. As linguagens
+ fortemente tipadas, em tempo de compilação, como Python e Java, tendem a ser mais confiáveis, pois apenas valores restritos aos tipos de dados declarados poderão ser atribuídos e diminuem 
+os erros em tempo de execução. Linguagens, como C, em que não é verificado se o tipo de dado do argumento é compatível com o parâmetro, em tempo de compilação, podem gerar erros durante a 
+execução, afetando a confiabilidade. A verificação de tipos em tempo de compilação é desejável, já em tempo de execução é dispendiosa (mais lenta e requer mais memória), e mais flexível 
+(menos tipada).
+
+							ALIASING (APELIDOS)
+Aliasing é o fato de ter dois ou mais nomes, referenciando a mesma célula de memória, o que é um recurso perigoso e afeta a confiabilidade. Restringir Aliasing é prover confiabilidade aos 
+programas.
+
+							LEGIBILIDADE E FACILIDADE DE ESCRITA
+Ambos influenciam a confiabilidade. A legibilidade afeta tanto na fase de codificação como na fase de manutenção. Programas de difícil leitura são difíceis de serem escritos também.
+
+Uma linguagem com boa legibilidade e facilidade de escrita gera códigos claros, que tendem a aumentar a confiabilidade.
+
+Custo
+O custo de uma linguagem de programação varia em função das seguintes despesas: de treinamento, de escrita do programa, do compilador, de execução do programa, de implementação da linguagem e o de manutenção do código.
+
+Custo de								Características
+
+Treinamento				Custo de Treinamento para programadores varia em função da expertise do programador, simplicidade e ortogonalidade da linguagem;
+					F (simplicidade de escrita, ortogonalidade, experiência do programador).
+
+Escrever programa			Custo para escrever programas na linguagem varia em função da facilidade de escrita.
+					F(Facilidade de escrita).
+
+Compilar o programa			Esse custo varia em função do custo de aquisição do compilador, hoje minimizado, em linguagens open source, como é o caso do Python.
+					F (custo de aquisição do compilador).
+
+Executar o programa			Custo para executar programas, varia em função do projeto da linguagem.
+					F (Projeto da linguagem).
+
+Implementar a linguagem			A popularidade da LP vai depender de um econômico sistema de implementação. Por exemplo, Python e Java possuem compiladores e interpretadores gratuitos.
+
+Confiabilidade				O custo da má confiabilidade: se um sistema crítico falhar, o custo será elevado. Exemplos: sistema de controle de consumo de água e sistemas de usina nuclear.
+
+Manutenção				Custo de manutenção: depende de vários fatores, mas principalmente da legibilidade, já que a tendência é que a manutenção seja dada por pessoas que 
+					não participaram do desenvolvimento do software.
+
