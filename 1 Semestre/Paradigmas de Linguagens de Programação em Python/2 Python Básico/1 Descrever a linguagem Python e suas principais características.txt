@@ -1,0 +1,61 @@
+Python é uma linguagem de programação de alto nível, que permite ao programador utilizar instruções de forma intuitiva, tornando seu aprendizado mais simples do que o aprendizado de uma 
+linguagem de baixo nível.
+
+Nas linguagens de baixo nível, o programador precisa se expressar de forma muito mais próxima do que o dispositivo “entende”, levando naturalmente a um distanciamento da linguagem utilizada
+para comunicação entre duas pessoas.
+
+A linguagem Python foi lançada pelo holandês Guido van Rossum no início dos anos 1990 e desde então tem aumentado sua participação no mundo da programação. Permite uma programação fácil e 
+clara para escalas pequenas e grandes, além de enfatizar a legibilidade eficiente do código, notadamente usando espaços em branco significativos.
+
+
+É multiparadigma
+Apesar de suportar perfeitamente o paradigma de programação estruturada, Python também suporta programação orientada a objetos, tem características do paradigma funcional, com o amplo uso 
+de bibliotecas, assim como permite recursividade e uso de funções anônimas.
+
+É interativa
+Permite que os usuários interajam com o interpretador Python diretamente para escrever os programas, utilizando o prompt interativo. Esse prompt fornece mensagens detalhadas para qualquer 
+tipo de erro ou para qualquer comando específico em execução, suporta testes interativos e depuração de trechos de código.
+
+É híbrida quanto ao método de implementação
+Python usa uma abordagem mista para explorar as vantagens do interpretador e do compilador. Assim como Java, utiliza o conceito de máquina virtual, permitindo a geração de um código 
+intermediário, mais fácil de ser interpretado, mas que não é vinculado definitivamente a nenhum sistema operacional.
+
+É portável
+Tem a capacidade de rodar em uma grande variedade de plataformas de hardware com a mesma interface. Ele roda perfeitamente em quase todos os sistemas operacionais, como Windows, Linux, 
+UNIX, e Mac OS, sem nenhuma alteração.
+
+É extensível
+Permite que os programadores adicionem ou criem módulos e pacotes de baixo nível / alto nível ao interpretador Python. Esses módulos e pacotes de ferramentas permitem que os desenvolvedores
+tenham possibilidades amplas de colaboração, contribuindo para a popularidade da linguagem.
+
+Suporta bancos de dados
+Por ser uma linguagem de programação de uso geral, Python suporta os principais sistemas de bancos de dados. Permite escrever código com integração com MySQL, PostgreSQL, SQLite, ElephantSQL,
+MongoDB, entre outros.
+
+Suporta interface com usuário
+Permite escrever código de tal maneira que uma interface do usuário para um aplicativo possa ser facilmente criada, importando bibliotecas como Tkinter, Flexx, CEF Python, Dabo, Pyforms ou
+PyGUI wxPython.
+
+Pode ser usado como linguagem de script
+Permite fácil acesso a outros programas, podendo ser compilado para bytecode a fim de criar aplicativos grandes.
+
+Permite desenvolvimento de aplicações Web
+Devido à escalabilidade já citada, Python oferece uma variedade de opções para o desenvolvimento de aplicativos Web. A biblioteca padrão do Python incorpora muitos protocolos para o 
+desenvolvimento da web, como HTML, XML, JSON, processamento de e-mail, além de fornecer base para FTP, IMAP e outros protocolos da Internet.
+
+Permite criação de aplicações comerciais
+É desenvolvido sob uma licença de código aberto aprovada pela OSI, tornando-o livremente utilizável e distribuível, mesmo para uso comercial.
+
+
+							BLOCOS
+Em Python, os blocos são definidos pela indentação. Diferente de C e Java, que usam as chaves { e } para delimitar os blocos, em Python todos os blocos são iniciados com o símbolo : 
+(dois pontos) na linha superior e representados pelo acréscimo de 4 (quatro) espaços à esquerda.
+
+COMENTÁRIOS
+Em Python, os comentários podem ser de uma linha ou de várias linhas. A tabela 1 mostra as formas de limitar um comentário, além de comparar essas formas em Python e C.
+
+						Python							C
+Comentários de uma linha	Iniciados com #							Iniciados com //
+Comentários com várias linhas	Limitados por “”” (três aspas duplas) no início e no fim	Iniciados com /* e encerrados com */
+
+

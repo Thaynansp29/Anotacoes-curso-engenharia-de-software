@@ -1,0 +1,114 @@
+							CONCEITOS
+As variáveis são abstrações para endereços de memória que permitem que os programas fiquem mais fáceis de codificar, entender e depurar. Podemos entender que ao nomear uma variável com o
+identificador x, determinado espaço em memória passará a ter esse apelido. Em outras palavras, será possível acessar esse espaço de memória sabendo o seu apelido e, consequentemente, 
+recuperar o valor guardado nele, que no nosso exemplo é 10.
+
+Se, posteriormente, você utilizar novamente o prompt interativo >>> para digitar x = 20 e pressionar a tecla [ENTER], você alterará o valor da variável x. Ou seja, você estará mudando o 
+valor armazenado naquele espaço de memória, mas sem alterar seu apelido.
+
+Diferentemente de outras linguagens, como C ou Java, não é necessário declarar uma variável antes de utilizá-la em Python. Basta atribuir um valor inicial à variável e utilizá-la dali em 
+diante. Embora não seja necessário declarar uma variável para utilizá-la, não é possível utilizar uma variável que não tenha recebido alguma atribuição de valor.
+
+							IDENTIFICADORES DE VARIÁVEIS
+Os identificadores das variáveis podem ser compostos por letras, o underline (_) e, com exceção do primeiro caractere, números de 0 a 9. Veja os exemplos:
+
+minhaVariavel, _variavel, salario1 e salario1_2 são válidos.
+
+1variavel e salario-1 não são válidos.
+
+minhaVariavel e minhavariavel são identificadores de duas variáveis distintas.
+
+Mesmo que seja um identificador permitido, nem sempre um identificador é bom para uma variável. Tente utilizar nomes que ajudem a entender o significado da variável para ganhar tempo quando
+for entender o código posteriormente.
+
+Algumas palavras são consideradas reservadas e não podem ser usadas como identificadores de variáveis em Python. São elas: and, as, assert, break, class, continue, def, del, elif, else, 
+except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while, with e yield.
+
+
+							AMARRAÇÕES
+Chamamos de amarração (binding) a associação entre entidades de programação. Veja alguns exemplos:
+
+Variável amarrada a um valor
+
+Operador amarrado a um símbolo
+
+Identificador amarrado a um tipo
+
+O tempo em que a amarração ocorre é chamado de tempo de amarração. Cada linguagem pode ter os seguintes tempos de amarração:
+
+							TEMPO DE PROJETO DA LINGUAGEM
+Os símbolos são amarrados ao operador, como * (multiplicação), ou à definição das palavras reservadas.
+
+							TEMPO DE IMPLEMENTAÇÃO
+Ocorre em geral nos compiladores, como a definição de faixa de valores para determinado tipo.
+
+							TEMPO DE COMPILAÇÃO
+Associação da variável ao seu tipo. Lembre-se de que Python associa a variável ao tipo, como foi explicado na seção anterior.
+
+							TEMPO DE LIGAÇÃO
+A ligação de vários módulos compilados previamente, como a chamada a uma função de um módulo importado. Em C, utilizamos a diretiva #include para termos permissão de utilizar as funções de
+determinada biblioteca. Em Python, utilizamos o import para isto.
+
+							TEMPO DE CARGA
+Quando o programa é carregado. Por exemplo: endereços de memória relativos são substituídos por endereços absolutos.
+
+							TEMPO DE EXECUÇÃO
+Associação de valores a variáveis que dependam de entradas do usuário, por exemplo. A variável é vinculada ao valor apenas durante a execução do programa.
+
+							Amarração de tipo
+As amarrações de tipo vinculam a variável ao tipo do dado. Elas podem ser:
+
+Estáticas
+Ocorrem antes da execução e permanecem inalteradas. Em C, declaramos int a.
+
+Dinâmicas
+Ocorrem durante a execução e podem ser alteradas. É o caso do Python.
+
+							ESCOPO DE VISIBILIDADE
+O escopo define em quais partes do programa uma variável é visível. Cada nome de variável em Python tem seu escopo e fora desse escopo o nome não existe, gerando um erro quando se tenta 
+referenciar esse nome. Quanto ao escopo, chamamos as variáveis de globais ou locais.
+
+							Variáveis globais
+Todos os nomes atribuídos no prompt interativo ou em um módulo fora de qualquer função são considerados como de escopo global. Por exemplo, ao executar a instrução da figura 9, a variável 
+x é uma variável global.
+
+							Variáveis locais
+Para exemplificar o uso de variáveis com escopo local, vamos utilizar uma função definida pelo desenvolvedor. Não se preocupe com esse tipo de função por enquanto, você aprenderá mais 
+detalhes posteriormente.
+
+Para tornar uma variavel local dentro de uma função em global, só precisamos usar a palavra reservada global, por exemplo:
+
+def multiplicador(numero):
+	global a (usando o atributo global na variavel)
+	a = 2
+	print
+	return a * numero
+
+Tipos de escopo
+Os tipos de escopo são:
+
+						ESTÁTICO
+O escopo é baseado na descrição textual do programa e as amarrações são feitas em tempo de compilação. É o caso de C, C++ e Java, por exemplo.
+
+						DINÂMICO
+O escopo é baseado na sequência de chamada dos módulos (ou funções). Por isso, as amarrações são feitas em tempo de execução. É o caso do Python.
+
+O fato de Python ser de escopo dinâmico traz alguns problemas, como a perda de eficiência – uma vez que os tipos precisam ser verificados em tempo de execução – e a redução na legibilidade
+ porque é difícil determinar a sequência exata de todas as chamadas de função.
+
+						TEMPO DE VIDA
+Embora escopo e tempo de vida tenham uma relação próxima, eles são conceitos diferentes. Observe:
+
+Escopo é um conceito textual X Tempo de vida é um conceito temporal
+
+As variáveis globais têm o tempo de vida que é o de execução do programa, ao passo que as variáveis locais somente existem no intervalo de duração da função ou do bloco a que se limitam.
+
+						CONSTANTES
+Em Python, não existe o conceito de constante. Se você precisar de uma constante ao longo de sua jornada como programador, atribua o valor a uma variável e tome cuidado para não mudar esse
+valor.
+
+Dica
+Uma dica é iniciar o nome dessa variável com c_ ou utilizar todas as letras maiúsculas, o que vai diferenciar essa variável das outras. Por exemplo, é possível utilizar a expressão 
+c_PI = 3.141592 para armazenar o valor de PI e agilizar o cálculo de área e perímetro de um círculo, ou utilizar a expressão PRECISION = 0.001 para armazenar a precisão a ser utilizada em 
+qualquer cálculo matemático no seu programa.
+
