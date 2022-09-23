@@ -1,0 +1,121 @@
+Sentenças de atribuição
+Atribuição simples
+Chamamos de atribuição simples a forma que já utilizamos neste tema, com uma expressão parecida com x = 10. Nessa atribuição, a variável x recebe o valor 10.
+
+Atribuição múltipla
+Python também permite a atribuição múltipla, ou seja, mais de uma variável receber atribuição na mesma linha. Veja o exemplo:
+
+x, y = 2, 5
+x 2 
+y 5
+
+Operadores de atribuição compostos
+Os operadores de atribuição compostos executam operações matemáticas e atualizam o valor da variável utilizada. Por exemplo:
+
+x = 10
+x = x+1
+x
+11
+
+A variável x inicialmente recebeu o valor 10. Em seguida, a instrução x = x + 1, que causa estranheza quando lembramos da matemática aprendida ao longo da vida, é muito comum quando estamos
+ programando. Essa instrução significa “acrescente uma unidade ao valor de x e guarde este resultado na própria variável x”. Como x valia 10, o resultado do lado direito do operador (=) 
+é 11. Esse resultado é, então, armazenado na própria variável x.
+
+Essa operação de acrescentar determinado valor a uma variável e armazenar o resultado na própria variável poderia ser feita com o operador += (mais igual).
+
+x= 10
+
+x += 1
+x
+11
+
+Nome				Símbolo usado				Exemplo
+								Instrução	Resultado
+Mais igual				+=			x += 2		x passa a valer 12
+Menos igual				-=			x -= 2		x passa a valer 8
+Vezes igual				*=			x *= 2		x passa a valer 20
+Dividido igual				/=			x /= 2		x passa a valer 5
+Módulo igual				%=			x %= 3		x passa a valer 1
+
+Atenção
+Diferente de C, em Python não é possível incrementar ou decrementar uma variável com um operador unário, como o ++ ou --.
+
+Troca de variáveis
+Um dos problemas iniciais que envolvem atribuição de valores a variáveis é a troca entre duas delas. Suponha que as variáveis a e b armazenem, respectivamente, os valores 1 e 2. Caso 
+quiséssemos inverter os valores em linguagens como C ou Java, seria necessário usar uma variável auxiliar
+
+Em Python, é possível fazer essa troca de uma maneira muito mais fácil. Veja o uso da atribuição múltipla, nesse caso, na figura a seguir:
+
+a, b = b, a
+
+O PRIMEIRO PROGRAMA EM PYTHON
+Para escrever um programa em Python, será essencial utilizar as formas de saída de dados para exibir ao usuário mensagens e resultados de operações. Caso você deseje que o usuário informe 
+algum dado para que seu programa processe, será necessário utilizar as formas de entrada de dados.
+
+Saída de dados com a função print()
+A função print() em Python atua de forma semelhante à printf() em C. Para um programador iniciante, as maiores diferenças entre elas são:
+
+Duas chamadas da print() em Python são impressas na tela em linhas diferentes, sem a necessidade do uso do caractere ‘\n’ para pular a linha, como ocorre na printf() em C.
+
+Uma chamada da print() em Python permite a impressão de valores de variáveis sem a indicação do formato, como ocorre na printf() em C, quando precisamos escrever %c, %d ou %f, por exemplo.
+
+Veja que foi impresso no console exatamente o que colocamos entre aspas, ao chamar a função print(). Essa é a primeira forma de saída de dados: usar a função print() com uma string sendo 
+passada como parâmetro (entre os parênteses). É importante perceber que a função print(), além de imprimir a string, também salta o cursor para a próxima linha.
+
+ENTRADA DE DADOS COM A FUNÇÃO INPUT()
+Quando o programador quiser que o usuário entre com algum valor, ele deverá exibir na tela o seu pedido. Em C, é necessário utilizar a função printf() para escrever a solicitação ao usuário
+e a função scanf() para receber a entrada e armazenar em uma variável. Em Python, é possível utilizar a função input(). Ela tanto exibe na tela o pedido, como permite que o valor informado
+pelo usuário seja armazenado em uma variável do seu programa.
+
+nome = input('Entre com seu nome: ')
+print(nome)
+
+
+Atenção
+É importantíssimo perceber que a função input() trata tudo o que for digitado pelo usuário como uma string, armazenando na variável designada pelo programador para isso. Mesmo que o usuário
+entre com apenas uma letra ou um número, isso será armazenado como uma string na variável.
+
+A função eval()
+A função eval() recebe uma string, mas trata como um valor numérico.
+
+s= '1 + 2'
+type(s)
+<class 'str'>
+eval(s)
+3
+
+Mesmo tendo recebido a string ‘1+2’ como parâmetro, a função eval() efetuou a soma de 1 com 2. Observe que confirmamos que s é uma string com a instrução type(s).
+
+Para tratar a entrada do usuário como um número e, com isso, realizar operações algébricas, por exemplo, é necessário utilizar a função eval() em conjunto com a input(). Veja o próximo 
+exemplo:
+numero = eval(input('Entre com um inteiro: '))
+numero = numero + 2
+print(numero)
+
+SAÍDA FORMATADA DE DADOS
+Quando desejamos que a saída siga determinado padrão – por exemplo, de hora ou de data – existem algumas possibilidades para usar a função print(). É sempre possível utilizar a concatenação
+de strings, com o operador +, para montar a frase como quisermos. Suponha que tenhamos as seguintes variáveis:
+hora = 10 minutos = 26 segundos = 18
+
+Porém, existe outra possibilidade, usando o método format(). Ele permite que a chamada à função print() fique muito parecida com as chamadas à função printf() em C, com passagem de 
+parâmetros a serem colocados em ordem na string. Com o método format(), podemos montar a string com as chaves {} indicando onde entrarão valores, passados como parâmetros separados por 
+vírgulas.
+
+print('{} : {} : {}' .format(hora, minutos, segundos))
+10 : 26 : 18
+
+É importante observar que a quantidade de chaves precisa ser igual à quantidade de variáveis passadas como parâmetros no método format(). Seria muito bom se não precisássemos nos preocupar
+ com essa correspondência para evitar erros bobos. E isso é possível! Para tornar a saída formatada ainda mais intuitiva, basta utilizar a letra ‘f’ no início dos parâmetros da função 
+print() e colocar cada variável dentro das chaves na posição em que deve ser impressa. Veja como fica ainda mais fácil entender:
+
+print(f'{hora} : {minutos} : {segundos}')
+10 : 26 : 18
+
+Impressão de sequências
+Python também permite a impressão de sequências com mais possibilidades que C, incluindo as strings. Para imprimir um vetor em C, por exemplo, precisamos chamar a printf() item a item. Em 
+Python, basta chamar a função print() passando como parâmetro a sequência.
+
+seq = [0, 1, 2]
+print(seq)
+[0, 1, 2]
+

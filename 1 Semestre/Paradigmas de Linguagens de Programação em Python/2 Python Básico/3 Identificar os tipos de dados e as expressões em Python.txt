@@ -1,0 +1,266 @@
+						TIPOS NUMÉRICOS
+Existem três tipos numéricos distintos em Python: inteiros, números de ponto flutuante e números complexos. Além disso, os booleanos são um subtipo dos inteiros.
+
+O tipo int
+É o tipo usado para manipular números inteiros. Fazendo uma analogia com a Matemática, o tipo int é usado para elementos do conjunto dos inteiros (Z).
+
+O tipo float
+É o tipo usado para manipular números com parte inteira e parte decimal, chamados de números de ponto flutuante. Fazendo uma analogia com a Matemática, o tipo float é usado para elementos 
+o conjunto dos reais (R).
+
+Atenção
+Vale ressaltar que devemos usar o ponto para separar a parte inteira da parte decimal, e não a vírgula.
+
+Ao usar a vírgula como separador em Python, o que ocorre, na verdade, é a criação de uma tupla de dois elementos, e não o tipo float. Você verá mais detalhes sobre tuplas em um momento 
+posterior.
+
+Embora os tipos int e float sejam semelhantes, por tratarem de números, eles têm propriedades um pouco diferentes. Em expressões algébricas, sempre que somamos, subtraímos ou multiplicamos
+apenas elementos do tipo int, o resultado é int. Porém, basta um operando do tipo float para que o resultado seja float.
+
+Vamos analisar a exponenciação. Para realizar essa operação matemática, utilizamos o operador (**).
+
+Para obter o quociente inteiro e o resto, quando dois inteiros são divididos, é necessário utilizar os operadores // e %, respectivamente. Ao dividir 21 por 2, temos quociente 10 e resto 1
+
+21 //1 = 10
+21 % 2 = 1
+
+O tipo complex
+É o tipo utilizado para manipular números complexos, na forma x + yj, sendo x a parte real e y a parte imaginária do complexo.
+
+A chamada r.conjugate() retorna o conjugado do número complexo r, em que a parte real é mantida e a parte imaginária tem o seu sinal trocado.
+
+O tipo bool
+Uma expressão algébrica, como vimos nos exemplos dos tipos int e float, é avaliada como um número, seja desses tipos ou de outro tipo numérico admitido em Python. Porém, utilizar expressões
+não algébricas também é bastante comum. E uma boa notícia é que Python pode avaliar expressões desse tipo também. Essa é uma diferença entre Python e outras linguagens, como C, por exemplo,
+em que não existe o tipo bool.
+
+No prompt interativo >>>, digite a expressão 2 < 3 e pressione [ENTER]. TRUE
+Repare que o resultado dessa expressão não é um número, mas sim a palavra True. Caso você colocasse a expressão 2 > 3, o resultado seria False.
+
+As expressões que você viu nos dois exemplos são chamadas de expressões booleanas. Trata-se de expressões que podem ser avaliadas com um dos dois valores booleanos: True ou False. Assim, 
+em Python, existe o tipo bool, utilizado para permitir o tratamento de expressões como essas.
+
+Agora, vamos ver o operador not, que é um operador unário, ou seja, só precisa de um operando. Esse operador inverte o valor booleano, ou seja, se o valor original for True, not(valor) terá
+o valor False. E vice-versa.
+
+É possível também escrever expressões booleanas compostas, utilizando conectivos como E OU. Vamos ver mais detalhes sobre essas expressões ainda neste módulo.
+
+Operadores matemáticos
+Os operadores matemáticos são muito semelhantes àqueles que vimos ao longo de nossa jornada como estudantes, aprendendo Álgebra e Aritmética na escola. Existem algumas pequenas diferenças, como a divisão (que pode ser a usual ou a divisão inteira). Mas é possível identificar operações que fizemos ao longo de toda nossa vida. A tabela 2 lista os operadores de expressão aritmética disponíveis em Python.
+
+Operação matemática			Símbolo usado			Exemplo
+								Equação		Resultado
+Soma						+		2.5 + 1.3	3.8
+Subtração					-		2.5 - 1.3	1.2
+Multiplicação					*		2.5 * 1.3	3.25
+Divisão						/		2.5/1.3		1.923076923076923
+Divisão inteira					//		9/2		4
+Resto na divisão inteira			%		9%2		1
+Valor absoluto					abs(parâmetro)	abs(-2.5)	2.5	
+Exponenciação					**		2**4		16
+
+
+Além das operações algébricas, é possível realizar operações de comparação. Os operadores de comparação têm como resultado um valor booleano (True ou False):
+
+Símbolo usado	Descrição
+<		Menor que
+<=		Menor ou igual a
+>		Maior que
+>=		Maior ou igual a
+==		Igual
+!=		Não igual
+
+Assim como é possível escrever expressões algébricas complexas concatenando diversas expressões menores, podemos escrever expressões booleanas grandes, com os operadores and, or e not. 
+Observe o comportamento dos operadores booleanos nas tabelas 4, 5 e 6.
+
+
+p	not (p)
+True	False
+False	True
+
+Tabela 4 - Operador not (Precisa ter dois true para ser true)
+p	q	p and q
+True	True	True
+True	False	False
+False	True	False
+False	False	False
+
+Tabela 5 - Operador and (Precisa ter dois false para ser false)
+p	q	p or q
+True	True	True
+True	False	True
+False	True	True
+False	False	False
+
+TIPOS SEQUENCIAIS
+Existem três tipos sequenciais básicos em Python: listas, tuplas e objetos range. Além dos tipos básicos citados, existe um tipo especial criado para tratamento de dados textuais: o tipo 
+str (string).
+
+Assim como em C ou Java, a indexação dos itens é iniciada com 0 e cada item tem o seu índice incrementado uma unidade em relação ao item anterior. Porém, Python também permite a indexação 
+com valores negativos. O valor -1 é o índice do último item, e cada item anterior é decrementado de uma unidade em relação ao sucessor. Observe a tabela 7:
+
+índice		0	1	2	3	4
+s		t	e	s	t	e
+índice negativo	-5	-4	-3	-2	-1
+
+Strings
+Em uma variável do tipo str, é possível armazenar letras, números, espaços, pontuação e diversos símbolos. Diferentemente da linguagem C, não existe o tipo char. Cada caractere em Python é
+uma string. Para delimitar uma string, podemos utilizar:
+
+Aspas simples
+‘uma string'
+
+Aspas duplas
+“uma string”
+
+Aspas simples triplas
+‘’’uma string’’’
+
+Aspas duplas triplas
+“””uma string”””
+
+Existem alguns métodos interessantes para tratar strings em Python. Entre eles, ressaltamos:
+
+upper
+Transforma todas as letras em maiúsculas.
+
+lower
+Transforma todas as letras em minúsculas.
+
+split
+Quebra a string em substrings.
+
+exemplo:
+curso = 'Ensino a Distancia'
+curso.upper()
+ENSINO A DISTANCIA
+curso.lower()
+ensino a distancia
+curso.split()
+['Ensino' ,'a', 'Distancia']
+
+Listas
+Listas são sequências mutáveis, normalmente usadas para armazenar coleções de itens homogêneos. Uma lista pode ser criada de algumas maneiras, tais como:
+
+[]
+Usando um par de colchetes para denotar uma lista vazia.
+
+[a], [a, b, c]
+Usando colchetes, separando os itens por vírgulas.
+
+[x for x in iterable]
+Usando a compreensão de lista.
+
+list() ou list(iterable)
+Usando o construtor do tipo list.
+
+iterable pode ser uma sequência, um container que suporte iteração ou um objeto iterador(Um iterador é um objeto que contém um número contável de valores. Ele pode ser iterado, o que 
+significa que podemos percorrer todos os valores.). Por exemplo, list('abc') retorna ['a', 'b', 'c'] e list( (1, 2, 3) ) retorna [1, 2, 3]. Se nenhum argumento for passado, o construtor 
+cria uma lista vazia: [ ].
+
+Tuplas
+Tuplas são sequências imutáveis, tipicamente usadas para armazenar coleções de itens heterogêneos. Elas são aplicadas também quando é necessário utilizar uma sequência imutável de dados homogêneos. Uma tupla pode ser criada de algumas maneiras, tais como:
+
+()
+Usando um par de parênteses para denotar uma tupla vazia.
+
+a, b, c ou (a, b, c)
+Separando os itens por vírgulas.
+
+tuple() ou tuple(iterable)
+Usando o construtor do tipo tuple.
+
+Novamente, iterable pode ser uma sequência, um container que suporte iteração ou um objeto iterador. Por exemplo, tuple('abc') retorna ('a', 'b', 'c') e tuple( [1, 2, 3] ) retorna (1, 2, 3).
+Se nenhum argumento for passado, o construtor cria uma tupla vazia: ().
+
+Note que o uso das vírgulas é o que gera a tupla, e não o uso de parênteses. Os parênteses são opcionais, exceto no caso em que queremos gerar uma tupla vazia.
+
+Ele pode ser chamado de maneira simples, apenas com um argumento. Nesse caso, a sequência começará em 0 e será incrementada de uma unidade até o limite do parâmetro passado (exclusive). 
+Por exemplo, range(3) cria a sequência (0, 1, 2).
+
+Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada 
+termo em uma unidade. Ou seja, a chamada range(2, 7) cria a sequência (2, 3, 4, 5, 6).
+
+Também é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo. 
+Por exemplo, range(2, 9, 3) cria a sequência (2, 5, 8).
+
+Operadores sequenciais comuns
+Os operadores sequenciais permitem a manipulação dos tipos sequenciais, inclusive as strings. Vale ressaltar a sobrecarga dos operadores + e *, que realizam operações diferentes quando os 
+operandos são numéricos ou sequenciais.
+
+Exemplo
+O operador == verifica se as strings dos dois lados são iguais. Porém, os operadores < e > comparam as strings usando a ordem do dicionário.
+
+A tabela a seguir traz um pequeno conjunto dos operadores disponíveis em Python para manipulação de sequências. Lembre-se de que você pode utilizar o utilitário help no Python Console para
+verificar a lista completa. Para isso, basta digitar help(str) e pressionar [ENTER] no teclado.
+
+
+Uso				Resultado
+x in s	True 		se x for um subconjunto de s
+x not in s		False se x for um subconjunto de s
+s + t			Concatenação de s e t
+n*s			Concatenação de n cópias de s
+s[i]			Caractere de índice i em s
+len(s)			Comprimento de s
+min(s)			Menor item de s
+max(s)			Maior item de s
+
+DICIONÁRIOS
+Os dicionários permitem que itens de uma sequência recebam índices definidos pelo usuário. Um dicionário contém pares de (chave, valor). O formato geral de um objeto dicionário é:
+
+  
+{<chave 1>:<valor 1>, <chave 2>:<valor 2>, ..., <chave i>:<valor i>}
+
+é parecido com array do js podemos armazenar informações dentro por exemplo:
+
+Poderíamos criar um dicionário em que cada pessoa fosse representada pelo seu CPF, com nome e sobrenome. Para isso, teríamos:
+
+pessoas = {'12345678-99':['João','Silva'], '23456789-00':['Maria','Santos']}
+
+pessoas['12345678-99']
+['João','Silva'] (resultado)
+
+
+PRECEDÊNCIA DE OPERADORES
+
+Sempre que o programador quiser forçar a ocorrência de uma operação antes de outras, ele pode utilizar os parênteses para aumentar a prioridade sobre ela. A tabela a seguir traz as relações
+ de precedência entre os operadores, com as linhas mais altas tendo prioridade sobre as linhas mais baixas. Ou seja, elas ocorrem primeiro. Dentro da mesma linha, a precedência é da 
+esquerda para a direita.
+
+Operador					Descrição
+[expressões ...]				Definição de lista
+x[ ], x[índice : índice]			Operador de indexação
+**						Exponenciação
++x, -x						Sinal de positivo e negativo
+*, /, //, %					Produto, divisão, divisão inteira, resto
++, -						Soma, subtração
+in, not in, <, <=, >, >=, <>, !=, ==		Comparações, inclusive a ocorrência em listas
+not x						Booleano NOT (não)
+and						Booleano AND (e)
+or						Booleano OR (ou)
+
+CONVERSÕES DE TIPOS
+Quando temos tipos diferentes envolvidos na mesma expressão, o Python converte implicitamente cada operando para o tipo mais abrangente envolvido na expressão. Estamos usando a palavra 
+abrangente, mas poderíamos falar que existem tipos que englobam (ou contêm) outros.
+
+Exemplo
+Um número do tipo int pode ser visto como um float com a parte decimal nula. Porém, o inverso não é verdade. Ou seja, o conjunto dos inteiros (int) é um subconjunto do conjunto dos reais 
+(float). Assim, a expressão 5 + 0.68 – que envolve um int e um float – tem como resultado 5.68. O inteiro 5 é convertido pelo Python para o número de ponto flutuante 5.0 antes que a soma 
+(de dois valores float) seja realmente efetuada.
+
+Uma conversão implícita não intuitiva é a dos valores booleanos True e False em inteiros, respectivamente, 1 e 0. Veja os exemplos a seguir:
+
+true + 3 (true tem valor 1)
+4
+false + 1 (false tem valor 0)
+1
+
+Além das conversões implícitas, o programador também pode usar as conversões explícitas, quando ele força que o valor seja tratado como de determinado tipo. Para isso, é necessário usar o 
+construtor do tipo desejado, com o valor passado como parâmetro (entre parênteses). Veja o exemplo a seguir:
+
+float(2)
+2.0
+int(5.1)
+5
+
+
