@@ -1,0 +1,218 @@
+AS ESTRUTURAS DE DECISÃO IF, IF-ELSE E ELIF
+Em Python, é possível utilizar as estruturas de decisão if e if-else da mesma forma que em C. A diferença principal é o modo de delimitar os blocos de instruções relativos a cada parte da 
+estrutura. Observe a Tabela 2 e a Tabela 3:
+
+Estruturas de decisão simples
+Python								C
+if <condição>:						if <condição>{
+Instruções com 4 espaços de indentação			A indentação não é exigida
+Instrução fora do if					}
+
+Estruturas de decisão compostas
+
+Python												C
+if <condição>:										if <condição>{
+Instruções com 4 espaços de indentação (caso a condição seja verdadeira)		Bloco 1 (caso a condição seja verdadeira). A indentação não é exigida
+else:											} else {
+Instruções com 4 espaços de indentação (caso a condição seja falsa)			Bloco 2 (caso a condição seja falsa). A indentação não é exigida
+Instrução fora do if									}
+
+Python também oferece a estrutura elif, que permite o teste de duas condições de forma sequencial. Essa estrutura não existe em C, sendo necessário o encadeamento de estruturas if-else. 
+Em geral, o formato da estrutura elif é:
+
+1     if <condição 1>:
+2     Bloco de código que será executado caso condição seja True
+3     elif <condição 2>:
+4     Bloco de código que será executado caso condição 1 seja False e condição 2 seja True
+5     else:
+6     Bloco de código que será executado caso condição 1 seja False e condição 2 seja False
+7     Instrução fora do if
+
+EXEMPLO:
+  1 idade = eval(input('Informe a idade da criança: '))
+  2 if idade < 5:
+  3 print('A criança deve ser vacinada contra a gripe.')
+  4 print('Procure o posto de saúde mais próximo.')
+  5 elif idade == 5:
+  6 print('A vacina estará disponível em breve.')
+  7 print('Aguarde as próximas informações.')
+  8 else:
+  9 print('A vacinação só ocorrerá daqui a 3 meses.')
+10  print('Informe-se novamente neste prazo.')
+11 print('Cuide da saúde sempre. Até a próxima.')
+
+ESTRUTURA DE REPETIÇÃO FOR
+A estrutura de repetição for tem funcionamento muito semelhante nas linguagens C e Python. Porém, a sintaxe é diferente nas duas linguagens. Além disso, em Python existe maior flexibilidade,
+já que a repetição pode ser controlada por uma variável não numérica.
+
+Antes de detalhar o for, vamos conhecer uma função de Python que gera uma lista de valores numéricos. Essa lista ajudará a verificar a repetição e deixará mais claro o entendimento do laço.
+
+As listas do tipo range()
+Ao chamar o método range(), Python cria uma sequência de números inteiros, de maneira simples à mais complexa. Veja a seguir:
+
+Simples
+Ela pode ser chamada de maneira simples, apenas com um argumento. Nesse caso, a sequência começará em 0 e será incrementada de uma unidade até o limite do parâmetro passado (exclusive).
+
+Por exemplo: range(3) cria a sequência (0, 1, 2).
+
+Não iniciadas em 0
+Para que a sequência não comece em 0, podemos informar o início e o fim como parâmetros, lembrando que o parâmetro fim não entra na lista (exclusive o fim). O padrão é incrementar cada 
+termo em uma unidade. Ou seja, a chamada range(2, 7) cria a sequência (2, 3, 4, 5, 6).
+
+Indicando início, fim e passo
+Também é possível criar sequências mais complexas, indicando os parâmetros de início, fim e passo, nessa ordem. O passo é o valor que será incrementado de um termo para o próximo.
+
+Por exemplo, range(2, 9, 3) cria a sequência (2, 5, 8).
+
+A sintaxe da estrutura for
+A estrutura for tem a seguinte sintaxe em Python:
+
+  
+1 for <variável> in <sequência>:
+2 Bloco que será repetido para todos os itens da sequência
+3 Instrução fora do for
+
+A estrutura for
+
+Python									C
+for <variável> in <sequência>:			for (inicialização; condição; incremento ou decremento){
+    Instruções com 4 espaços de indentação	Bloco de instruções a ser repetido. A indentação não é exigida
+Instrução fora do for				}
+
+Vamos analisar um exemplo simples em Python: imprimir todos os elementos de uma sequência criada com a chamada range(). Veja uma possível implementação desse exemplo na Figura 2:
+
+  
+1 for item in range(2, 9, 3):
+2 print(item)
+
+
+A linha 1 mostra a criação do laço, com a variável item percorrendo a sequência (2, 5, 8), criada pela chamada range(2, 9, 3);
+A linha 2 indica a instrução que será executada para cada repetição deste laço. O laço for executa a instrução da linha 2 três vezes, uma para cada elemento da sequência (2, 5, 8); o.
+
+
+O laço for com uma string
+Python também permite que a repetição aconteça ao longo de uma string. Para isso, basta lembrar que a string é uma sequência de caracteres individuais. Suponha que você queira soletrar o 
+nome informado pelo usuário. Uma possível implementação está na Figura 3:
+
+  Uso do for com uma string
+1 nome = input("Entre com seu nome: ")
+2 for letra in nome:
+3 print(letra)
+
+A linha 1 faz com que a palavra inserida pelo usuário seja armazenada na variável nome;
+A linha 2 mostra a criação do laço, com a variável letra percorrendo a sequência de caracteres armazenada na variável nome;
+A linha 3 indica a instrução que será executada para cada repetição desse laço. O laço for executa a instrução da linha 3 tantas vezes quantos forem os elementos da sequência que está na 
+variável nome.
+
+Podemos utilizar o laço for com iterações sobre qualquer sequência, não somente as numéricas e as strings.
+
+ESTRUTURA DE REPETIÇÃO WHILE
+A estrutura de repetição while tem funcionamento e sintaxe muito semelhantes nas linguagens C e Python. Observe a comparação entre as duas linguagens na Tabela 6:
+
+Python												C
+while <condição>:									while <condição>{
+Instruções com 4 espaços de indentação							Bloco de instruções a ser repetido. A indentação não é exigida
+Instrução fora do while									}
+
+Como exemplo inicial do uso do laço while, vamos analisar um programa em que o usuário precisa digitar a palavra “sair” para que o laço while seja encerrado.
+
+1 palavra = input('Entre com uma palavra: ')
+2 while palavra != 'sair':
+3 palavra = input('Digite sair para encerrar o laço: ')
+4 print('Você digitou sair e agora está fora do laço')
+
+
+*A linha 1 representa a solicitação ao usuário para que ele insira uma palavra, que será armazenada na variável palavra;
+*A linha 2 cria o laço while, que depende da condição <valor da variável palavra ser diferente de ‘sair’>;
+*A linha 3 será repetida enquanto a condição for verdadeira, ou seja, enquanto o valor da variável palavra for diferente de ‘sair’. Quando esses valores forem iguais, a condição do laço 
+while será falsa e o laço será encerrado;
+*A linha 4 representa a impressão da mensagem fora do laço while.
+
+Perceba que ao digitar ‘sair’ logo na primeira solicitação, a linha 3 do nosso programa não é executada nenhuma vez. Ou seja, o programa nem chega a entrar no laço while.
+
+Em C, existe outra estrutura muito semelhante ao while, chamada do-while. A diferença básica entre elas é o momento em que a condição é testada, como vemos a seguir:
+
+No laço while, a condição é testada antes da iteração.			 No laço do-while, a condição é testada após a iteração.
+								X
+O laço while testa e executa caso a condição seja verdadeira. 			O laço do-while executa e testa.
+
+Infelizmente, a estrutura do-while não existe em Python. Isso não chega a ser um grande problema, porque podemos adaptar nosso programa e controlar as repetições com o laço while.
+
+O laço while infinito
+Laços infinitos são úteis quando queremos executar um bloco de instruções indefinidamente.
+
+O laço while infinito tem o seguinte formato:
+
+  
+1 while True:
+2 Bloco que será repetido indefinidamente
+
+
+Suponha que você deseje criar uma aplicação que permaneça por meses ou anos sendo executada, registrando a temperatura ou a umidade de um ambiente. Logicamente, estamos supondo que você 
+tenha essa informação disponível a partir da leitura de algum sensor.
+
+Deve-se tomar cuidado e ter certeza de que seu uso é realmente necessário para evitar problemas de consumo excessivo de memória.
+
+A instrução break
+A instrução break funciona da mesma maneira em C e em Python. Ela interrompe as repetições dos laços for e while. Quando a execução do programa chega a uma instrução break, a repetição é 
+encerrada e o fluxo do programa segue a partir da primeira instrução seguinte ao laço.
+
+Para exemplificar o uso da instrução break, vamos voltar ao primeiro exemplo do laço while, utilizando o laço infinito. O laço será encerrado quando o usuário inserir a palavra ‘sair’.
+
+uso do break em Python
+1 while True:
+2 palavra = input('Entre com uma palavra: ')
+3 if palavra == 'sair':
+4 break
+5 print('Você digitou sair e agora está fora do laço')
+
+Caso haja vários laços aninhados, o break será relativo ao laço em que estiver inserido.
+
+Uso do break em laços aninhados
+while True:
+2 print('Você está no primeiro laço.')
+3 opcao1 = input('Deseja sair dele? Digite SIM para isso. ')
+4 if opcao1 == 'SIM':
+5 break # este break é do primeiro laço
+6 else:
+7 while True:
+8 print('Você está no segundo laço.')
+9 opcao2 = input('Deseja sair dele? Digite SIM para isso. ')
+10 if opcao2 == 'SIM':
+11 break # este break é do segundo laço
+12 print('Você saiu do segundo laço.')
+13 print('Você saiu do primeiro laço')
+
+A instrução continue
+A instrução continue também funciona da mesma maneira em C e em Python. Ela atua sobre as repetições dos laços for e while, como a instrução break, mas não interrompe todas as repetições do
+laço. A instrução continue interrompe apenas a iteração corrente, fazendo com que o laço passe para a próxima iteração.
+
+O exemplo a seguir imprime todos os números inteiros de 1 até 10, pulando apenas o 5.
+
+1 for num in range(1, 11):
+2 if num == 5:
+3 continue
+4 else:
+5 print(num)
+6 print('Laço encerrado')
+
+A INSTRUÇÃO PASS
+A instrução pass atua sobre a estrutura if, permitindo que ela seja escrita sem outras instruções a serem executadas caso a condição seja verdadeira. Assim, podemos concentrar as instruções
+no caso em que a condição seja falsa. Suponha que queiramos imprimir somente os números ímpares entre 1 e 10.
+
+ for num in range(1, 11):
+2 if num % 2 == 0:
+3 pass
+4 else:
+5 print(num)
+6 print('Laço encerrado')
+
+Exemplo de execução com uso do pass em Pytho
+1
+3
+5
+7
+9
+Laço encerrado
+
+

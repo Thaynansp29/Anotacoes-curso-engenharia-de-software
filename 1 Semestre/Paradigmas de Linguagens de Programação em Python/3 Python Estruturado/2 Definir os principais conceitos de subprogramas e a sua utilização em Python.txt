@@ -1,0 +1,206 @@
+CARACTERÍSTICAS GERAIS DOS SUBPROGRAMAS
+Todos os subprogramas estudados neste módulo, com base em Sebesta (2018), têm as seguintes características:
+
+Cada subprograma tem um único ponto de entrada.
+
+A unidade de programa chamadora é suspensa durante a execução do subprograma chamado, o que significa que existe apenas um subprograma em execução em determinado momento.
+
+Quando a execução do subprograma termina, o controle sempre retorna para o chamador.
+
+DEFINIÇÕES BÁSICAS
+As definições básicas, conforme Sebesta (2018), estabelecem que:
+
+Um subprograma é definido quando o desenvolvedor descreve a interface e as ações da abstração desse subprograma.
+
+O subprograma foi chamado quando uma instrução traz um pedido explícito para sua execução.
+
+
+O subprograma está ativo após o início de sua execução, a partir da sua chamada e enquanto ele não foi concluído.
+
+O cabeçalho do subprograma é a primeira parte da definição, em que podem ser especificados o nome, os parâmetros e o tipo de retorno do subprograma.
+
+Em C, o cabeçalho dos subprogramas – sendo chamados de funções – traz, em ordem: o tipo de retorno, o nome e a lista de parâmetros, como a seguir:
+
+float calculaIMC (int peso, float altura)
+
+Em Python, as funções definidas pelo desenvolvedor devem ser precedidas pela palavra reservada def. Não são especificados o tipo de retorno nem os tipos dos parâmetros, como no exemplo a 
+seguir:
+
+def calculaIMC (peso, altura)
+
+Em Python, as sentenças de função def são executáveis. Isso implica que a função só pode ser chamada após a execução da sentença def.
+
+ 1 escolha = input("Escolha uma opção de função: 1 ou 2")
+ 2 if escolha == 1:
+ 3 def func1(x):
+ 4 return x + 1
+ 5 else:
+ 6 def func2(x):
+ 7 return x + 2
+ 8
+ 9 s = func1(10)
+10 print(s)
+
+A função func1() só pode ser chamada caso a variável escolha seja igual a 1. Ou seja, o usuário deverá inserir 1 quando solicitado (na linha 1), para que a linha 9 possa ser executada sem 
+que seja gerado um erro.
+
+PARÂMETROS
+Usualmente, um subprograma executa cálculos e operações a partir de dados que ele deve processar. Existem duas maneiras de o subprograma obter esses dados: acessando variáveis não locais, 
+mas visíveis para o subprograma, ou pela passagem de parâmetros.
+
+Quando o subprograma recebe os parâmetros adequados, ele pode ser executado com quaisquer valores recebidos. Porém, quando ele manipula variáveis não locais, uma forma de evitar alterações indevidas nessas variáveis é fazendo cópias locais delas. De acordo com Sebesta (2018), o acesso sistemático a variáveis não locais pode diminuir a confiabilidade do programa.
+
+São denominados parâmetros formais aqueles do cabeçalho do subprograma.
+
+Quando o subprograma é chamado, é necessário escrever o nome do subprograma e a lista de parâmetros a serem vinculados aos parâmetros formais dele, que são denominados parâmetros reais ou 
+argumentos.
+
+No exemplo da Figura 16, existe o cabeçalho da função func1 na linha 3, com o parâmetro formal x. Na linha 9, a função func1 é chamada com o parâmetro real 10.
+
+Em Python, é possível estabelecer valores padrão para os parâmetros formais. O valor padrão é usado quando a chamada da função ocorre sem nenhum parâmetro real. Veja o exemplo de definição
+e chamada da função taxímetro.
+
+ def taximetro(distancia, multiplicador=1):
+2 largada = 3
+3 km_rodado = 2
+4 valor = (largada + distancia * km_rodado) * multiplicador
+5 return valor
+6
+7
+8 pagamento = taximetro(3.5)
+9 print(pagamento)
+
+
+Observe que mesmo com a definição da linha 1 de dois parâmetros formais, a chamada da função na linha 8 ocorre apenas com um parâmetro real.
+A palavra reservada return indica que a função retorna algum valor. Isso implica que o valor retornado seja armazenado em uma variável do programa chamador (como ocorre na linha 8), ou 
+utilizado como parâmetro para outra função.
+
+Atenção
+Retornar um valor é diferente de imprimir na tela. Ao utilizar a função print(), ocorre apenas a impressão de algo na tela, o que não significa que tenha havido retorno de qualquer função 
+definida pelo usuário.
+
+PROCEDIMENTOS E FUNÇÕES
+Os subprogramas podem ser, distintamente, procedimentos e funções. De acordo com Sebesta (2018):
+
+Procedimentos
+
+São aqueles que não retornam valores.
+
+Funções
+
+São aquelas que retornam valores.
+
+Na maioria das linguagens que não explicita a diferença entre eles, as funções podem ser definidas sem retornar qualquer valor, tendo comportamento de procedimento. Esse é o caso de Python.
+
+def func1(x):
+ 2 x = 10
+ 3 print(f'Função func1 - x = {x}')
+ 4
+ 5
+ 6 def func2(x):
+ 7 x = 20
+ 8 print(f'Função func2 - x = {x}')
+ 9
+10
+11 x = 0
+12 func1(x)
+13 func2(x)
+14 print(f'Programa principal - x = {x}')
+
+As funções func1(x) e func2(x) não possuem qualquer retorno. Ou seja, são funções com comportamento de procedimentos.
+
+AMBIENTES DE REFERENCIAMENTO LOCAL
+Variáveis locais
+Quando um subprograma define suas próprias variáveis, estabelece ambientes de referenciamento local. Essas variáveis são chamadas de variáveis locais, com seu escopo usualmente sendo o 
+corpo do subprograma. As variáveis locais podem ser:
+
+Dinâmicas da pilha
+São vinculadas ao armazenamento no início da execução do subprograma e desvinculadas quando essa execução termina. As variáveis locais dinâmicas da pilha têm diversas vantagens, e a 
+principal delas é a flexibilidade. Suas principais desvantagens são o custo do tempo – para alocar, inicializar (quando necessário) e liberar tais variáveis para cada chamada ao subprograma
+– e o fato de que os acessos a essas variáveis locais devem ser indiretos, enquanto os acessos às variáveis estáticas podem ser diretos.
+
+Estáticas
+São vinculadas a células de memória antes do início da execução de um programa e permanecem vinculadas a essas mesmas células até que a execução do programa termine. Elas são um pouco mais
+ eficientes que as variáveis locais dinâmicas da pilha, já que não é necessário tempo para alocar ou liberar essas variáveis. Sua maior desvantagem é a incapacidade de suportar recursão, 
+como vai ser explicado adiante.
+
+Atenção
+Nas linguagens C e C++, as variáveis locais são dinâmicas da pilha, a menos que sejam especificamente declaradas como static. Todas as variáveis locais em Python são dinâmicas da pilha. 
+As variáveis globais são declaradas em definições de método, e qualquer variável declarada global em um método precisa ser definida fora dele. Caso haja uma atribuição à variável local 
+com mesmo nome de uma variável global, esta é implicitamente declarada como local.
+
+Para alterar a variável global x, seria necessário explicitar dentro de cada função que o nome x é referente a ela. Isso pode ser feito com a palavra reservada global. Além de explicitar a
+referência à variável global, as funções func1(x) e func2(x) não recebem mais os parâmetros de mesmo nome, já que fazem referência à variável global.
+
+MÉTODOS DE PASSAGENS DE PARÂMETROS
+Os métodos de passagem de parâmetros são as maneiras que existem para transmiti-los ou recebê-los dos subprogramas chamados. Os parâmetros podem ser passados principalmente por:
+
+Valor
+O parâmetro formal funciona como uma variável local do subprograma, sendo inicializado com o valor do parâmetro real. Dessa maneira, não ocorre alteração na variável externa ao subprograma,
+caso ela seja passada como parâmetro.
+
+Referência
+Em vez de passar o valor do parâmetro real, é transmitido um caminho de acesso (normalmente um endereço) para o subprograma chamado. Isso fornece o caminho de acesso para a célula que 
+armazena o parâmetro real. Assim, o subprograma chamado pode acessar o parâmetro real na unidade de programa chamadora.
+
+O método de passagem de parâmetros de Python é chamado passagem por atribuição. Como todos os valores de dados são objetos, toda variável é uma referência para um objeto. Ao se estudar 
+orientação a objetos, fica mais clara a diferença entre a passagem por atribuição e a passagem por referência. Por enquanto, podemos entender que a passagem por atribuição é uma passagem 
+por referência, pois os valores de todos os parâmetros reais são referências.
+
+RECURSIVIDADE
+Uma função recursiva é aquela que chama a si mesma. Veja o exemplo da função regressiva().
+
+1 def regressiva(x):
+2 print(x)
+3 regressiva(x - 1)
+
+Na implementação da função regressiva(), tendo x como parâmetro, ela própria é chamada com o parâmetro x – 1. Vamos analisar a chamada regressiva(2):
+
+Ao chamar regressiva(2), o valor 2 é exibido na tela pela linha 2, e ocorre uma nova chamada da função regressiva() na linha 3, com o parâmetro 1. Vamos continuar com esse caminho de 
+execução da regressiva(1).
+
+Ao chamar regressiva(1), o valor 1 é exibido na tela pela linha 2, e ocorre uma nova chamada da função regressiva() na linha 3, com o parâmetro 0.
+
+Ao chamar regressiva(0), o valor 0 é exibido na tela e ocorre uma nova chamada da função regressiva, com o parâmetro -1, e assim sucessivamente.
+
+Atenção
+Conceitualmente, essa execução será repetida indefinidamente até que haja algum erro por falta de memória. Perceba que não definimos adequadamente uma condição de parada para a função 
+regressiva(), o que leva a esse comportamento ruim.
+
+Em Python, o interpretador pode interromper a execução indefinida, mas essa não é uma boa prática. Uma forma de contornar esse problema é definir adequadamente uma condição de parada.
+
+1 def regressiva(x):
+2 if x <= 0:
+3 print("Acabou")
+4 else:
+5 print(x)
+6 regressiva(x-1)
+
+Uma função recursiva que termina tem:
+
+Um ou mais casos básicos, que funcionam como condição de parada da recursão.
+
+Uma ou mais chamadas recursivas, que têm como parâmetros valores mais próximos do(s) caso(s) básico(s) do que o ponto de entrada da função.
+
+Alguns exemplos clássicos de funções que podem ser implementadas de forma recursiva são o cálculo do fatorial de um inteiro não negativo e a sequência de Fibonacci, que serão explorados a 
+seguir.
+
+A sequência de Fibonacci
+A sequência de Fibonacci é: 1, 1, 2, 3, 5, 8, 13, 21... Os dois primeiros termos são 1 e, a partir do 3º termo, cada termo é a soma dos dois anteriores.
+
+1 def fibo(n):
+2 if n == 1 or n == 2:
+3 return 1
+4 else:
+5 return fibo(n - 1) + fibo(n - 2)
+
+A linha 2 traz as condições de parada.
+A linha 5 traz as chamadas recursivas para calcular os dois termos anteriores da sequência.
+
+DOCSTRINGS
+Em Python, é possível definir uma string que serve como documentação de funções definidas pelo desenvolvedor. Ao chamar o utilitário help() passando como parâmetro a função desejada, essa 
+string é exibida.
+
+Na Figura 28, a linha 2 mostra a declaração da docstring.
+A linha 8 mostra a impressão na tela da chamada help(fibo). Na Figura 29, está o resultado da execução desse programa.
+
