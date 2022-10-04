@@ -1,0 +1,137 @@
+ERROS E EXCEÇÕES
+Dois tipos básicos de erros podem acontecer em um programa em Python. Os erros de sintaxe são aqueles que ocorrem devido ao formato incorreto de uma instrução. Esses erros são descobertos 
+pelo componente do interpretador Python, chamado analisador ou parser.
+
+EXEMPLO:
+>>> print 'hello'
+File "<input>", line 1
+print 'hello'
+ˆ
+SyntaxError: Missing parenthesesin call to 'print'. Did you mean print('hello')?
+
+>>> lista = [1 ; 2 ; 4]
+File "<input>", line 1"
+lista = [1 ; 2 ; 4]
+ˆ
+SyntaxError: invalid sytax
+
+Além desses, existem os erros que ocorrem em tempo de execução do programa, que não são devidos a uma instrução escrita errada, mas sim ao fato de que o programa entrou em um estado 
+indevido. Temos os exemplos:
+
+*A divisão por 0.
+
+*A tentativa de acessar um índice indevido em uma lista.
+
+*Um nome de variável não atribuído.
+
+*Um erro causado por tipos incorretos de operando.
+
+Em cada caso, quando o programa atinge um estado inválido, dizemos que o interpretador Python levanta uma exceção. Isso significa que é criado um objeto que contém as informações relevantes
+sobre o erro.
+
+Exceção					Explicação
+KeyboardInterrupt			Levantado quando o usuário pressiona CTRL + C, a combinação de interrupção.
+OverflowError				Levantado quando uma expressão de ponto flutuante é avaliada como um valor muito grande.
+ZeroDivisionError			Levantado quando se tenta dividir por 0.
+IOError					Levantado quando uma operação de entrada/saída falha por um motivo relacionado a isso.
+IndexError				Levantado quando um índice sequencial está fora do intervalo de índices válidos.
+NameError				Levantado quando se tenta avaliar um identificador (nome) não atribuído.
+TypeError				Levantado quando uma operação da função é aplicada a um objeto do tipo errado.
+ValueError				Levantado quando a operação ou função tem um argumento com o tipo correto, mas valor incorreto.
+
+Em Python, as exceções são objetos. A classe Exception é derivada de BaseException, classe base de todas as classes de exceção. BaseException fornece alguns serviços úteis para todas as 
+classes de exceção, mas normalmente não se torna uma subclasse diretamente.
+
+Para evitar que os programas sejam interrompidos quando uma exceção for levantada, é possível planejar um comportamento alternativo. Assim, o programa não será interrompido e a exceção 
+poderá ser tratada. Chamamos esse processo de captura da exceção.
+
+Vamos considerar um exemplo de programa que solicita ao usuário, com a função input(), um número inteiro. Embora essa função trate a entrada do usuário como string, é possível utilizá-la 
+em conjunto com a função eval() para que os dados inseridos sejam avaliados como números.
+
+EXEMPLO:  num = eval(input("Entre com um número inteiro: "))
+2 print(num)
+
+Mas o que aconteceria se o usuário digitasse uma palavra em vez de números?
+
+Entre com um número inteiro: dez
+Traceback (most recent call last):
+File "C:/Users/Humberto/PycharmProjects/estacio_ead/excessoes.py", line 1, in <module>
+num = eval(input("Entrecom um número inteiro: "))
+File "<string>, line 1, in <module>
+NameError: name 'dez'is not defined
+
+Veja que o programa foi encerrado com uma exceção sendo levantada. Uma forma de fazer a captura e a manipulação de exceções é usar o par de instruções try / except.
+
+O bloco try é executado primeiro, no qual devem ser inseridas as instruções do fluxo normal do programa.
+
+O bloco except somente será executado se houver o levantamento de alguma exceção.
+
+Isso permite que o fluxo de execução continue de maneira alternativa.
+
+1 try:
+2 num = eval(input("Entre com um número inteiro: "))
+3 print(num)
+4 except:
+5 print("Entre com o valor numérico e não letras")
+
+1 try:
+2 	Bloco 1
+3 except:
+4	 Bloco 2
+5 Instrução fora do try/except
+
+O bloco 1 representa o fluxo normal do programa. Caso uma exceção seja levantada, o bloco 2 será executado, permitindo o tratamento adequado dela. Esse bloco 2 é chamado de manipulador de 
+exceção.
+
+Captura de exceções de determinado tipo
+Python permite que o bloco relativo ao except só seja executado caso a exceção levantada seja de determinado tipo. Para isso, o except precisa trazer o tipo de exceção que se deseja 
+capturar. A Figura 47 traz uma possível variação do exemplo anterior, com a captura apenas das exceções do tipo NameError.
+
+1 try:
+2 num = eval(input("Entre com um número inteiro: "))
+3 print(num)
+4 except NameError:
+5 print("Entre com o valor numérico e não letras")
+
+Captura de exceções de múltiplos tipos
+Python permite que haja diversos tratamentos para diferentes tipos possíveis de exceção. Isso pode ser feito com mais de uma cláusula except vinculada à mesma cláusula try.
+
+1 try:
+2 num = eval(input("Entre com um número inteiro: "))
+3 print(num)
+4 except ValueError:
+5 print("Mensagem 1")
+6 except IndexError:
+7 print("Mensagem 2")
+8 except:
+9 print("Mensagem 3")
+
+*A instrução da linha 5 somente será executada se a exceção levantada no bloco try for do tipo ValueError, e se, na instrução da linha 7, a exceção for do tipo IndexError.
+*Caso a exceção seja de outro tipo, a linha 9 será executada.
+
+O tratamento completo das exceções
+A forma geral completa para lidar com as exceções em Python é:
+
+  
+try:
+2 Bloco 1
+3 except Exception1:
+4 Bloco tratador para Exception1
+5 except Exception2:
+6 Bloco tratador para Exception1
+7 ...
+8 else:
+9 Bloco 2 – executado caso nenhuma exceção seja levantada
+10 finally:
+11 Bloco 3 – executado independente do que ocorrer
+12 Instrução fora do try/except
+
+TRATAMENTO DE EVENTOS
+O tratamento de eventos é similar ao tratamento de exceções. Assim como podemos tratar as exceções ocorridas em tempo de execução, podemos tratar os eventos criados por ações externas, 
+como interações de usuário realizadas por meio de uma interface gráfica de usuário (GUI).
+
+Um evento é a notificação de que alguma coisa aconteceu, como um clique de mouse sobre um elemento botão. O tratador do evento é o segmento de código que será executado em resposta à 
+ocorrência do evento.
+
+
+

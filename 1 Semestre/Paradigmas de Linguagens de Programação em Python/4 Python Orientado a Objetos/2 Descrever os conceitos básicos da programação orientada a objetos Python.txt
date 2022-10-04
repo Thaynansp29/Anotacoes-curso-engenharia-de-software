@@ -1,0 +1,259 @@
+CLASSES E OBJETOS EM PYTHON
+Uma classe é uma declaração de tipo que encapsula constantes, variáveis e métodos que realizam manipulação dos valores dessas variáveis. Cada classe deve ser única em um sistema orientado 
+a objetos.
+
+DEFINIÇÃO DE CLASSE
+Como boa prática, cada classe deve fazer parte de um único arquivo.py para ajudar na estruturação do sistema orientado a objetos em Python. Outra boa prática consiste no nome da classe 
+semelhante ao do arquivo. Por exemplo, definir no ambiente de desenvolvimento Python a classe Conta. O nome final do arquivo deve ser Conta.py.
+
+Uma classe é definida utilizando a instrução class e : para indicar o início do bloco de declaração da classe. A palavra reservada pass indica que a classe será definida posteriormente, 
+servindo apenas para permitir que o interpretador execute a classe até o final sem erros.
+
+CONSTRUTORES E SELF
+
+A classe conta foi criada, porém não lhe foram definidos atributos e instanciados objetos, característica básica dos programas orientados a objetos. Nas linguagens orientadas a objetos, 
+para se instanciar objetos, devemos criar os construtores da classe.
+
+Em Python, a palavra reservada __init__() serve para inicialização de classes, como abaixo:
+
+  
+class Conta:
+def__init__(self, numero, cpf, nomeTitular, saldo):
+self.numero = numero
+self.cpf = cpf
+self.nomeTitular = nomeTitular
+self.saldo = saldo
+
+Diferentemente de outras linguagens de programação orientadas a objetos, o Pyhton constrói os objetos em duas etapas. A primeira etapa é utilizada com a palavra reservada __new__, que, em 
+seguida, executa o método __init__.
+
+O __new__ cria a instância e é utilizado para alterar as classes dinamicamente para casos de sistemas que envolvam metaclasses e frameworks. Após __new__ ser executado, este método chama o
+__init__ para inicialização da classe como seus valores iniciais (MENEZES, 2019).
+
+Para efeitos de comparação com outras linguagens de programação, e por questões de simplificação, consideraremos o __init__ como o construtor da classe. Portanto, toda vez que instanciarmos
+objetos da classe conta, será chamado o método __init__.
+
+Analisando o nosso exemplo anterior, vimos a utilização da palavra self como parâmetro no construtor. Como o objeto já foi instanciado implicitamente pelo __new__, o método __init__ recebe
+uma referência do objeto instanciado como self.
+
+Analisando o restante do construtor da Figura 9, o código possui diversos comandos self, o qual indica referência ao próprio objeto. Por exemplo, o comando self.numero indica que o número é
+um atributo do objeto, ao qual é atribuído um valor. O restante dos comandos self indicam que foram criados os atributos cpf, nomeTitular e saldo referentes a classe Conta.
+
+Vamos instanciar o nosso objeto com o método __init__:
+
+>>>from Conta import Conta
+>>>c1 = Conta(1,1,"Joao",1000)
+
+Importante ressaltar que, em Python, não é obrigatório ter um método construtor na classe, apenas se for necessária alguma ação na construção do objeto, como inicialização e/ou atribuição 
+de valores. Segue um exemplo de uma classe sem um método construtor:
+
+  
+class A():
+def f():
+print ‘foo’
+
+MÉTODOS
+Toda classe deve possuir um conjunto de métodos para manipular os atributos e, por consequência, o estado do objeto. Por exemplo, precisamos depositar dinheiro na conta para aumentar o 
+valor da conta corrente:
+
+def __depositar__(self,valor)
+     self.saldo += valor
+
+No código acima, foi definido um método __depositar__ que recebe a própria instância do objeto através do self e de um parâmetro valor. O número passado por meio do parâmetro será 
+adicionado ao saldo da conta do cliente. Vamos supor que o estado anterior do objeto representasse o saldo com o valor zero da conta. Após a chamada desse método passando como parâmetro o 
+valor 300, através da referência self, o estado da conta foi alterado com o novo saldo de 300 reais.
+
+Segue o novo código:
+
+  
+class Conta:
+def__init__(self, numero, cpf, nomeTitular, saldo):
+self.numero = numero
+self.cpf = cpf
+self.nomeTitular = nomeTitular
+self.saldo = saldo
+def depositar(self, valor):
+self.saldo += valor
+def sacar(self, valor):
+self.saldo -= valor
+Figura 11 – Classe com métodos depositar e sacar.
+No exemplo anterior, adicionamos mais um método sacar(self, valor), onde subtraímos o valor, passado como parâmetro, do saldo do cliente. Pode ser adicionado um método extrato para avaliar
+os valores atuais da conta corrente, ou seja, o estado atual do objeto. Por exemplo, a conta tinha saldo de 300 reais após o primeiro depósito. Após a chamada de sacar (100), o saldo da 
+conta será 200 reais.
+
+>>>from Conta import Conta
+>>>c1 = Conta(1,1,"Joao",0)
+.....c1.depositar(300)
+.....c1.sacar(100)
+
+  
+class Conta:
+def__init__(self, numero, cpf, nomeTitular, saldo):
+self.numero = numero
+self.cpf = cpf
+self.nomeTitular = nomeTitular
+self.saldo = saldo
+def depositar(self, valor):
+self.saldo += valor
+def sacar(self, valor):
+self.saldo -= valor
+def gerarextrato(self):
+print(f"numero: {self.numero} \n cpf: {self.cpf}\nsaldo: {self.saldo")
+Figura 12 – Classe com métodos depositar/sacar/gerarextrato.
+Se o método gerarextrato() for executado, o valor impresso será:
+
+....c1.geratextrato()
+200
+
+MÉTODOS COM RETORNO
+Em Python, não é obrigatório um comando para indicar quando o método deve ser finalizado. Porém, na orientação a objetos, como na programação procedural, é bastante comum retornar um valor
+a partir da análise do estado do objeto. Conforme exemplificado a seguir, não é permitido o saque de um valor maior do que o saldo atual do cliente, portanto, retorna a resposta “False” 
+para o objeto que está executando o saque. O método deve ficar da seguinte forma:
+
+  
+def sacar(self,valor):
+if self.saldo < valor:
+return False
+else:
+self.saldo -= valor
+return True
+Figura 13 – Método sacar com retorno.
+....c1.sacar(100)
+True
+
+REFERÊNCIAS ENTRE OBJETOS NA MEMÓRIA
+Uma classe pode ter mais de uma ou várias instâncias de objetos na memória, como exemplificado na imagem a seguir:
+
+  
+from Conta import Conta
+conta1 = Conta(1, 123, ‘Joao’,0)
+conta2 = Conta(3, 456, ‘Maria’,0)
+Figura 14 – Método sacar com retorno.
+O Resultado na memória após a execução é apresentado na Figura 15:
+
+
+Figura 15 – Estado da memória conta1 e conta2.
+Na memória, foram criados dois objetos diferentes referenciados pelas variáveis conta1 e conta2 do tipo conta. Os operadores “==” e “!=” comparam se as duas variáveis de referência apontam 
+para o mesmo endereço de memória (CAELUM, 2020).
+
+>>>if (conta1 != conta2):
+... print("Endereços diferentes de memória")
+
+Pelo esquema da memória, apresentado na Figura 15, realmente conta1 e conta2 apontam para endereços diferentes de memória.
+
+O comando “=” realiza o trabalho de igualar a posição de duas referências na memória.
+
+Fazendo conta1 = conta2, podemos ver o resultado:
+
+conta1 = conta2
+if (conta1 == conta2):
+... print("enderecos iguais de memoria")
+
+
+Figura 16 – Estado da memória conta1 e conta2 no mesmo endereço.
+Se executarmos os comandos referenciando o CPF da conta, verificamos que possuem os mesmos valores, conforme mostrado acima.
+
+>>>conta1.cpf
+456
+>>> conta2.cpf
+456
+
+Esse exemplo pode ser estendido para realizar uma transferência de valores de uma conta para outra. A segunda conta deve ser passada como parâmetro do método para ser executada a 
+transferência. O método deve ficar da seguinte maneira:
+
+  
+class Conta:
+def__init__(self, numero, cpf, nomeTitular, saldo):
+self.numero = numero
+self.cpf = cpf
+self.nomeTitular = nomeTitular
+self.saldo = saldo
+def depositar(self, valor):
+self.saldo += valor
+def sacar(self,valor):
+if self.saldo < valor:
+return False
+else
+self.saldo -= valor
+return True
+def gerarextratp(self):
+print(f"numero:{self.numero}\n cpf:{self.cpf}\nsaldo:{selfsaldo}")
+def transfereValor(self,contaDestino,valor):
+if self.saldo < valor:
+return ("Não existe saldo suficiente")
+else:
+contaDestino.depositar(valor)
+self.saldo -= valor
+return("Transferencia Realizada")
+Figura 17 – Classe conta com transferência.
+>>>from Conta import Conta
+... conta1 = Conta(1, 123,'Joao',0)
+... conta2 = Conta(3, 456,'Maria',0)
+... conta1.depositar(1000)
+... conta1.transfereValor(conta2,500)
+... print(conta1.saldo)
+... print(conta2.saldo)
+500
+500
+
+Em resumo, foi depositado 1000 na conta1 e realizada uma transferência de valor de 500 para conta2. No final, o saldo ficou 500 para conta1 e 500 para conta2.
+
+Importante ressaltar que, no comando conta1.transfereValor(conta2,500), é passada uma referência da conta2 para o objeto contaDestino por meio de um operador “=”. O comando contaDestino = 
+conta2 é executado internamente no Python.
+
+ATRIBUTOS PÚBLICOS E PRIVADOS
+Para seguir o encapsulamento e proibir alterações indevidas dos atributos, devemos definir atributos privados para a classe. Por default, em Python, os atributos são definidos como público,
+ou seja, podem ser acessados diretamente sem respeitar o encapsulamento - acesso feito apenas através de métodos do objeto.
+
+Para tornar um atributo privado, devemos iniciá-lo com dois underscores (‘__’). A classe conta possui todos os atributos privados:
+
+  
+>>>class Conta:
+... def__init__(self,numero,saldo):
+... self.numero = __numero
+... self.saldo = __saldo:
+Figura 26 – Classe Conta com atributos privados.
+Qual o retorno do interpretador ao se acessar um atributo privado para classe Conta?
+
+>>> conta = Conta(1,1000)
+>>> conta.saldo
+Traceback (most recent call last):
+File "<input>", line 1, in <module>
+AttributeError: 'Conta' object has no attribute 'saldo'
+
+É importante ressaltar que, em Python, não existe realmente atributos privados. O interpretador renomeia o atributo privado para _nomedaClasse__nomedoatributo. Portanto, o atributo ainda 
+pode ser acessado. Embora funcione, é considerado uma prática que viola o princípio de encapsulamento da orientação a objetos.
+
+>>> conta._Conta__saldo
+1000
+
+Na prática, deve existir uma disciplina para não serem acessados diretamente os atributos como __ ou _ definido nas classes.
+
+DECORATOR @PROPERTY
+Uma estratégia importante disponibilizada pelo Python são as properties. Utilizando o decorator property nos métodos, mantém-se os atributos como protegidos, e estes são acessados apenas 
+através dos métodos “decorados” com property (CAELUM, 2020).
+
+No caso da classe conta, não se pode acessar o atributo saldo (privado) para leitura. Com o código, ele será acessado pelo método decorator @property:
+
+  
+@property
+def saldo(self):
+return self._saldo
+Figura 27 – Definição de uma propriedade.
+Os métodos decorados com a property @setter forçam que todas alterações de valor dos atributos privados devem passar por esses métodos.
+
+Notação:
+
+@<nomedometodo>.setter
+
+  
+@saldo.setter
+def saldo(self, saldo):
+if (self.saldo < 0):
+print(“saldo inválido”)
+else:
+self._saldo = saldo
+Figura 28 – Definição de um método setter.
+Os properties ajudam a garantir o encapsulamento no Python. Uma boa prática implementada em todas as linguagens orientadas a objetos é definir esses métodos apenas se realmente houver 
+regra de negócios diretamente associada ao atributo. Caso não haja, deve-se deixar o acesso aos atributos conforme definido na classe.
+

@@ -1,0 +1,40 @@
+HERANÇA E POLIMORFISMO
+As linguagens orientadas a objeto oferecem recursos que permitem o desenvolvimento de sistemas de uma forma mais ágil e eficiente. Esses recursos são a herança, polimorfismo e o tratamento 
+das exceções. A herança permite uma redução da repetição de código, permitindo que uma classe filho herde métodos e atributos da classe pai. O polimorfismo permite que, em determinadas 
+situações, os objetos possam ter comportamentos específicos. Caso haja algum problema durante a execução do código, o tratamento de exceções facilita a manipulação do erro.
+
+HERANÇA
+É um dos princípios mais importantes da programação orientada a objetos, pois permite a reutilização de código com a possiblidade de extensão para se ajustar às regras de negócio dos 
+sistemas.
+
+Exemplo
+A área de produtos do banco define quais clientes podem ter acesso a um produto chamado Conta especial, o qual busca atender quem possui conta na instituição há mais de um ano.
+
+Na visão de negócios, a conta especial possui a funcionalidade de permitir o saque da conta corrente até um certo limite, determinado durante a criação da conta. Nesse ponto, há um dos 
+grandes ganhos da orientação a objetos. O objeto do mundo real Conta Especial será mapeado para uma classe ContaEspecial que herdará todo código de Conta.
+
+Herança Múltipla
+A herança múltipla é um mecanismo que possibilita uma classe herdar código de duas ou mais superclasses. Esse mecanismo é implementado por poucas linguagens orientadas a objetos e insere 
+uma complexidade adicional na arquitetura das linguagens.
+
+Para nosso sistema, vamos considerar a necessidade de um novo produto que consiste em uma conta corrente, similar a definida anteriormente no sistema, com as seguintes características:
+
+Deverá ter um rendimento diário com base no rendimento da conta poupança.
+
+Deverá ser cobrada uma taxa de manutenção mensal, mesmo se o rendimento for de apenas um dia.
+
+A Classe Poupança também será criada para armazenar a taxa de renumeração e o cálculo do rendimento mensal da poupança.
+
+Declaração de herança múltipla: em (1) indica que a classe é herdeira de Conta e Poupança nessa ordem. Essa ordem tem importância, pois existem dois métodos no pai com o mesmo nome. O 
+Python dá prioridade para a primeira classe que implementa esse método na ordem da declaração – (PYTHON COURSE, 2020)
+
+Construtor da classe: Deve ser chamado o construtor explicitamente das superclasses com o seguinte formato: nomeclasse.__init__(construtores)
+
+POLIMORFISMO
+Polimorfismo é o mecanismo que permite que um método com o mesmo nome seja executado de modo diferente, dependendo do objeto que está chamando o método. A linguagem define em tempo de 
+execução (late binding) qual método deve ser chamado. Essa característica é bastante comum em herança de classes devido à redefinição da implementação dos métodos nas subclasses.
+
+Vamos assumir que agora teremos uma entidade Banco que controla todas as contas criadas no sistema de conta corrente. As contas podem ser do tipo conta, contacomum ou contarenumerada. O 
+cálculo do rendimento da conta Cliente desconta IOF e IR; a conta Renumerada desconta apenas o IOF; a conta Cliente não tem desconto nenhum. Todos os descontos são realizados em cima do 
+valor bruto após o rendimento mensal. Uma vez por vez o Banco executa o cálculo do rendimento de todos os tipos de contas.
+

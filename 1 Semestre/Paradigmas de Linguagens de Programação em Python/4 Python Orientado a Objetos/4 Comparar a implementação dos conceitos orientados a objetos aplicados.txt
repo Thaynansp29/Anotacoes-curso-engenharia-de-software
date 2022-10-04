@@ -1,0 +1,210 @@
+OMPARAÇÃO COM C++ E JAVA
+
+INSTANCIAÇÃO DE OBJETOS
+As linguagens Java e C++ obrigam utilizar a palavra reservada new e indicar o tipo do objeto. Porém, a linguagem C++ referencia todos os objetos explicitamente através de ponteiros. Na 
+tabela a seguir, o objeto Conta instanciado será referenciado pelo ponteiro *c1. A linguagem Python tem uma forma simplificada de instanciação de objetos.
+
+Java		
+Conta c1 = new Conta()
+
+C++
+Conta *c1 = new Conta()
+
+Python
+c1 = Conta()
+
+CONSTRUTORES DE OBJETOS
+As linguagens Java e C++ exigem um método definido como público e com o mesmo nome da classe. O Python obriga ser um método privado __init__, conforme apresentado na tabela 4.
+
+Java		
+Utilizado um método público com o mesmo nome da classe sem tipo de retorno: Public Conta()
+
+C++
+Utilizado um método com o mesmo nome da classe sem tipo de retorno: Conta::Conta(void)
+
+Python
+Utilizando um método público com a obrigatoriedade da passagem do objeto com self: def __init__(self)
+
+MODIFICADORES DE ACESSO ATRIBUTOS
+As linguagens C++ e Python possuem apenas os modificadores público e privado para atributos. No entanto, ao contrário de Python, C++ e Java, garantem que um atributo definido como privado seja acessado estritamente pela própria classe. O Python permite burlar um atributo privado, conforme detalhado na Tabela 5.
+
+Java		
+Possui os seguintes modificadores:
+
+public
+
+private
+
+protected
+
+default
+
+C++
+Possui os seguintes modificadores:
+
+public
+
+private
+
+Python
+Possui os seguintes modificadores:
+
+público
+
+privado – iniciado com “_”
+
+Modificador privado pode ser burlado e acessado diretamente.
+
+HERANÇA MÚLTIPLA DE CLASSES
+As linguagens C++ e Python implementam herança múltipla diretamente através de classes, enquanto Java implementa através de herança múltipla de interfaces.
+
+Java		
+Não implementa. Utiliza herança múltipla de interfaces para substituir essa característica.
+
+C++
+Implementa com a referência das classes herdadas na declaração da classe:
+Class ContaRemunerada: public Conta, public Poupanca)
+
+Python
+Implementa com a referência das classes herdadas na declaração da classe:
+class ContaRemuneradaPoupanca(Conta, Poupanca):
+
+CLASSES SEM DEFINIÇÃO FORMAL
+A linguagem Java implementa o conceito como classes anônimas. Todas as linguagens implementam o conceito de classes sem definição formal.
+
+Java	
+protected void Calcular(){
+
+    class Calculo{
+
+       private int soma;
+
+       public void setSoma(int soma) {
+
+          this.soma = soma;
+
+   }
+
+      public int getSoma() {
+
+         return soma;
+
+      }
+
+   }
+
+}
+
+C++
+Existe o conceito de classes locais – internos a funções:
+
+void func() {
+
+   class LocalClass {
+
+   }
+
+}
+
+Python
+Existe o conceito de classes locais:
+
+def scope_test():
+
+   def do_local():
+
+      spam = "local spam"
+
+TIPOS PRIMITIVOS
+As linguagens Java e C++ possuem um conjunto parecido de tipos primitivos, enquanto, em Python, todos as variáveis são definidas como objetos.
+
+Java		
+Possui vários tipos primitivos:
+
+int
+
+byte
+
+short
+
+long
+
+float
+
+double
+
+boolean
+
+char
+
+C++
+Possui vários tipos primitivos:
+
+bool
+
+char
+
+int
+
+float
+
+double
+
+void
+
+wchar_t
+
+Python
+Todas as variáveis são consideradas objetos:
+
+>>>5.__add__(3)
+
+8
+
+INTERFACES
+As linguagens Java e C++ implementam interfaces simples e múltiplas, enquanto, em Python, não existe o conceito de interfaces.
+
+Java		
+Implementa interfaces simples e múltiplas:
+
+Simples - Class Funcionario implements Autenticavel
+
+Múltipla - Class Funcionario implements Autenticavel, Descontavel
+
+C++
+Implementa interfaces simples e múltiplas:
+
+Simples - Class Funcionario: public Autenticavel
+
+Múltipla - Class Funcionario: public Autenticavel, public Descontavel
+
+Python
+Não implementa
+
+SOBRECARGA DE MÉTODOS
+As linguagens Java e C++ implementam sobrecarga de métodos nativamente, enquanto Python não implementa nativamente.
+
+Java		
+Implementa sobrecarga de métodos:
+
+calculaimposto(salario)
+
+calculaImposto(salario,IR)
+
+C++
+Implementa sobrecarga de métodos:
+
+calculaimposto(salario)
+
+calculaImposto(salario,IR)
+
+Python
+Não implementa.
+
+Tabela Comparativa
+A Tabela 11 apresenta um resumo das características das linguagens Java, C++ e Python. A linguagem Python não possui atributos privados, interfaces e sobrecarga de métodos, que são 
+necessidades fundamentais para a construção de sistemas orientados a objetos robustos baseado em design patterns. Portanto, Java e C++ levam uma vantagem considerável para construção de 
+sistemas puramente orientados a objetos.
+
+Por sua simplicidade, o Python vem crescendo como a primeira linguagem de programação ensinada na graduação e, devido a quantidade de bibliotecas estatísticas e frameworks web existentes, 
+é utilizada para o desenvolvimento de algoritmos de Data Science e sistemas Web.
