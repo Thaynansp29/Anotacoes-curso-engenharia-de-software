@@ -1,0 +1,49 @@
+Programas e processos
+Os conceitos iniciais que precisamos definir são programas e processos. Mas o que seria um programa e um processo na visão do sistema operacional?
+
+Programa é algo estático e permanente. Contém um conjunto de instruções e é percebido pelo sistema operacional como passivo.
+Em contrapartida, o processo é dinâmico e tem uma vida curta. Ao longo da sua execução, tem seu estado alterado. Ele é composto por código, dados e contexto. Em suma, o processo é um 
+programa em execução.
+
+O mesmo programa executado mais de uma vez gera processos diferentes, que contêm dados e momento de execução (contexto) também diferentes.
+
+Concorrência e paralelismo
+
+Em computação, o termo concorrente se refere a uma técnica para tornar os programas mais usáveis. Ela pode ser alcançada mesmo em processadores de apenas um núcleo, pois permite 
+compartilhar o processador de forma a rodar vários processos. Os sistemas operacionais multitarefas suportam concorrência.
+
+Exemplo:
+Por exemplo, é possível compactar um arquivo e continuar usando o processador de texto, mesmo em um processador de um núcleo, pois o processador divide o tempo de uso entre os processos 
+dessas duas aplicações. Ou seja: essas duas aplicações executam de forma concorrente.
+
+Apesar da concorrência não necessariamente precisar de mais de um núcleo, ela pode se beneficiar se houver mais deles, pois os processos não precisarão compartilhar tempo de processador.
+
+Já o paralelismo é uma técnica para permitir que programas rodem mais rápido, executando várias operações ao mesmo tempo. Ela requer várias máquinas ou um processador com mais de um núcleo. Também é possível realizar o paralelismo nas placas de vídeo.
+
+Threads e processos
+
+O processo é uma instância de um programa em execução. Ele é composto pelo código que está sendo executado, os dados utilizados pelo programa (exemplo: valores de variável) e o estado ou 
+contexto do processo.
+
+Em um programa com múltiplos processos, cada um tem seu próprio espaço de memória e cada um pode executar em um núcleo diferente, melhorando consideravelmente a performance do programa.
+
+Em Python, podemos criar tanto processos quanto threads em um programa.
+
+Antes de falarmos sobre cada abordagem em Python, vamos falar sobre o global interpreter lock (GIL). No CPython — que é a implementação principal da linguagem de programação Python, escrita
+em linguagem C — o GIL existe para proteger o acesso aos objetos da linguagem.
+
+Na prática, para um mesmo processo, o GIL só permite executar uma thread de cada vez, ou seja, elas não executam de forma paralela, mas concorrentes. Sem a “trava” do GIL, uma operação 
+simples de atribuição de variável poderia gerar um dado inconsistente caso duas threads atribuíssem um valor a uma mesma variável ao mesmo tempo.
+
+Para os processos, por sua vez, o funcionamento é diferente. Para cada um, temos um GIL separado. Ou seja: podem ser executados paralelamente. Cabe ao programador garantir o acesso correto
+aos dados.
+
+Múltiplos processos podem rodar em paralelo, enquanto múltiplas threads (de um mesmo processo) podem rodar concorrentemente.
+
+Normalmente, utilizamos thread para interface gráfica, acesso ao banco de dados, acesso à rede etc., pois o programa não pode parar, ou a interface congelar, enquanto esperamos baixar um 
+arquivo, por exemplo.
+
+Porém, quando temos um programa que necessita muito dos recursos do processador e temos como paralelizar nosso programa, devemos optar pela criação de múltiplos processos.
+
+Criar novos processos pode ser lento e consumir muita memória, enquanto a criação de threads é mais rápida e consome menos memória.
+

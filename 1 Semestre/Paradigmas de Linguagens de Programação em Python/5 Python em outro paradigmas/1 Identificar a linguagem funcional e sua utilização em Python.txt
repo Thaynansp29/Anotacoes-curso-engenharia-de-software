@@ -1,0 +1,71 @@
+A programação funcional teve seu início no final dos anos 1950, com a linguagem LISP.
+
+À diferença do que muitos pensam, esse tipo de programação não é apenas a utilização de funções em seu código-fonte, mas um paradigma e um estilo de programação.
+
+Na programação funcional, toda ação realizada pelo programa deve ser implementada como uma função ou uma composição de funções, mas estas devem seguir algumas regras:
+
+Devem ser puras, ou seja, em qualquer ponto do programa, sempre produzem o mesmo resultado quando passados os mesmos parâmetros;
+
+Os dados devem ser imutáveis, e uma vez definida uma variável, seu valor não pode ser alterado;
+
+Os loops não devem ser utilizados, mas sim a composição de funções ou recursividade.
+
+A utilização dessas regras visa garantir, principalmente, que não haja um efeito indesejável e imprevisto quando executamos um programa ou parte dele.
+
+Muitas linguagens de programação (como Python, Java e C++) dão suporte para a programação funcional, porém são de propósito geral, dando base para outros paradigmas, como programação 
+imperativa e orientada a objetos.
+
+Outras linguagens, como Haskell, Clojure e Elixir, são predominantemente de programação funcional.
+
+EFEITO COLATERAL E ESTADO DA APLICAÇÃO
+As funções puras e dados imutáveis buscam evitar os efeitos indesejáveis, como ocorreu no script funcao3.py. Na terminologia de programação funcional, chamamos isso de efeito colateral 
+(side effect). Além de evitar o efeito colateral, a programação funcional evita a dependência do estado de um programa.
+
+A dependência apenas dos parâmetros para gerar saídas garante que o resultado será sempre o mesmo, independentemente do estado da aplicação, por exemplo, valores de outras variáveis. Ou 
+seja: não teremos diferentes comportamentos para uma função baseado no estado atual da aplicação.
+
+FUNÇÕES LAMBDA
+Assim como em outras linguagens, o Python permite a criação de funções anônimas. Estão são definidas sem identificador (ou nome) e, normalmente, são utilizadas como argumentos para outras 
+funções (de ordem superior).
+
+Em Python, as funções anônimas são chamadas de funções lambda. Para criá-las, utilizamos a seguinte sintaxe:
+
+lambda argumentos: expressão
+Iniciamos com a palavra reservada lambda, seguida de uma sequência de argumentos separados por vírgula, dois pontos e uma expressão de apenas uma linha. As funções lambda SEMPRE retornam o
+valor da expressão automaticamente. Não é necessário utilizar a palavra return.
+
+Exemplo:
+Considere a função para multiplicar dois números a seguir:
+
+def multiplicar(a, b):
+
+return a*b
+
+A função lambda equivalente é:
+
+lambda a, b: a*b
+
+						Map
+A função map é utilizada para aplicar uma determinada função em cada elemento de um iterável (lista, tupla, dicionários etc.), retornando um novo iterável com os valores modificados.
+
+A função map é pura e de ordem superior, pois depende apenas de seus parâmetros e recebe uma função como parâmetro. A sua sintaxe é a seguinte:
+map(função, iterável1, iterável2...)
+O primeiro parâmetro da map é o nome da função (sem parênteses) que será executada para cada item do iterável. Os demais parâmetros são os iteráveis separados por vírgula. A função map 
+SEMPRE retorna um novo iterável.
+
+						Filter
+É utilizada para filtrar elementos de um iterável (lista, tupla, dicionários etc.). O filtro é realizado utilizando uma função, que deve ser capaz de retornar true ou false para cada 
+elemento do iterável.
+
+Atenção
+Todo elemento que for avaliado como true será incluído em um novo iterável retornado pela função filter, que é pura e de alta ordem, pois depende apenas dos parâmetros e recebe uma função 
+como parâmetro. A sua sintaxe é a seguinte:
+
+filter(função, iterável)
+
+O primeiro parâmetro da função filter é o nome da função (sem parênteses), que será executada para cada item do iterável. O segundo parâmetro é o iterável. A função filter SEMPRE retorna 
+um novo iterável, mesmo que vazio.
+
+No exemplo do Codigo 8 a seguir, vamos criar três scripts. Todos fazem a mesma filtragem. Recebem uma lista e retornam os elementos ímpares, gerando uma nova lista, de forma a garantir a 
+imutabilidade.
+
