@@ -1,0 +1,18 @@
+Como visto neste tema, a linguagem funcional pode resolver alguns problemas relacionados à execução do programa, chamados de efeitos colaterais.
+
+Mesmo que não utilizemos todas as diretrizes da programação funcional, como imutabilidade dos dados, é uma boa prática utilizarmos funções puras, de forma a evitar a dependência do estado 
+da aplicação e alteração de variáveis fora do escopo da função.
+
+Em Python, podemos criar tanto programas concorrentes quanto paralelos. Apesar do GIL (Global Interpreter Lock) permitir executar apenas uma thread de cada vez por processo, podemos criar 
+múltiplos processos em uma mesma aplicação.
+
+Com isso, conseguimos tanto gerar códigos concorrentes (múltiplas threads), quanto paralelos (múltiplos processos).
+
+Apesar do Python não ser a primeira escolha para desenvolvimento web, mostramos como é simples a utilização do framework Flask para essa finalidade. Assim como o Flask, outros frameworks 
+mais completos, como Django, facilitam o desenvolvimento desse tipo de aplicação. Sites como Instagram e Pinterest utilizam a combinação Python+Django, mostrando que essa combinação é 
+altamente escalável!
+
+A utilização do Python como ferramenta para ciência de dados evolui a cada dia. As principais bibliotecas para análise e extração de conhecimento de base de dados, mineração de dados e 
+aprendizado de máquinas têm uma implementação em Python.
+
+Apesar de não ter sido mostrado, neste tema, o console do Python é muito utilizado para realizar experimentações nesta área.

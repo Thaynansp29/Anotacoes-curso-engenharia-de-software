@@ -4,6 +4,7 @@ import time
 
 minha_lista = []
 
+
 def funcao_a(indice):
     for i in range(100000):
         minha_lista.append(1)

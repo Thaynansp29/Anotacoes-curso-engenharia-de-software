@@ -1,0 +1,42 @@
+NTRODUÇÃO
+Atualmente, existem diversas opções de linguagem de programação para desenvolver aplicações web, sendo as principais: PHP, ASP.NET, Ruby e Java.
+
+De acordo com o site de pesquisas W3Techs, o PHP é a linguagem mais utilizada nos servidores, com um total de 79% de todos os servidores utilizando essa linguagem.
+
+Grande parte da utilização do PHP se deve aos gerenciadores de conteúdo, como WordPress, Joomla e Drupal, escritos em PHP e que tem muita representatividade na web hoje.
+
+Você sabia?
+O Python também pode ser utilizado para desenvolver aplicações web?
+
+Atualmente existem diversos frameworks que facilitam a criação de aplicações web em Python.
+
+Os frameworks podem ser divididos em, basicamente, dois tipos: full-stack e não full-stack.
+
+FRAMEWORKS FULL-STACK
+Os frameworks full-stack disponibilizam diversos recursos internamente, sem a necessidade de bibliotecas externas. Dentre os recursos, podemos citar:
+
+*Respostas à requisição;
+*Mecanismos de armazenamento (acesso a banco de dados);
+*Suporte a modelos (templates);
+*Manipulação de formulários;
+*Autenticação;
+*Testes;
+*Servidor para desenvolvimento, entre outros.
+O principal framework Python full-stack é o Django.
+
+FRAMEWORKS NÃO FULL-STACK
+Estes oferecem os recursos básicos para uma aplicação web, como resposta a requisição e suporte a modelos. Os principais frameworks dessa categoria são o Flask e o CherryPy.
+
+Normalmente, para aplicações maiores, são utilizados os frameworks full-stack, que também são um pouco mais complexos de se utilizar.
+
+Na primeira linha, importamos a classe flask, que é a classe principal do framework. É a partir de uma instância dessa classe que criaremos nossa aplicação web. Na linha 2, é criada uma 
+instância da classe flask, onde passamos __name__ como argumento para que o Flask consiga localizar, na aplicação, arquivos estáticos, como css e javascript, e arquivos de modelos 
+(templates), se for o caso.
+
+
+Você sabia?
+O Flask utiliza o conceito de rotas para direcionar o acesso às páginas (ou endpoints). As rotas servem para guiar as requisições feitas ao servidor para o trecho de código que deve ser 
+executado. Os nomes das rotas são os nomes utilizados pelo usuário para navegar na sua aplicação.
+
+Por isso, utilize nomes com significado e de fácil memorização. No caso do Flask, as rotas são direcionadas para funções, que devem retornar algum conteúdo.
+

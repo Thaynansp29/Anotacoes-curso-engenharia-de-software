@@ -18,7 +18,8 @@ dessas duas aplicações. Ou seja: essas duas aplicações executam de forma con
 
 Apesar da concorrência não necessariamente precisar de mais de um núcleo, ela pode se beneficiar se houver mais deles, pois os processos não precisarão compartilhar tempo de processador.
 
-Já o paralelismo é uma técnica para permitir que programas rodem mais rápido, executando várias operações ao mesmo tempo. Ela requer várias máquinas ou um processador com mais de um núcleo. Também é possível realizar o paralelismo nas placas de vídeo.
+Já o paralelismo é uma técnica para permitir que programas rodem mais rápido, executando várias operações ao mesmo tempo. Ela requer várias máquinas ou um processador com mais de um núcleo. 
+Também é possível realizar o paralelismo nas placas de vídeo.
 
 Threads e processos
 
@@ -46,4 +47,16 @@ arquivo, por exemplo.
 Porém, quando temos um programa que necessita muito dos recursos do processador e temos como paralelizar nosso programa, devemos optar pela criação de múltiplos processos.
 
 Criar novos processos pode ser lento e consumir muita memória, enquanto a criação de threads é mais rápida e consome menos memória.
+
+Criação de threads e processos
+Como criar threads e processos em Python:
+
+Vamos utilizar a classe thread e process, dos módulos threading e multiprocessing, respectivamente. Para facilitar a transição entre processos e threads simples, o Python fez os 
+construtores e métodos das duas classes muito parecidos.
+
+É função do programador armazenar uma referência para as suas threads ou processos, de maneira que possamos verificar seu estado ou interrompê-las. Para isso, armazenamos cada thread ou 
+processo criado em uma lista chamada tarefas (linha 17).
+
+Logo após a criação das threads ou processos, vamos imprimir o número de itens na variável minha_lista (linha 20); aguardar o término da execução das threads ou processos pela iteração da 
+lista tarefas e utilizando o método join() (linha 22 e 23); e, por fim, imprimimos o número de itens final da variável minha_ lista (linha 25).
 
