@@ -1,0 +1,189 @@
+O que é software?
+
+Sempre que você baixa um programa ou vê um computador ligado, está presenciando algum software sendo executado.
+
+Até mesmo no passado, telégrafos, telefones, aparelhos de fax, todos já possuíam um software, um conjunto de ações programadas que usavam a estrutura física e lhes davam materialidade: voz,
+letras e imagens. Cada máquina exercia exatamente a sua função, e repare: estamos indo além da função mecânica.
+
+Exemplo:
+Imagine uma máquina de costura.
+
+Ela faz sempre a mesma operação, um movimento mecânico repetitivo. Porém, quem atua para que ela execute funções a partir do domínio de técnica é o sujeito; a máquina mecânica é estruturada,
+e a mente humana é quem faz a função.
+
+Quando um sujeito decidiu que era possível programar a máquina para fazer além da função repetida, para trançar uma estrutura, sucedendo e alcançando a partir disso objetivos claros e novos,
+criou-se o software. A máquina é capaz de ser programada para cumprir um conjunto de funções definidas e desenhadas pelo sujeito.
+
+O computador é filho da II Guerra Mundial, da necessidade de novos desenvolvimentos, de realizar processamento de informações e comunicação mais eficientes, cruzando dados e armazenamento.
+
+Não basta construir a máquina; é necessário executar, definir o que se deseja, programar e reprogramar.
+
+Softwares para computadores passaram a ser uma demanda, uma construção e sofisticação contínuas.
+
+Sempre que um software é criado, imediatamente passamos a pensar em como melhorá-lo, transformá-lo em algo mais eficiente. Pessoas vivem disso e recriam isso.
+
+Nunca mais dominaremos perfeitamente todos os softwares que desejamos; afinal, sempre que aprendermos sobre um, novas mudanças estarão chegando.
+
+Já jogou videogame? Esses aparelhos mudaram e continuam mudando; atualmente, possuem gráficos e programações cada vez mais complexos.
+
+Para entender tudo isso, é necessário compreender o que é, afinal, um software para computadores.
+
+Afinal, o que é software?
+
+Software é o conjunto de funções executadas na programação de um computador.
+
+Embora não seja uma entidade física, ganha materialização em sua construção virtual, independentemente da rede.
+
+É a manifestação de uma imagem e dos desdobramentos a partir da construção de códigos e execuções.
+
+Vamos entender melhor esse processo:
+
+A CPU (Central Processing Unit), também chamada de processador, é uma espécie de cérebro. É ela quem realmente executa o que chamamos de “instruções de código de máquina”.
+
+Essas instruções são extremamente simples e constituídas apenas dos números 0 (zero) e 1 (um), conhecido como código binário.
+
+Podemos pensar no conjunto de instruções de código de máquina que uma CPU é capaz de executar como sendo um idioma de baixo nível, ou “código de máquina” (também conhecido como “código 
+nativo”). O idioma do código da máquina está intimamente conectado ao projeto do hardware da CPU, ou seja, não é algo que possa ser mudado à vontade.
+
+Cada família de CPUs compatíveis (por exemplo, a popular família Intel x86 usada em computadores pessoais) possui seu próprio código de máquina específico, que não é compatível com o 
+código de máquina de outras famílias de CPUs.
+
+Vamos a um exemplo:
+
+Exemplo:
+Na linguagem JavaScript, a instrução (linha de código) para definir um pixel (ponto) da tela com nível de vermelho para o nível 255 seria:
+
+pixel.setRed(255).
+
+Essa instrução é muito mais complexa do que uma instrução de código de máquina individual que CPUs são capazes de executar. Então, nós a chamamos de uma instrução de alto nível.
+
+Instruções de alto nível são facilmente compreensíveis pelos humanos, mas os computadores não são capazes de executá-las.
+
+O que ocorre, então, é que, antes de ser executada, a instrução de alto nível será expandida em uma sequência – talvez cinco ou dez instruções de baixo nível (código de máquina) –, de modo
+que, quando essas cinco ou dez instruções forem executadas, uma após a outra, o resultado final terá o efeito de definir o valor vermelho do pixel para 255, conforme designado pela 
+instrução de alto nível escrita pelo programador. Esse processo está resumido na imagem a seguir.
+
+
+Compilador traduz linhas de código escritas pelo programador em instruções de código de máquina compreensíveis à CPU.
+
+Você pode estar se perguntando:
+
+Como corrigir um erro de programação cometido pelo programador?
+
+Se você quiser adicionar um recurso para corrigir um bug no Firefox (por exemplo), a forma real de fazer isso é voltar ao código-fonte original e realizar os ajustes necessários, alterando
+as instruções.
+
+Em seguida, é necessário executar o compilador novamente para compilar (traduzir de linguagem C++ para linguagem de máquina) uma nova versão do Firefox que incluirá os ajustes realizados no
+código-fonte.
+
+Software de código aberto
+É importante construirmos uma noção do que significa software de código aberto.
+
+Trata-se de uma forma de distribuição de software em que o programa compilado é fornecido, mas também há acesso ao código-fonte original do programa.
+
+Geralmente, o código-fonte é acompanhado de uma licença que diz algo como:
+
+“Aqui está o código-fonte, se você quiser criar sua própria versão realizando as alterações que desejar, fique à vontade.”
+
+Trata-se de uma forma de distribuição de software, normalmente gratuita, em que o programa compilado é fornecido, mas também há acesso ao código-fonte original do programa.
+
+Mas qual a diferença entre softwares de código aberto e softwares de código fechado?
+
+Código aberto
+Se forem necessários ajustes, correções e incrementações que você queira fazer com o programa – ou se o fornecedor original não existe mais –, você tem total liberdade para agir.
+
+Você pode realizar as modificações, ou talvez prefira contratar alguém para produzir sua própria versão personalizada.
+
+Código fechado
+Se você precisa de algum recurso diferente ou adicional, ou se há um bug que precisa ser corrigido, você realmente depende do fornecedor, pois somente ele detém o código-fonte.
+
+Então, só o fornecedor é capaz de realizar ajustes e correções.
+
+Em geral, existem tipos diferentes de termos de licença para software de código aberto, mas, na maioria das vezes, eles exigem que, se você fizer alterações no código-fonte e adicionar 
+algum recurso, você deve oferecer essas alterações à comunidade. Assim, da mesma maneira que você se beneficiou dos outros ao obter o programa gratuito e seu código-fonte, eles podem se 
+beneficiar do seu trabalho.
+
+O que é um programa?
+Observe o lado direito desta imagem e perceba que a CPU está executando uma sequência de instruções presentes na memória RAM. Então, um programa/aplicativo como, por exemplo, o navegador de
+Internet Firefox, ou o editor de textos Microsoft Word, nada mais é do que uma enorme sequência dessas instruções simples de código de máquina.
+
+Assim, quando o Firefox está sendo executado no seu computador, isso significa que, em algum lugar na RAM, há um bloco dessas instruções, e a CPU as executa uma após a outra sequencialmente.
+
+Tudo o que você pode ver o Firefox fazendo – como piscar o cursor, conectar-se via rede a uma URL fornecida pelo usuário, desenhar imagens na tela, obter páginas da Web, entre outros – 
+ocorre graças à CPU, que roda as instruções de forma tão inacreditavelmente rápida que você interage com o Firefox de forma fluida e natural.
+
+Portanto, as instruções individuais são realmente triviais, certo?
+
+De que forma isso leva o cursor a piscar no ponto onde podemos digitar algo?
+
+Resposta
+Uma forma bastante simples de pensar sobre isso é usar uma analogia: o relacionamento entre areia e escultura.
+
+Cada instrução em código de máquina seria um grão de areia, que é sem sentido e parecido com todos os outros. Porém, se você juntar grande quantidade de maneira certa, pode construir uma 
+estrutura complexa, conforme sua imaginação e seu objetivo.
+
+Em linhas gerais, é assim que programas como o Firefox, Chrome, Microsoft Word, os jogos digitais, ou qualquer outro aplicativo são construídos.
+
+Se olharmos à esquerda da imagem, veremos a CPU trabalhando para executar as instruções de código de máquina disponíveis na RAM.
+
+Para executar as instruções de código de máquina, as instruções usam um método chamado ciclo busca-execução (Fetch Execute Cycle).
+
+No ciclo busca-execução, a CPU iniciará buscando a instrução 1, carregando-a para dentro de si (CPU), e a executará.
+
+Por exemplo, a CPU adicionará os dois números. Após executar a instrução 1, a CPU simplesmente desce na lista e executa novamente o ciclo busca-execução para a instrução 2. Em seguida, faz
+o mesmo para a instrução três, e assim por diante. As instruções são executadas uma após a outra, sequencialmente.
+
+Quando dizemos que uma CPU opera a 4 GHz (gigahertz), ou 4 bilhões de operações por segundo, estamos nos referindo exatamente a essas pequenas instruções.
+
+Existe uma enorme variedade de tipos de instruções, mas há dois tipos específicos que vale a pena comentarmos, mesmo em um curso introdutório. Veja a seguir:
+
+Normalmente, a CPU apenas desce a lista e faz a execução das instruções na ordem em que elas estão armazenadas na memória.
+
+Conforme ilustrado na imagem a seguir, digamos que a instrução quatro diga: “Pule para trás e comece a executar novamente na instrução 1”.
+
+Nesse caso, a CPU executaria as instruções na ordem: 1, 2, 3, 4 e, em seguida, em vez de seguir para a instrução 5, daria um pulo para trás e iria para (goto) a instrução 1, executando-a 
+novamente, seguida das instruções 2 e 3.
+
+É assim que as estruturas de repetição de instruções (loops) são implementadas pela CPU.
+
+
+Instrução 4 solicitando que a CPU, em vez de seguir para a instrução 5, volte a executar a instrução 1.
+
+Você sabe o que é goto?
+
+A goto é uma instrução na linguagem de informática e significa: vá para a linha indicada e siga executando o código a partir desse local.
+
+Se a condição for verdadeira, diz, por exemplo, que ela avance para a instrução 5.
+
+Há uma instrução que olhará para alguma condição; assim, se a condição for verdadeira, é como dizer à CPU: “Vá para (goto) a linha indicada”. Caso seja falsa, a CPU vai para (goto) outra 
+linha.
+
+Então, organizando as instruções, você pode obter o efeito de uma estrutura condicional, conhecida como declaração if.
+
+Ao serem instalados, programas são colocados em um dispositivo de armazenamento persistente, como HD, SSD ou pendrive.
+
+Vamos entender com o exemplo do Firefox:
+
+Exemplo
+O programa é basicamente um arquivo chamado Firefox.exe, que possui muitos bytes. Na maioria dos casos, esses bytes são apenas as instruções que compõem o programa, além de alguns ícones e
+fotos.
+
+O que acontece quando você clica duas vezes no arquivo Firefox.exe, ou no atalho que aponta para esse arquivo?
+
+Basicamente, são os três passos indicados na imagem a seguir:
+
+
+O que é carregar/iniciar um programa?
+
+Veja a descrição de cada um desses passos:
+
+Passo 1
+Cópia dos bytes (ou seja, instruções) que compõem o arquivo do dispositivo de armazenamento persistente (HD, por exemplo) para uma área desocupada da memória RAM. Essa cópia é comumente 
+chamada de carregar (load) o programa.
+
+Passo 2
+Após o carregamento (cópia do HD para a RAM), a CPU já é capaz de realizar o ciclo busca-execução para rodar o programa Firefox. Então, o passo dois consiste em apenas dizer à CPU: “Aqui 
+está a instrução 1 de um programa; você deve iniciar, a partir dessa instrução, o ciclo busca-execução para rodar o programa”.
+
+Passo 3
+A CPU começa o processo de rodar/executar as instruções de forma incrivelmente rápida. Pronto, nosso Firefox está rodando, e o usuário já consegue navegar pela Internet.

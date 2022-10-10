@@ -1,12 +1,4 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-
-@app.route('/')
-def ola_mundo():
-    return "Olá mundo."
-
-
-if __name__ == '__main__':
-    app.run()
+a, b = 0, 2
+while b < 20:
+    a, b = b, a+b+1
+print(a,b)
