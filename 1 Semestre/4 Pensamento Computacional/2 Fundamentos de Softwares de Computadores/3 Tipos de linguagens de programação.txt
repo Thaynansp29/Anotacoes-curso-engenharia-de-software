@@ -1,0 +1,65 @@
+Tipos de linguagem de programação
+A classificação de linguagens de programação é mais detalhada e abrangente do que a apresentada aqui, mas vamos nos limitar, por questões de simplicidade, a agrupá-las nestas categorias.
+
+O funcionamento de uma linguagem de programação é definida por seu tipo. Veja, a seguir, quais são.
+
+Linguagem Compilada
+São aquelas em que o processo de tradução (compilação) é feito com antecedência e o código é necessariamente executável.
+
+Quando se utiliza uma linguagem compilada, é necessário executar um programa para traduzir os arquivos-fonte, legíveis em linguagem de alto nível, em código executável. As linguagens 
+compiladas têm a vantagem de produzir código de alta performance, o qual está ajustado para o funcionamento em um tipo específico de processador ou arquitetura de processador. Aplicativos 
+compilados, chamados de código binário, só podem rodar no tipo de computador para o qual foram compilados, uma vez que esses aplicativos consistem, na realidade, em instruções em linguagem
+de máquina, entendidas e executadas pelo microprocessador.
+
+(INDRUSIAK, 1996, p. 4)
+
+A linguagem dinâmica se diferencia por se pautar no tempo de execução, cruzando os dados com os protocolos por meio de bibliotecas, criando “metaobjetos”, quer dizer, bibliotecas complexas
+de combinação e execução. Java, JavaScripts e Python são exemplos de linguagens de programação dinâmicas/interpretadas.
+
+Uma forma de compreender essa categoria é pensar que, em vez do compilador, é usado outro software de propósito especial denominado interpretador.
+
+Trata-se de um programa que lê código-fonte escrito em uma linguagem como Java, JavaScript, Python, entre outras, e o “executa/roda”.
+
+Falando de modo geral, a tendência para a programação de computadores caminha para o uso de linguagens dinâmicas/interpretadas. Isso ocorre porque há um consenso de que é bastante atraente
+poder programar de forma mais simples e eficiente, mesmo sabendo que o programa final rodará mais lentamente na CPU.
+
+Isso talvez seja um pouco contraintuitivo, mas podemos refletir sobre essa questão da seguinte forma:
+
+Qual o recurso mais escasso em programação de computadores?
+
+Geralmente, a resposta é: o programador!
+
+Em todo o mundo, o mercado de trabalho da área da computação sofre, cada vez mais, com a falta de profissionais qualificados. Portanto, usar menos horas de trabalho dos programadores é um 
+atrativo muito importante.
+
+O fato de que o programa rodará mais lentamente na CPU é considerado menos relevante, até porque, conforme a lei de Moore, as CPUs estão cada vez mais baratas e o poder de processamento 
+delas cresce continuamente.
+
+Então, se pensarmos em qual será a tendência para os próximos anos, também há um consenso, no mercado, de que o programador continuará a ser considerado um recurso cada vez mais escasso se 
+comparado ao poder de processamento das CPUs.
+
+Para finalizar, vale a pena comentar sobre uma coisa chamada JIT (Just in Time Compiler). O objetivo dos JITs é tentar obter o melhor dos dois mundos: linguagens compiladas e linguagens 
+interpretadas.
+
+A ideia é ter os benefícios da maior simplicidade de desenvolvimento de programas usando linguagens dinâmica e, ao mesmo tempo, obter um programa que rode mais rapidamente na CPU. Dessa 
+forma, o JIT é responsável por ler parte do código-fonte e tentar compilá-lo rapidamente, antes de executá-lo. O mais interessante é que isso funciona muito bem!
+
+Navegadores modernos de Internet, como o Firefox, o Chrome, o Microsoft Internet Explorer e o Microsoft Edge, agora embutem JITs para código JavaScript. Assim, na verdade, quando você está
+executando o código JavaScript dentro do navegador, o JIT examina trechos do código dinâmico (Javascript) que estão sendo executados com muita frequência e compila o código nativo desses 
+trechos em tempo real.
+
+O intérprete não é usado para casos simples, mas para seções importantes do código dinâmico (como o interior de uma estrutura de repetição), e o JIT cria um bloco de código de máquina na 
+memória.
+
+O código da máquina é executado para essa seção do código dinâmico, oferecendo desempenho semelhante a linguagens compiladas, como C e C++, e é descartado quando o programa é encerrado.
+
+Note que, mesmo com o uso de JITs, linguagens interpretadas possuem desempenho inferior ao de linguagens compiladas com C e C++.
+
+Além do JavaScript, a linguagem Java também usa a tecnologia JIT extensivamente. O enorme ganho de desempenho dos navegadores de Internet nos últimos anos deve-se, em grande parte, à 
+implementação da tecnologia JIT para JavaScript.
+
+Já sabemos que CPUs apenas são capazes de executar instruções de baixo nível, ou código de máquina. Entretanto, como instruções de baixo nível são de difícil compreensão para humanos, 
+foram desenvolvidas linguagens de programação de alto nível que admitem instruções de mais fácil compreensão. Nós, humanos, preferimos escrever software em linguagens de alto nível, como, 
+por exemplo, C++. Então, para que a CPU seja capaz de executar as instruções, precisam ser traduzidas da linguagem de alto nível em que foi escrita para a linguagem de máquina. O software 
+que realiza essa tradução é denominado compilador. Portanto, um compilador C++ é responsável por traduzir códigos escritos em C++ para o código de máquina da CPU.
+

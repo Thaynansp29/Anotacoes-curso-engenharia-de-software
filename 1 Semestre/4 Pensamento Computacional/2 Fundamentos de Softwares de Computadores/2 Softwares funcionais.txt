@@ -1,0 +1,78 @@
+Sistema Operacional
+Definição:
+Comumente, quando se estuda conceitos básicos de software e como ocorre a execução de instruções pela CPU, surgem questionamentos como:
+
+Quem lida com o duplo clique usado para ordenar que um programa seja executado?
+
+Quem garante que um novo programa carregado na RAM irá para uma região da memória que esteja realmente ociosa, sem que haja sobreposição de outros programas em execução?
+
+Quem ordena o carregamento de um programa do HD para a RAM?
+
+Ao final da execução de um programa, quem realizada as operações, como, por exemplo, liberar a região da RAM onde o programa esteve durante sua execução?
+
+A resposta às perguntas descritas anteriormente é a seguinte: o Sistema Operacional (SO).
+
+O SO é um conjunto de tipos de programas administrativos e de supervisão que organizam todo o sistema. O sistema operacional está para os computadores como o governo está para uma nação.
+
+O SO de um computador é como um primeiro programa de supervisão que começa a ser executado quando o computador é inicializado (“inicializa”). Ele desempenha um papel administrativo e 
+contábil invisível nos bastidores.
+
+Quando um desktop, laptop ou smartphone é iniciado, o SO, normalmente, organiza as coisas e inicia um programa “explorador de arquivos” que exibe janelas e menus, entre outros, que mostram
+ao usuário quais sistemas de arquivos estão disponíveis. Isso permite que ele navegue e opere seu equipamento, solicitando que programas/aplicativos sejam iniciados ou finalizados, 
+interagindo com esses programas/aplicativos.
+
+Em resumo, conforme ilustrado na imagem a seguir, o SO é responsável por intermediar as solicitações que os usuários fazem a programas/aplicações, gerenciando como tudo isso deve ser 
+demandado do hardware.
+
+O sistema operacional mantém as coisas organizadas em segundo plano para que vários programas possam ser executados ao mesmo tempo, o que é conhecido como “multitarefa”. Ele fornece a cada
+ programa sua própria área de memória, de modo que cada programa acessa apenas seus próprios recursos, tentando limitar, por motivos de segurança, o que um programa incorreto ou 
+mal-intencionado pode fazer.
+
+Manter os programas separados é conhecido como “área restrita”. Isso é importante para que cada programa funcione independentemente, sem interferir em outros programas ou no sistema como 
+um todo. Da mesma forma, cada programa tem algum acesso à tela por meio de uma janela, mas essa área de saída é separada da saída de outros programas.
+
+Arquivo Word.exe:
+Um arquivo .exe é essencialmente apenas um arquivo de instruções de código de máquina. Quando você clica duas vezes no programa, está ordenando que o SO “inicie” o programa, executando as 
+etapas de limpeza de alocação de uma área de memória na RAM para o programa, carregando a primeira seção do código de máquina do programa nessa memória e, finalmente, direcionando a CPU 
+para começar a executar esse código.
+
+Câmera digital:
+Uma câmera digital também é um pequeno computador. Quando é iniciado, ele não executa um programa de gerenciamento de arquivos. Em vez disso, depois que a limpeza básica for configurada, 
+a câmera poderá executar um único programa que desenha os menus, entre outros, na tela da câmera e responde a cliques nos botões da câmera, e assim por diante.
+
+Boot e Reboot
+O sistema operacional é, antes de qualquer programa do usuário, a primeira coisa a ser executada quando seu computador é ligado.
+
+Somente após o carregamento do SO, o usuário pode selecionar os programas que deseja rodar, clicando duas vezes nos ícones correspondentes na área de trabalho.
+
+Há um programa especial, e muito pequeno, denominado firmware, que é gravado pela fábrica no hardware.
+
+O firmware é responsável por detectar quando um computador estava desligado e acaba de ser ligado, e realiza alguns procedimentos iniciais de teste de hardware, para então, basicamente, 
+procurar um dispositivo de armazenamento persistente que contenha um SO instalado.
+
+Depois disso, é possível, então, iniciar seu carregamento (cópia das instruções que compõem o SO do disco para a RAM e indicação para a CPU de qual é a primeira instrução do SO a ser 
+executada).
+
+O termo firmware é usado, geralmente, para se referir especificamente ao firmware de inicialização, que controla um computador desde o momento em que é ligado até o sistema operacional 
+principal assumir o controle.
+
+A principal função do firmware de inicialização é inicializar o hardware e, em seguida, inicializar (carregar e executar) o sistema operacional principal.
+
+Veja, a seguir, o esquema de um computador pessoal. Nesse tipo de computador, o firmware de inicialização é chamado, geralmente, de BIOS (Basic Input/Output System), ou sistema básico de 
+entrada e saída.
+
+Este processo é comumente denominado inicializar (boot ou boot up).
+
+E quando ocorre o Reboot?
+
+O reboot ocorre quando ordenamos ao SO que o computador seja reiniciado, ou seja, o próprio SO cuida das tarefas necessárias para a finalização e o desligamento do computador. 
+Imediatamente, o computador é religado, e o processo de boot recomeça.
+
+Conforme estudamos, o sistema operacional é o nome dado ao conjunto de programas administrativos e de supervisão que intermedeiam a interação humano-computador. Entre as funções do SO, 
+está receber o comando do usuário para iniciar programas (exemplo: duplo clique) e realizar as tarefas administrativas necessárias para que o programa seja executado. Em específico, quando
+o usuário dá um duplo clique em um arquivo de programa, o SO é quem comanda o carregamento do programa, ou seja, a cópia do conteúdo do arquivo de programa do disco para a RAM. Depois, ele
+indica à CPU onde, na RAM, está a primeira instrução do programa a ser executado.
+
+O firmware consiste em programas instalados semipermanentemente na memória, usando vários tipos de chips ROM programáveis, como PROMS, EPROMs, EEPROMs e chips flash. O firmware não é 
+volátil e permanece na memória depois que você desliga o sistema.
+

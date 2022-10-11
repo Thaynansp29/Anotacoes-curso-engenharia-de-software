@@ -1,0 +1,65 @@
+Hardware é o termo usado para se referir à parte física de um equipamento.
+
+Devemos pensar que estamos falando dos componentes diretamente utilizados pela estrutura tecnológica. Você já viu o interior do seu celular? Tudo ali se encaixa, tem uma função, desde 
+mecanismos para levar energia, poupar e armazenar dados até possibilidades de encaixes que agregam outras tecnologias. Cada um desses elementos é uma mistura de tecnologia de 
+desenvolvimento técnico e equilíbrio econômico para produção em massa.
+
+Então, um hardware é a estrutura física que permite executar as funções que desejamos.
+
+Vamos a outro exemplo que nos permite sofisticar um pouco mais a visão sobre o que é o hardware.
+
+Se olharmos um cérebro em um microscópio, veremos neurônios. Os neurônios são a unidade fundamental do hardware humano relacionado ao pensamento e processamento de informações.
+
+O cérebro do computador é a CPU (Central Processing Unit). Quando olhamos as partes de uma CPU, identificamos os transistores.
+
+O transistor é provavelmente uma das invenções mais importantes do século. Este é um pequeno componente eletrônico que pode ser usado para criar todo tipo de coisas diferentes.
+
+Atualmente, encontramos transistores embutidos em componentes chamados de chips.
+
+Chips são dispositivos de estado sólido (solid state), isto é, sem qualquer tipo de partes móveis internamente. Não há engrenagens, rodas ou eixos que girem dobradiças. Isso torna os chips
+dispositivos muito confiáveis, pois partes móveis se desgastam com o tempo e requerem manutenção constante, como ocorre em motores de veículos. Além disso, eles são fabricados com altíssima
+quantidade, mas de forma muito barata. A combinação de baixo custo e alta confiabilidade é uma das principais forças motrizes da revolução dos computadores.
+
+Lei de Moore
+Uma das forças mais importantes do desenvolvimento do silício é a Lei de Moore, uma observação feita por Gordon Moore sobre como a fabricação de chips vinha sendo capaz de inserir cada vez
+mais transistores dentro de um chip. Essa lei diz que o número de transistores contidos em um chip dobra em um período entre 18 e 24 meses.
+
+Desempenho
+A lei pode significar que a indústria tem conseguido dobrar o número de transistores embutidos em um chip a cada dois anos. Essa observação descreve um crescimento exponencial bastante 
+poderoso.
+						X
+Econômico
+Os transistores estão ficando cada vez mais baratos. Dessa forma, com o passar do tempo, devido ao baixo custo, é possível criar sistemas computacionais em outros aparelhos, como telefone 
+celular, geladeira, torradeira, termostatos e até em óculos.
+
+É importante entender que a Lei de Moore não é uma lei da natureza, como a lei da gravidade de Isaac Newton. Ao contrário, é apenas uma observação sobre como a fabricação de transistores 
+tende a funcionar. O comportamento observado por Moore tem seguido firme desde 1965. Neste sentido, as possibilidades do desenvolvimento de melhoria e aceleração da parte física acabam por
+permitir o barateamento, transformando o hardware em uma variável importante para o desenvolvimento das sociedades tecnológicas.
+
+A qualidade duplicada da Lei de Moore permite que um computador de décadas atrás, que ocupava uma sala inteira e custava milhões de reais, seja, agora, do tamanho de um cubo de açúcar e 
+custe menos de cem reais.
+
+Se pensarmos em apenas uma duplicação, que ocorre em um ano e meio, podemos ter a impressão de que não é algo tão importante. Porém, se pensarmos em um intervalo de 15 anos, teremos, 
+segundo a Lei de Moore, dez duplicações, o que representa algo mil vezes maior. Observe:
+
+Para termos a real noção da importância deste fenômeno para o crescimento do poder computacional na atualidade, pense que um telefone celular (smartphone) X, fabricado em 2019, possui poder
+de processamento bilhões de vezes maior do que o computador de cálculo de trajetória usado na nave espacial Apollo XI (AGC – Apollo Guidance Computer), que levou o homem à Lua, em 1969.
+
+Uma forma internacionalmente conhecida para medir o poder computacional de processadores é o FLOPS (Floating-point Operations per Second ou Operações de Ponto Flutuante por Segundo), que 
+indica quantas operações matemáticas com casas decimais o processador consegue realizar por segundo.
+
+Supercomputadores fabricados em meados de 2019 possuem trilhões de FLOPS, como é o exemplo de um supercomputador disponível na Universidade de Campinas, que faz 4,5 trilhões de operações 
+aritméticas por segundo.
+
+Exemplo:
+Você provavelmente observou que a partir de 2000 surgiram os pen drives com, inicialmente, 8MB de capacidade de armazenamento. Pelo mesmo preço, em 2019, já era possível comprar pen drives
+de mais de 2000GB de capacidade. Ou seja, em menos de 20 anos, houve um aumento de 250 mil vezes na capacidade de armazenamento dos pen drives.
+
+Pela Lei de Moore, a fabricação dos chips que armazenam informação em pen drives evoluiu de tal forma que é possível embutir mais transistores por, praticamente, o mesmo preço. Então, eles
+podem oferecer mais e mais capacidade de armazenamento.
+
+Os exemplos que vimos para o poder de processamento de celulares contemporâneos e a capacidade de armazenamento de pen drives evidenciam a qualidade exponencial da Lei de Moore.
+
+Hardware é um componente importante para o desenvolvimento das máquinas. As capacidades de armazenar, responder e reduzir geram, com a definição da Lei de Moore, uma possibilidade 
+constante de avanço e também um volume constante de obsolescência. Sem o hardware como variável, é impossível pensar na continuidade do desenvolvimento de máquinas na contemporaneidade.
+
