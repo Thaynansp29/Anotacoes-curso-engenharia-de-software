@@ -1,0 +1,26 @@
+ Bits e bytes
+Historicamente, computadores são construídos de forma que a unidade básica de informação a ser processada seja uma unidade denominada bit, que pode assumir apenas dois valores, 0 (zero) ou
+1 (um). Provavelmente, você já ouviu a expressão que diz que computadores são apenas capazes de lidar com números 0 (zero) e 1 (um). Isso se refere a bits.
+
+Tudo o que computadores são capazes de fazer é necessariamente construído a partir dessa coleção de bits simples. Então, no hardware de computadores, qualquer componente interno é capaz de
+assumir dois estados diferentes e, quando assume um estado, ele pode ficar nele. Por exemplo, um transistor pode estar no estado ligado (1) ou no estado desligado (0).
+
+Em um disco rígido, os dois estados diferentes são feitos com uma pequena área onde o fluxo magnético tem polaridade sul-norte (bit zero) ou polaridade norte-sul (bit um).
+
+Se prestar atenção, você notará que o número de possíveis combinações distintas duplica cada vez que adicionamos um bit ao número de bits usados para representar valores.
+
+Matematicamente, poderíamos expressar assim: 2x, onde x é o número de Bits.
+
+Portanto, se um Byte é um grupo de oito bits, teremos 28 = 256 combinações diferentes.
+
+Usando o raciocínio que foi ilustrado, sabemos que, com um byte (8 bits), podemos representar 28 valores distintos, ou seja, 256 valores.
+
+Ok, eu tenho 255. Por que não 256, já que 8 bits podem representar 256 padrões diferentes?
+
+A razão pela qual não é 256 é que começamos a contar do zero, e não do um. Então, um byte armazenará números entre zero e 255. Dessa forma, 255 é o máximo, mas são 256 valores distintos.
+
+Exemplo
+Uma boa forma de mostrar como um byte (0-255) é usado na prática é o sistema de representação de cores em computadores, em que cada um dos componentes R (Red – vermelho), G (Green – verde)
+e B (Blue – azul) são representados na memória do computador através de um byte cada. Ou seja, no padrão RGB, temos 256 níveis distintos de vermelho, 256 níveis distintos de verde e 256 
+níveis distintos de azul. Usando este padrão, o computador será capaz de representar 256x256x256 = 16.777.216 de cores (16.77 milhões de cores).
+

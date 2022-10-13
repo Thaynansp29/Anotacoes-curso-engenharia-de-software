@@ -1,0 +1,43 @@
+Você também pode constatar que a imagem é formada por pequenos quadrados, cada um de uma cor diferente. Eles são o que chamamos de pixels.
+
+Cada pixel é um quadrado.
+
+Quando olhamos para uma imagem digital como um todo, sequer percebemos que ela é formada por esses pequenos quadrados.
+
+Isso ocorre porque os pixels são tão pequenos que geram uma ilusão de ótica, assemelhando-se a uma imagem natural e arredondada.
+
+
+Realmente, só conseguimos notar que imagens são formadas por pixels quando usamos o recurso de zoom.
+
+Quanto mais pixels houver em uma imagem, mais próxima ela será da realidade.
+
+As características fundamentais de qualquer imagem digital são:
+
+Elas são formadas por pixels, que são quadrados;
+Um pixel só pode assumir uma cor por vez. Você não pode, em um mesmo instante, representar mais de uma cor em um pixel.
+Se você quiser analisar a quantidade de pixels em uma imagem, basta checar quantos formam sua largura (colunas) e quantos formam sua altura (linhas). Então, o número total de pixels é 
+apenas uma questão de multiplicação.
+
+Se houver uma imagem com 800 pixels de largura por 600 de altura, o total de pixels será: 800 x 600 = 480.000.
+
+A imagem do pássaro é formada por 3.892 pixels de largura (colunas) e 3.328 pixels de altura (linhas): 3.892 x 3.328. Aquele lindo pássaro foi representado pelo uso de 12.952.576 pixels, ou
+seja, quase 13 milhões. Agora fica fácil entender por que a imagem nos parece tão natural.
+
+Você, provavelmente, já deve ter ouvido o termo megapixel. Ele é usado para se referir a 1.000.000 (um milhão) de pixels. Então, o exemplo do passáro possui praticamente 13 megapixels.
+
+Telefones celulares, atualmente, são capazes de capturar imagens com resoluções de 5, 10, 12, 16, 20 e até 100 megapixels.
+
+Com o passar dos anos, as câmeras digitais se tornaram capazes de capturar cada vez mais megapixels.
+
+Notamos que uma imagem digital é representada pelo computador como uma grade de pixels. Cada pixel é um quadrado que só é capaz de assumir uma cor por vez. Além disso, é necessário que haja
+um esquema de endereçamento para identificar cada pixel na composição da imagem.
+
+Nos computadores, foi padronizado o uso de um conjunto de números para representar a coluna em que o pixel se encontra, onde 0 (zero) corresponde à primeira coluna, 1 (um) corresponde à 
+segunda, e assim por diante. Temos o conjunto de valores do eixo y, onde 0 (zero) representa a primeira linha (topo), 1 (um) representa a segunda, 2 (dois) representa a terceira etc. 
+Historicamente, é assim que os pixels de uma imagem são enumerados pelo computador
+
+No gráfico, podemos ver três pixels indicados por setas. O pixel (5,0), em azul, o pixel (1,1), em branco, e o pixel (2,4), em amarelo. É bem comum dizer que esses valores são as 
+coordenadas de um pixel, algo como o endereço da posição do pixel em referência ao canto superior esquerdo.
+
+Mesmo que uma imagem tenha 100.000.000 pixels, qualquer pixel em particular tem um número x,y que o identifica unicamente em relação a todos os demais da imagem.
+

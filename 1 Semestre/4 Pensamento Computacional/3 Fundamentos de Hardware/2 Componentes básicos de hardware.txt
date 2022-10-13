@@ -1,0 +1,111 @@
+Componentes fundamentais do computador
+Para falar sobre computadores, vamos tratar dos componentes fundamentais que o constituem.A seguir temos a CPU, a memória RAM e a memória permanente (HD/pen drive), veja:
+
+
+CPU - Cérebro
+Também chamada de processador, é uma espécie de cérebro. É a CPU quem, de fato, processa instruções.
+
+
+Memória RAM - Temporária
+É uma espécie de memória temporária. Também chamada de memória volátil: tudo o que está na RAM (Ramdom Access Memory) é instantaneamente apagado quando o computador é desligado.
+
+
+Memória persistente - Permanente
+Geralmente, é um disco, um HD (Hard-Disk) ou um pen drive. Os dados armazenados neste tipo de memória permanecem ali mesmo quando o computador é desligado e, por isso, é chamada de memória
+persistente.
+
+CPU
+A parte mais importante do computador é a CPU. Ela faz a computação, ou seja, executa instruções. A CPU possui um rol padronizado de operações bastante simples para executar. Então, quando
+dizemos que um computador executa dois bilhões de operações por segundo, realmente estamos falando sobre a CPU. Isso significa que ela pode fazer centenas de bilhões de coisas muito simples
+por segundo.
+
+
+CPU (Central Processing Unit) ou Unidade Central de Processamento.
+
+As instruções executadas pela CPU são escritas por pessoas que desejam usar o computador e seu incrível poder de processamento para alcançar algum objetivo útil. As instruções escritas em 
+linguagens de programação são denominadas código de computador.
+
+Placa-mãe
+Já estudamos CPU, memória RAM e diversos tipos de armazenamento persistente (HD, SSD, M.2, pen drive), mas falta um componente fundamental do computador, que é responsável por interligar 
+CPU, RAM, discos etc.
+
+Veja a seguir uma placa-mãe, onde todos os componentes eletrônicos são conectados.
+
+
+Observe como conectamos alguns dos componentes na placa-mãe:
+
+A CPU é montada em um compartimento próprio da placa-mãe.
+
+A CPU recebe uma aplicação de uma pasta térmica, que é importante para ajudá-la a transferir calor para o dissipador que será instalado por cima e, assim, manter-se adequadamente resfriada
+durante seu funcionamento.
+
+Um dissipador de calor, também chamado de cooler, é firmemente preso por cima da CPU, ficando em contato com ao CPU e a pasta térmica.
+
+Os pentes de memória RAM também precisam ser encaixados na placa.
+
+Memória temporária
+Random Acess Memory
+A Random Access Memory (RAM), que significa Memória de Acesso Aleatório, pode ser chamada apenas de memória. A RAM é considerada a memória principal, pois é o armazenamento temporário usado
+pela CPU para manter os dados e o código utilizados enquanto processa instruções.
+
+
+Pentes de memória RAM
+
+Em código de computador, quando escrevemos instruções como a = 2 + 5, com o objetivo de que a variável a receba a soma dos valores 2 e 5, ocorrem, na verdade, quatros eventos na memória RAM:
+
+O valor 2 é armazenado em uma posição.
+
+O valor 5 é armazenado em outra posição.
+
+A instrução somar é armazenada em mais uma posição.
+
+O espaço para a variável a é armazenado em mais um endereço.
+A CPU lê/carrega os valores 2 e 5 da memória RAM e, depois, a instrução soma. Então, a CPU realiza a operação e, depois, armazena o resultado na posição da memória reservada para a variável
+a.
+
+É importante observar que a CPU precisa da RAM para processar as instruções de acordo com o código de computador escrito pelo programador. É por isso que ela é chamada de memória principal.
+
+A principal característica da RAM é que ela não é uma memória persistente, mas, sim, uma memória volátil. Isso significa que, quando a energia elétrica é desligada, ela imediatamente fica 
+em branco. Portanto, a energia elétrica funciona muito bem como armazenamento rápido e temporário, mas não se trata de um armazenamento de longo prazo.
+
+Imagine que o computador desligue por acidente enquanto você está digitando o texto de um trabalho no Word antes de apertar o botão salvar. Você certamente ficará chateado, pois perderá as
+informações digitadas desde a última vez em que salvou seu trabalho.
+
+Isso ocorre porque esses caracteres ainda estavam somente na memória RAM, que não é persistente. Assim, a versão que você possui é a última versão que salvou.
+
+Memória persistente
+O nosso terceiro componente de hardware é a memória/armazenamento persistente, também chamada de memória secundária. Vejamos como ela funciona de forma diferente da memória RAM.
+
+
+Em um editor de texto, quando você pressiona o botão salvar, instrui o computador a copiar a versão do documento que está na RAM (versão temporária) para o disco/pen drive/HD, que são 
+memórias persistentes, ou seja, que permanecem com as informações armazenadas mesmo após o desligamento.
+
+Este exemplo simples permite que você compreenda a noção do que significa ser persistente, como um disco/HD/pen drive, ou volátil, como a RAM.
+
+Para equipamentos atuais, as memórias RAM, em geral, possuem capacidade de bilhões de bytes, enquanto discos/HDs/pen drives possuem capacidade de armazenamento de trilhões de bytes. Todos 
+esses dispositivos, mesmo quando o fornecimento de energia elétrica é cortado, mantêm os dados, apesar de serem muito mais lentos do que a memória RAM.
+
+Uma interessante consequência da Lei de Moore é que os computadores se tornaram tão pequenos e baratos, que você pode comprar versões cada vez menores dessas máquinas por preços
+relativamente baixos. Eles podem se encaixar em inúmeros lugares, o que antigamente era algo inimaginável.
+
+Um pequeno computador embutido em um único chip é conhecido como microcontrolador, que possui todos os componentes básicos, como CPU, RAM e armazenamento persistente, em uma escala 
+realmente pequena. Logicamente, seu poder computacional, quando comparado a computadores de mesa, é bastante limitado.
+
+Então, microcontroladores são computadores realmente pequenos, que não têm muito poder, mas são muito baratos, e quem tornou isso possível foi a Lei de Moore.
+
+Um carro mais moderno possui microcontroladores espalhados pelo chassi, realizando tarefas específicas para cada subsistema.
+
+Um bom exemplo de um microcontrolador é uma placa Arduino. Trata-se de um equipamento de projeto e de código aberto, oferecido apenas por artistas ou entusiastas, ou apenas para brincar.
+
+Observe o microcontrolador do Arduino, a seguir. É ali que ficam a CPU, a memória RAM e o armazenamento persistente.
+
+
+O microcontrolador está instalado sobre a placa azul, onde encontramos outros componentes auxiliares, ou seja, de suporte. Por exemplo, para alimentação elétrica e interface com um monitor
+de vídeo.
+
+Atualmente, é possível comprar um Arduino por valores acessíveis. Este é um item bem interessante para ser utilizado em sistemas computacionais a fim de ler sensores ou interruptores.Também
+é possível controlar pequenas luzes, por exemplo. Portanto, é apenas uma maneira divertida de brincar e fazer uma espécie de projeto de arte ou algo assim.
+
+O Arduino também é usado por escolas e universidades de todo o mundo, pois permite que alunos estudem e implementem sistemas computacionais de forma bastante efetiva a um custo realmente 
+reduzido, inclusive sem a necessidade de gastos com licenças e royalties.
+

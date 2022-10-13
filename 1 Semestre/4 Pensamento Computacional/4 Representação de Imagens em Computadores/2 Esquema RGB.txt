@@ -1,0 +1,32 @@
+Newton bolou e realizou esse famoso experimento com um prisma, que é apenas um pedaço triangular de vidro. Conforme mostrado, a luz solar branca vem da esquerda, e o prisma de vidro 
+transparente divide esse fecho de luz em um espectro de cores, que está projetado na cadeira (o ideal é uma superfície branca), revelando que a luz branca não é algo puro e indivisível.
+
+Em vez disso, a luz branca pode ser separada em um espectro de cores constituintes. Essas são justamente as cores que você vê em um arco-íris. Portanto, as cores estão realmente em um 
+espectro contínuo.
+
+Uma forma de representar cores é pensar em cores puras como uma espécie de paleta. Um esquema mundialmente aceito é o uso das cores puras vermelho, verde e azul.
+
+Você consegue identificar essas cores na imagem do prisma de Newton?
+
+Costuma-se utilizar essas três cores puras como constituintes para representar qualquer outra cor que desejarmos.
+
+Enquanto Newton usou um prisma para dividir a cor branca em um espectro contínuo de cores que a constituem (exemplo: arco-íris), desejamos usar cores constituintes e combiná-las para obter
+outras cores, e até mesmo a luz branca.
+
+Agora, vamos estudar o esquema de codificação de cores específico chamado de Red Green Blue (RGB) ou Vermelho, Verde e Azul. Desejamos que esse esquema seja simples o suficiente para que 
+nos tornemos capazes de instruir (codificar ou programar) computadores a representar qualquer cor como uma combinação dessas três.
+
+Se olharmos para a grade de pixels do gráfico visto anteriormente, precisaremos refletir sobre o que cada cor representa dentro da grade. No esquema RGB, vamos usar luzes vermelhas, verdes
+e azuis puras, e misturá-las em diferentes combinações para alcançarmos todas as cores possíveis.
+
+Vamos descrever o funcionamento do explorador RGB, que é bem simples, a seguir:
+
+Há três controles deslizantes. Cada um serve para ajustar as intensidades de verde, azul e vermelho.
+
+Se você escolher o valor 0 (zero) para o azul, significa que está ajustando o “pixel grande” do centro para que não tenha absolutamente nenhuma intensidade de azul.
+
+À medida que você desliza o controle para a direita, vai aumentando a intensidade de luz azul para 1, 2, 3... até chegar ao nível 255, que representa o máximo de intensidade de luz azul que
+sua tela é capaz de emitir. O mesmo vale para o vermelho e para o verde.
+
+
+
