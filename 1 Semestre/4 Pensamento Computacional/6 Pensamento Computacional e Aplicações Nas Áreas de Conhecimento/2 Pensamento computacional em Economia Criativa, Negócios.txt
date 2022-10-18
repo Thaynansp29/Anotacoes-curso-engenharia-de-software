@@ -1,0 +1,81 @@
+A Economia Criativa está em constante evolução com o apoio do pensamento computacional. A criatividade humana é inestimável e ainda insubstituível. Com o uso de algoritmos, a tecnologia é 
+potencializada alcançando resultados inimagináveis. Você pode estar se perguntando:
+
+O pensamento computacional só afeta essa nova economia, que é movida pela criatividade?
+
+Reinventando o mundo dos negócios
+Os negócios tradicionais, que sempre movimentaram a economia do mundo, continuam existindo, mas a forma como ocorrem já é completamente diferente de 10 ou 15 anos atrás. A preocupação com a
+resiliência, a segurança e a eficiência dos negócios está relacionada diretamente à tecnologia. Sem ela, não é possível proporcionar uma boa experiência aos clientes, fazendo com que 
+empresas sejam deixadas de lado e percam posicionamento no mercado. Independentemente do negócio praticado, as organizações precisam utilizar a tecnologia a seu favor.
+
+Sabemos que mais do que vender um produto, as empresas devem conhecer seu cliente, suas necessidades e seus desejos, mas se sua empresa fosse tradicional, como se desenvolveria essa tarefa?
+Pense por uns instantes! Se pensarmos de forma tradicional, essa tarefa seria manual e cansativa, com análise feita por amostragem. No entanto, por meio do pensamento computacional e de 
+alguns algoritmos especializados, é possível individualizar cada consumidor.
+
+Além disso, o banco está, atualmente, na palma de nossas mãos, por meio de aplicativos em smartphones ou internet banking. Para os raros casos em que ainda precisamos de dinheiro em espécie,
+há caixas eletrônicos espalhados por shoppings, farmácias e pequenos mercados em toda a cidade. As transações financeiras por cartões de crédito, cada vez mais seguras, também estão mais 
+populares e acessíveis. O ano de 2017 foi o primeiro em que essas operações superaram as realizadas em dinheiro, alcançando a marca de 23,3 trilhões em todo o mundo.
+
+Até o século passado, as greves dos bancários causavam comoção nacional. Saques, depósitos, transferências — nenhuma operação bancária era realizada durante dias. O país parava e torcia 
+para que um acordo fosse realizado o mais rápido possível, para que tudo voltasse à normalidade.
+
+Além da forma tradicional, os cartões de crédito vêm apresentando variações por meio de aplicativos que geram QR Codes ou dispositivos de aproximação, que realizam pagamento com verificação
+biométrica ou reconhecimento facial.
+
+E não são apenas os cartões de crédito que estão ganhando espaço. As criptomoedas, como o bitcoin, valorizam-se ano após ano, representando um sistema financeiro independente de governos ou
+agentes reguladores.
+
+Essa criptomoeda é produzida de forma descentralizada por milhares de computadores, mantidos por pessoas que ‘emprestam’ a capacidade de suas máquinas para criar bitcoins e registrar todas
+as transações feitas. No processo de nascimento de uma bitcoin, chamado de ‘mineração’, os computadores conectados à rede competem entre si na resolução de problemas matemáticos. Quem ganha,
+recebe um bloco da moeda.
+
+(AZEVEDO, 2017, n. p.)
+O futuro de nossas relações econômicas ainda é incerto, mas podemos afirmar que a tecnologia estará presente nelas. A mudança é contínua nos paradigmas da administração do mundo dos 
+negócios. Não basta aprendermos a conviver com as inovações tecnológicas atuais, precisamos estar preparados para todas as que ocorrerão no futuro, ano após ano.
+
+Dessa maneira, todas as empresas que desejarem se manter competitivas precisam estar atentas às mudanças tecnológicas. Para isso, buscam profissionais preparados que saibam fazer bom uso do
+pensamento computacional em seu dia a dia, tornando, assim, o ambiente corporativo um lugar mais funcional e inovador.
+
+A tecnologia evolui de forma crescente e avança sobre as mais diversas áreas de conhecimento, mas ela seria capaz de automatizar atividades classificadas como propriamente humanas? Será que
+poderíamos confiar a máquinas a tomada de decisões tão importantes para nossa sociedade? Estas perguntas vêm sendo respondidas em diversos lugares do mundo por meio de sistemas de apoio à 
+decisão que, por si só, não têm autonomia para realizar escolhas, mas são de grande valia para facilitar o trabalho de profissionais das mais variadas áreas.
+
+Na telemedicina, um médico auxiliado por tecnologia pode ter exames de imagem mais detalhados, diagnósticos facilitados, inúmeros robôs para dar mais precisão a seus movimentos. Mesmo com 
+todas essas ferramentas, quem será responsável por realizar a cirurgia será o médico. E se ele souber aplicar o pensamento computacional para dominar toda essa tecnologia, a chance de 
+sucesso será muito maior.
+
+No Brasil, em um passado muito recente, nos departamentos jurídicos das empresas, existiam pessoas responsáveis por verificar rotineiramente o Diário Oficial, para procurar por nomes, 
+números de processos e outras informações relevantes para sua atividade. Todo esse trabalho manual, além de custoso e cansativo, poderia gerar erros, imprecisões ou atrasos. Hoje em dia, 
+sistemas computacionais fazem essa verificação em minutos e com alta precisão, trazendo, consequentemente, vantagens financeiras para as organizações.
+
+Certas funções relacionadas ao Direito, como assistente jurídico e paralegal, foram classificadas como de alto risco, mas outras funções, que envolvem inteligência social e criatividade, 
+como as de advogado, apresentaram baixo risco de substituição.
+
+
+O avanço, porém, do pensamento computacional não se limita apenas a automatizar trabalhos manuais. Os algoritmos vêm evoluindo para, por meio de inteligência artificial, interpretar textos,
+identificar tendências e até mesmo sugerir decisões com base nessas informações. Softwares já fazem buscas inteligentes na literatura jurídica, identificam os pontos mais relevantes em um 
+processo, geram hipóteses a partir do aprendizado da máquina e elaboram respostas utilizando redação própria.
+
+Um escritório de advocacia americano anunciou, em 2016, que havia contratado um robô-advogado. Tratava-se do software ROSS Intelligence que, por meio do sistema de computação cognitiva da 
+empresa International Business Machines Corporation (IBM), é capaz de utilizar inteligência artificial para realizar pesquisas jurídicas avançadas. Empregando linguagem comum, os advogados
+da empresa podem fazer perguntas ao sistema como se estivessem conversando com um colega de trabalho.
+
+
+Quanto mais o software é utilizado, mais elaboradas se tornam suas pesquisas, pois o algoritmo aprende por meio de um sistema de feedback. Esse sistema tem por objetivo diminuir os custos 
+com pessoal e o tempo necessário para realizar pesquisas, uma vez que pode executar milhares de instruções por segundo.
+
+No estado americano de Wisconsin, outro algoritmo, denominado Correctional Offender Management Profiling for Alternative Sanctions (COMPAS), também ganhou muito destaque. Ele é utilizado 
+para calcular a probabilidade de reincidência de um réu, baseado apenas em fatos e comportamentos, evitando, assim, erros humanos. Esse sistema funciona por meio de um formulário que, após
+ preenchido e processado, gera um valor entre 1 e 10. Quanto maior é o valor, maior é considerada a periculosidade do indivíduo.
+
+O algoritmo utiliza diversos critérios para o cálculo da probabilidade de reincidência dos acusados. Entre eles estão:
+
+CRITÉRIOS DO ALGORITMO:
+*A existência de outros na família ou entre grupos de amizade
+*O nível de envolvimento em crimes
+*O grau de escolaridade
+*A situação financeira
+*Os hábitos relacionados à recreação e ao lazer
+*O histórico de uso de drogas
+*Os dados sobre "pensamentos criminosos"
+

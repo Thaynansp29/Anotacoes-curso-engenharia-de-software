@@ -1,0 +1,141 @@
+Após compreender a mudança que vem ocorrendo no mundo, você pode se perguntar: como podemos garantir que todos tenham a mesma oportunidade de sucesso nessa nova economia? A resposta a 
+este questionamento não é simples, mas podemos iniciar com mudanças significativas na Educação.
+
+Os resultados das mudanças no campo da Educação não são de curto prazo. Uma mudança metodológica ou curricular pode levar uma geração inteira até ser percebida. Isso se deve à própria 
+natureza do campo da Educação, que trabalha a formação do indivíduo, e não apenas o acúmulo de conhecimento.
+
+Ao longo do tempo, foi sendo desenvolvido, nas sociedades ocidentais, um pensamento mais utilitarista acerca da educação, que envolve questões como:
+
+Para que aprender isso?
+Para que serve?
+Como se aplica?
+Essa maneira de encarar a educação desvirtua a concepção do próprio campo educacional, que pensa na formação como um todo, e não de forma fragmentada. Forma-se o indivíduo e o cidadão, 
+lançando-se mão de saberes diversos, oriundos das Ciências Humanas, Sociais, da Natureza, Exatas, Biológicas e afins.
+
+Contudo, isso não significa, de forma alguma, que a teoria esteja afastada da prática. Ao contrário, a educação contemporânea está cada vez mais vinculada à prática, e as tecnologias 
+educacionais são ferramentas fundamentais na construção desse processo, o que transforma a aprendizagem em algo tangível, estimulando o interesse do aluno.
+
+As aulas de Matemática, muitas vezes, podem ser o terror dos estudantes, pois alguns deles não compreendem a importância de aprender a calcular uma equação de 2º grau, por exemplo. Muito 
+do que aprendemos pode ser utilizado em situações cotidianas, enquanto outros conhecimentos servem para desenvolver nosso raciocínio e nos tornar capazes de resolver problemas complexos 
+de diversas naturezas.
+
+O desenvolvimento do pensamento crítico e de competências emocionais prepara os alunos para o sucesso a longo prazo. O aprendizado do pensamento computacional ajuda os jovens a desenvolver
+habilidades importantes não apenas para as disciplinas da área de Exatas, mas também de Ciências Sociais, Artes e Linguagem. Assim, eles serão mais capazes de articular um problema e de
+pensar logicamente.
+
+Esses aprendizados os ajudam não só a resolver problemas, mas também a perceber certas abordagens adotadas para a solução, ajudando a explorar causa e efeito, além de analisar como suas 
+ações ou as de outras pessoas afetam a situação em questão. Essas habilidades podem ter impactos poderosos sobre os jovens e sobre como gerenciam seus relacionamentos com as pessoas a seu 
+redor.
+
+Ainda sobre os Estados Unidos, em 2010, algumas organizações propuseram um conjunto de ferramentas, denominadas Computational Thinking Toolkit (Kit de ferramentas para pensamento 
+computacional), a fim de desenvolver as habilidades do pensamento computacional em escolas de educação básica.
+
+As ferramentas foram estruturadas em nove conceitos, baseados nos quatro pilares estudados anteriormente. São eles:
+
+*Coleta de dados
+
+*Análise de dados
+
+*Representação de dados
+
+*Decomposição de problemas
+
+*Abstração
+
+*Algoritmos
+
+*Automação
+
+*Paralelismo
+
+*Simulação
+
+Esses nove conceitos devem ser aplicados em atividades práticas, de modo a proporcionar o desenvolvimento cognitivo dos alunos, substituindo, assim, a metodologia tradicional de aulas 
+expositivas. Dessa maneira, o aluno deixa de ser apenas um receptor passivo e passa a ser ator principal na construção de seu conhecimento, aumentando seu grau de entendimento e o
+interesse pelas aulas.
+
+Além dos Estados Unidos, diversos países desenvolvidos apresentam iniciativas promissoras na inclusão do pensamento computacional nos ensinos fundamental e médio, pois, assim como a 
+alfabetização e o raciocínio lógico, quanto mais cedo se aprender o pensamento computacional, maior será a facilidade no processo de aprendizagem.
+
+Como é no Brasil?
+
+Atualmente, no Brasil, o ensino do pensamento computacional ainda está em fase embrionária, mas já há algumas iniciativas muito interessantes. A Base Nacional Comum Curricular (BNCC), 
+homologada em 2018, referencia diretamente o pensamento computacional em diversos trechos. A parte a seguir trata da progressão das aprendizagens essenciais do ensino fundamental para o 
+ensino médio:
+
+A área de Matemática, no Ensino Fundamental, centra-se na compreensão de conceitos e procedimentos em seus diferentes campos e no desenvolvimento do pensamento computacional, visando à 
+resolução e formulação de problemas em contextos diversos.
+
+(BRASIL, 2017, p. 471)
+
+Nesse aspecto, o pensamento computacional atua como ferramenta importante para combater a rejeição à Matemática, da qual tratamos anteriormente. Mas, para além disso, atua no sentido de 
+pensar problemas de forma global, construindo diversas soluções possíveis. Novas habilidades e competências passam a ser desenvolvidas como análise e lógica, operacionalizadas a partir do 
+conhecimento matemático desde a infância.
+
+Assim, a BNCC indica que o pensamento computacional:
+
+[...] envolve as capacidades de compreender, analisar, definir, modelar, resolver, comparar e automatizar problemas e suas soluções, de forma metódica e sistemática, por meio do 
+desenvolvimento de algoritmos.
+
+Bell, Witten e Fellows (2011) propõem uma técnica para ensinar Ciência da Computação por meio de atividades de entretenimento, sem a necessidade do uso do computador. Além de ser de fácil 
+aplicação, essa técnica favorece países e lugares menos desenvolvidos, onde não há fácil acesso a tecnologias, fazendo, assim, um papel social.
+
+Utilizando jogos, atividades interativas e desenvolvimento colaborativo, essa técnica ensina pequenos conceitos de computação, conforme mostra a tabela a seguir:
+
+Jogos					Objetivos
+De cartas pintadas e ordenadas		Aprender números binários
+De palavras				Reconhecer padrões e técnicas de compactação
+
+
+Grande parte do ensino de Engenharia requer uma base sólida de Matemática, além de compreensão e vivência práticas. Porém, muitas mudanças recentes no ensino médio resultaram em queda nas 
+habilidades e nos conhecimentos dos alunos em áreas como Aritmética e Leitura. Combinado com os alunos provenientes de uma distribuição geográfica maior, isso resulta em um conjunto 
+heterogêneo de habilidades iniciais entre os estudantes.
+
+*Engenharia
+
+*Matemática
+
+*Vivências
+
+Um segundo desafio está relacionado à crescente complexidade dos sistemas que os engenheiros recém-qualificados deverão analisar, projetar e testar em sua carreira. Não é mais adequado 
+apenas compreender os princípios subjacentes. Um engenheiro graduado deve agora ter um conhecimento de trabalho muito mais profundo dos processos envolvidos no projeto desses sistemas 
+complexos.
+
+Abordar a crescente lacuna entre as habilidades desiguais dos novos alunos e as expectativas mais altas dos alunos de graduação, dentro da duração limitada dos cursos típicos de Engenharia,
+é um desafio cada vez mais difícil. Para promover essa transformação, tais cursos precisam integrar o pensamento computacional em todos os aspectos do currículo.
+
+As experiências de várias instituições acadêmicas líderes dos Estados Unidos e da Europa demonstram que, quando isso é feito de forma sistemática, os alunos aprendem rapidamente conceitos 
+matemáticos desde o início, usando ferramentas de software simbólicas e numéricas. Além disso, os estudantes adquirem uma compreensão mais profunda de programação e de Engenharia de 
+Sistemas com o aprendizado prático baseado em projetos, por meio de laboratórios virtuais.
+
+Os alunos também aprendem a:
+
+*Pensar de forma independente.
+*Investigar e explorar ambientes.
+*Aplicar as ferramentas usadas pelos engenheiros em sua profissão.
+
+As plataformas de programação e simulação numérica, por exemplo, o MATLAB , podem atuar como facilitadoras para promover a transição dos cursos tradicionais de Engenharia para os cursos 
+modernos, em que os requisitos de análise definidos pelos organismos de acreditação, como o Conselho Regional de Engenharia e Agronomia (CREA), são atendidos.
+
+Uma superfície criada no Matlab.
+
+Essas plataformas permitem a integração do pensamento e das ferramentas computacionais para promover uma compreensão mais profunda dos princípios de Engenharia. Elas também permitem o uso 
+de aplicativos simples para dar vida a conceitos, antes de incentivar e capacitar os alunos a desenvolverem suas próprias soluções.
+
+Hoje em dia, a maioria dos estudantes se sente confortável usando computadores ao iniciar seus estudos, mas poucos se sentem à vontade em aplicá-los para resolver problemas de Engenharia. 
+Para fechar essa lacuna, o pensamento computacional e o desenvolvimento de habilidades associadas têm sido cada vez mais integrados ao longo do currículo.
+
+Embora a base matemática para o ensino dessa área seja relativamente estável, a complexidade e a natureza multidisciplinar dos problemas de Engenharia exigem atualmente que os cursos 
+atendam a vários objetivos de aprendizado ao mesmo tempo. A capacidade de usar softwares não é apenas um requisito para os engenheiros de hoje, mas também uma solução que permite aos 
+alunos colocarem em prática a teoria que aprenderam em sistemas reais.
+
+A experiência com uma variedade de ferramentas pode ajudar os estudantes a ampliar seus horizontes, mas esse benefício deve ser ponderado em relação à capacidade de explorar conceitos de 
+Engenharia em maior profundidade, usando — e ganhando experiência com isso – o mesmo ambiente de ferramentas em cada ano de seus estudos. Professores em todo o mundo descobriram que o uso 
+do mesmo conjunto de softwares, desde o primeiro ano até o final do curso, aprimora a experiência de aprendizado — particularmente quando essas mesmas ferramentas são usadas por 
+engenheiros que trabalham com problemas do mundo real na indústria.
+
+Em vez de começar no primeiro ano de estudo com construções abstratas de programação, os alunos são introduzidos à computação por simulação e experimentam conceitos de Engenharia usando 
+plataformas de hardware, como o LEGO Mindstorms. Essa introdução promove a retenção e ajuda a mitigar a lacuna de conhecimento de Matemática e Engenharia que são abordados nos semestres 
+posteriores. As habilidades de programação são aprimoradas nos primeiros semestres dos cursos de Matemática e Física, que servem como pré-requisitos para entrar na sequência da Engenharia.
+
+
