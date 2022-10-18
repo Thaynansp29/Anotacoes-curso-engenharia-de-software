@@ -1,0 +1,73 @@
+Estruturas condicionais são as linhas de código de computador empregadas para expressar a ideia de lógica ou seletividade. Usando esses tipos de instruções, somos capazes de preparar o 
+computador para realizar um teste, cujo resultado será verdadeiro ou falso, aplicando-o para controlar se determinado pedaço de código será ou não executado.
+
+Todas as linguagens de programação possuem estruturas condicionais. Neste módulo, analisaremos um tipo específico: a declaração if (do inglês, if-statement). Não deixe de manter em mente 
+que if, em inglês, significa “se”.
+
+Vamos nos basear em exemplos e práticas na linguagem JavaScript, estando sempre voltados para a resolução de interessantes problemas de manipulação de imagens.
+
+Estrutura condicional
+Veja a sintaxe de uma declaração if conforme a linguagem de programação JavaScript:
+
+if( pixel.getRed() > 160 ) {
+pixel.setRed(0);
+pixel.setGreen(0);
+Pixel.setBlue(0);
+}
+
+Repare na linha 1. Em português, essa instrução significa:
+
+Se a intensidade do componente vermelho do pixel for maior do que 160, então execute as instruções que estão entre as chaves esquerda e direita.
+
+Em outras palavras, as instruções das linhas 2, 3 e 4 só serão executadas pelo computador se o resultado do teste for verdadeiro. Pense nessa instrução como uma forma de selecionar os 
+pixels que serão afetados pelas instruções das linhas 3, 4 e 5. Veja:
+
+Por exemplo, ainda na instrução 1, se o valor do componente vermelho do pixel em questão for 140, então, as instruções 2, 3 e 4 não serão executadas pelo computador, pois o teste if( 140> 
+160) retornará, é claro, falso.
+
+Se o valor do componente vermelho do pixel em questão for 160, então as instruções 2, 3 e 4 também não serão executadas, pois o resultado do teste if (140 > 160) será falso.
+
+A execução das instruções 2, 3 e 4 só ocorrerá, por exemplo, se o valor do componente vermelho do pixel em questão, obtido pela função pixel.getRed(), for 161 ou qualquer valor maior do que
+este.
+
+Note, na linha 1, onde há a instrução if, que o teste a ser realizado pelo computador está entre parênteses. Esta é uma sintaxe requerida pela linguagem JavaScript.
+
+Somente seguindo essa sintaxe o computador será capaz de entender que se trata de um teste que ele deve realizar, para então decidir se irá ou não executar as instruções entre as chaves 
+esquerda“{“ e direita “}”, que delimitam a declaração if.
+
+Na prática, frequentemente vemos uma declaração if ser usada dentro de uma estrutura de repetição, como a estrutura for. Esse tipo de combinação permite que problemas bastante interessantes
+sejam resolvidos.
+
+Para o restante deste módulo, experimentaremos com a estrutura condicional if. Abordaremos várias práticas simples que envolvem manipulação de imagens digitais, começando por casos bem 
+rudimentares e chegando a aplicações do mundo bem interessantes, ainda que simples.
+
+Optamos por usar exemplos com imagens digitais, pois esta é uma forma muito simples, intuitiva e rápida para você observar os efeitos da execução de algumas linhas de código de computador.
+Isso ocorre porque estamos acostumados a observar imagens do mundo real desde que nascemos. Então, este é um processo altamente intuitivo para todos.
+
+Para analisar e avaliar o efeito de determinadas linhas de código, basta observar a imagem e comparar o antes e o depois da execução do código.
+
+Para fazer com que somente um tom fique cinza, por exemplo, uma foto aonde tem varios girasois, podemos pegar o tom vermelho e green e tranforma-lo em cinza com esses codigos:
+
+img = new SimpleImage("img/calcada.jpg");  (nome da foto)
+for( pixel: img ){ (fazendo um for)
+media = (pixel.getRed()+pixel.getGreen()+pixel.getBlue())/3  (fazendo uma variavel media aonde soma todos os 3 tons e divide por 3 (para transformar em cinza o rgb precisa esta com os mesmo numeros))
+if( pixel.getRed() > media && pixel.getGreen() > media ){  (fazendo um if se o vermelho for maior que a media e o verde for maior que a media tranformaremos ela na media)
+pixel.setRed( media );	(tranformando no tom da media que são os numeros iguais para poder transformar em cinza)
+pixel.setGreen( media ); (tranformando no tom da media que são os numeros iguais para poder transformar em cinza)
+pixel.setBlue( media ); (tranformando no tom da media que são os numeros iguais para poder transformar em cinza)
+}
+}
+print( img );
+
+No código que já consta no código-fonte, o if está testando se os níveis de verde e de vermelho de cada pixel são maiores do que 120. Isso reflete a ideia de que um bom nível de verde e 
+vermelho indica que o pixel pode ser amarelo.
+
+Se o teste do if for positivo, o pixel que atende à condição será para a cor preta: RGB (0,0,0). Isso será interessante, pois, ao analisarmos a imagem resultante, basta observarmos o que 
+estiver em preto. Estes terão sido os pixels selecionados pela instrução if.
+
+Repare que boa parte do meio-fio amarelo foi pintado de preto. Porém, analisando melhor, podemos detectar um problema: parte importante da calçada e do asfalto foram pintados de preto. Isso
+ocorre pois essas são áreas da imagem original em que os pixels são mais iluminados/claros.
+
+Então, os três componentes, vermelho, verde e azul, devem estar acima de 120, gerando um tom cinza suficientemente claro. Instrua o computador a selecionar apenas pixels cujos componentes 
+vermelho e verde estejam acima de 150.
+

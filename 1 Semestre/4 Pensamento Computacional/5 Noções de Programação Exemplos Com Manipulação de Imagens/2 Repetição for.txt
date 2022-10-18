@@ -1,0 +1,49 @@
+Mesmo assim, se o autor de um código de computador, sem usar estruturas de repetição, tentar escrever um código de computador para manipular cada um dos pixels da imagem da figura 2, 
+precisará repetir 292 mil vezes as instruções que apontam para determinado pixel (exemplo: pixel = img.getPixel( x,y )), cada uma delas seguidas com as instruções de manipulação desejada 
+(exemplo: pixel.setRed(255)).
+
+Claramente, isso não é uma maneira prática de realizar uma operação com grande quantidade de dados. As desvantagens vão desde um código de computador difícil de ler, por ser muito extenso,
+até a dificuldade de manutenção, atualização ou correção do código, caso haja necessidade futura.
+
+Então, o que queremos é uma construção na qual possamos escrever algumas poucas linhas de código que capturam certas mudanças desejadas. Depois, deixamos o computador executar essas linhas 
+de código repetidamente, uma vez para cada dado que desejamos manipular, ou seja, em nosso exemplo, uma vez para cada pixel da imagem.
+
+Existem diferentes maneiras de realizar isso em códigos de computador, mas, por motivos de simplicidade, vamos estudar a estrutura de repetição for, também chamada de loop for.
+
+Claramente, isso não é uma maneira prática de realizar uma operação com grande quantidade de dados. As desvantagens vão desde um código de computador difícil de ler, por ser muito extenso,
+até a dificuldade de manutenção, atualização ou correção do código, caso haja necessidade futura.
+
+Então, o que queremos é uma construção na qual possamos escrever algumas poucas linhas de código que capturam certas mudanças desejadas. Depois, deixamos o computador executar essas linhas
+de código repetidamente, uma vez para cada dado que desejamos manipular, ou seja, em nosso exemplo, uma vez para cada pixel da imagem.
+
+img = new SimpleImage("img/passaro.jpg");
+for( pixel: img ){
+pixel.setRed(130);
+pixel.setGreen(57);
+pixel.setBlue(15);
+}
+print( img );
+
+A linha de código for ( pixel: img ), traduzida de código de computador para português, significa: para cada pixel da imagem armazenada na variável img, repita uma a uma todas as instruções
+cercadas por abre chaves “{“ e fecha chaves “}” logo a seguir.
+
+No exemplo da figura 3, temos três instruções destacadas em cinza dentro da estrutura for. Nesse caso, estas serão as instruções repetidas para cada um dos 292 mil pixels da imagem 
+“pássaro.jpg”.
+
+Observe a seta azul que liga o “}”, no final do loop for, no início da estrutura de repetição. Quando o computador percebe que está na linha de instrução que fecha a estrutura de repetição,
+acontece isso, conforme indicado pela seta azul: o computador volta novamente para o início do loop.
+
+Em seguida, o computador se fixará no segundo pixel (1,0) da imagem e executará os três comandos em cinza, deixando o segundo pixel preto. O mesmo ocorrerá para o terceiro, o quarto, o 
+quinto e para todos os 292 mil pixels da imagem do pássaro, até que toda a imagem esteja completamente preta.
+
+Você perceberá que as três instruções em cinza que formam o corpo do loop for estão descoladas para a direita. Isso não é obrigatório para que o computador compreenda as instruções.
+
+É, no entanto, uma convenção muito comum mostrar que as linhas de dentro da estrutura de repetição são especiais em relação às demais, porque são executadas várias vezes, até que a condição
+estabelecida no início da estrutura for seja satisfeita.
+
+Note que o computador as executará para cada um dos 292 mil pixels da imagem. Então, temos um total de 876 mil operações a serem realizadas pelo computador. Ao clicar em Executar, tente 
+observar quanto tempo o computador leva para ajustar/executar as 876 mil instruções necessárias para colorir de preto cada um dos 292 mil pixels da imagem “passaro.jpg” e, depois, 
+apresentar a imagem na tela.
+
+A imagem preta deve aparecer na tela muito rapidamente.
+
