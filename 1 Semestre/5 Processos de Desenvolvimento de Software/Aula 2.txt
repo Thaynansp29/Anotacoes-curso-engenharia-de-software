@@ -1,0 +1,111 @@
+Todo projeto, em sua fase inicial, deve ser submetido a um estudo de viabilidade, cujo objetivo, como o próprio nome já diz, é saber se vale a pena desenvolver a ideia sob o ponto de vista
+operacional, técnico, econômico e organizacional.
+
+O estudo deve oferecer base para ajudar nessa decisão, questionando:
+
+O projeto/produto pode ser feito?
+O projeto/produto beneficiará os clientes interessados?
+Existe uma alternativa?
+
+O estudo de viabilidade envolve quatro áreas distintas em sua análise:
+
+TÉCNICA
+Visa a atender os requisitos técnicos do produto a ser desenvolvido. O levantamento deve estar relacionado com a tecnologia existente no processo de desenvolvimento.
+
+OPERACIONAL
+Visa atender os requisitos para a aceitação do produto ou problema apresentado. O levantamento deve estar relacionado com a aceitação da solução proposta, e como os agentes se sentirão em 
+relação a ela.
+
+CRONOGRAMA
+Visa a atender os requisitos de tempo para os prazos estabelecidos. O levantamento deve estar baseado na viabilidade técnica em relação ao prazo estipulado. Prazos obrigatórios são mais 
+difíceis de serem negociados.
+
+ECONÔMICA
+Visa a atender os requisitos financeiros do projeto/produto. Considerada a mais critica, consiste em julgar se o projeto será deficitário ou se os custos de sua implementação não terão os 
+benefícios desejados.
+
+A Fase Econômica também é chamada Análise de Custo-Benefício.
+Ela deve contemplar custos de:
+
+Operação	Desenvolvimento do projeto
+Custos fixo e contínuos.
+Ex.: pessoal, manutenção, energia.	Custos que ocorrem somente uma vez.
+Ex: aquisição de novos softwares; instalação; atualização.
+Análise de ROI (Return On Investment)
+
+Percentual que mede a relação entre quanto se ganhou e quanto se investiu.
+
+ROI = (total de lucro – total custo) / total de custo
+Quanto maior for a taxa, melhor será o ROI.
+
+REQUISITO
+É uma condição ou necessidade para resolver um problema ou alcançar um objetivo. Também pode ser estar presente em um sistema a fim de satisfazer uma condição, um contrato, um padrão, ou 
+uma especificação devida.
+
+REQUISITO DO USUÁRIO
+Definições sobre a função do sistema e as restrições sob os quais ele deve operar. O formato é em linguagem comum, visando ao entendimento do cliente/usuário.
+
+REQUISITOS DO SISTEMA
+Definição estruturada e detalhada do serviço que será feito no sistema/produto. O formato é em Contrato de Prestação de Serviço entre o cliente e o fornecedor.
+
+REQUISITOS FUNCIONAIS
+Descrevem as funcionalidades do sistema. Estão diretamente ligados às especificações da tecnologia envolvida, do perfil do usuário, do tipo do sistema.
+
+Exemplos:
+
+[RF 0023] Usuário não pode acessar o banco de dados financeiro.
+
+[RF 0059] Sistema deve oferecer opção para o usuário escrever observação nos documentos.
+
+REQUISITOS NÃO FUNCIONAIS
+Algumas propriedades e suas medições
+Velocidade	Transações / segundos
+Tamanho	Mbytes
+Confiabilidade	Tempo médio de falhas
+Facilidade de uso	Treinamento
+
+De acordo com sua classificação, podem ser:
+Requisitos não funcionais de produto
+O produto deve se comportar de acordo com as classificações medidas (velocidade,
+confiabilidade e tamanho).
+Exemplo:
+[RNF 0008] Consulta ao banco de dados financeiro não deve ultrapassar 3s.
+Requisitos não funcionais organizacionais
+Devem seguir regras definidas pela corporação ou empresa, seguir procedimentos da
+própria organização (padrão de processo, padrão de documentação, padrão de
+requisitos para implementação).
+Exemplo:
+[RNF 0236] Os documentos da matriz de responsabilidade devem seguir o padrão XPTO
+123.
+Requisitos não funcionais externos
+Devem seguir o processo de desenvolvimento atendendo bases da legislação nacional
+e internacional.
+Exemplo:
+[RNF 0129] As informações de cadastro dos usuários não devem ser acessadas por
+nenhum operador.
+Requisitos de domínio
+São requisitos referentes ao produto ou aplicação que devem ser responsáveis por
+corrigir, restringir ou estabelecer novas funções para que o sistema possa operar de
+forma satisfatória.
+Exemplo:
+[RD 0291] Deve haver uma interface padrão para a consulta do banco de dados
+secundário que terá como base o padrão RDF-763X.
+
+As técnicas de elicitação de requisitos podem e devem ser combinadas, de acordo com a necessidade do levantamento de dados e dos perfis de usuários. Abaixo algumas técnicas:
+
+Entrevista
+Utilização na análise de problema e na engenharia de requisitos com o objetivo de entender as perspectivas do cliente/usuário. Entender quem são os agentes e quais as necessidades, o 
+problema e a solução.
+
+Questionários
+Forma de utilização que faz perguntas referentes ao sistema. Utilização de hipóteses para as relevâncias. Podem ser utilizados após a entrevista.
+
+Útil quando a quantidade de pessoas a levantar dados é grande e/ou estão geograficamente distantes. Ganha contornos de destaque na medida em que a internet fomenta o uso de questionáiros 
+eletronicos e online.
+
+Casos de uso
+Identificação dos agentes que atuam no sistema; das interfaces que o sistema/produto possuirá; validação de pré-requisitos. Representação visual ao invés de textual.
+
+Brainstorm
+Ou tempestade de ideias, faz o levantamento de ideias, em que cada uma sugerida pode combinar na propositura de uma nova. Atividade de livre imaginação que deve ser tratada sem críticas ou
+debates.
