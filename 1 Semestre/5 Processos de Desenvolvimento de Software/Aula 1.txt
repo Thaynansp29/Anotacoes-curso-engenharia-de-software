@@ -1,0 +1,230 @@
+O que é software?
+
+É um conjunto integrado de programas de Computador.
+
+O que é um programa de computador?
+
+É um conjunto de instruções que descreve, passo a passo, uma tarefa que deve ser realizada pelo hardware.
+
+Exemplo: Software de Gestão Escolar = conjunto de programas que executam um conjunto de tarefas necessárias a gestão de uma escola.
+
+Dentro do Software de Gestão Escolar, temos o programa que calcula a média dos alunos, com base nas notas informadas das provas.
+
+
+Código de programação
+
+Para o desenvolvimento dos programas que integram o software precisamos de uma linguagem de programação, que define as instruções e a forma de relacioná-las.
+
+A primeira linguagem de programação gerava programas, em código de máquina (sequência de 0 e 1), mas era muito difícil para o programador que teria que escrever um código binário (0 ou 1),
+memorizar as instruções em sequencias de 0 e 1.
+
+A partir daí, diferentes linguagens de programação foram criadas, sempre almejando conceder poder e facilidade ao programador. Eram as linguagens de programação de alto nível (receberam 
+esse nome por serem bem próximas da linguagem natural do homem).
+
+Mas o Hardware somente entende a linguagem binária, assim sendo, o programa escrito em linguagem de alto nível precisa passar por um processo adicional, que converta a linguagem de alto 
+nível em linguagem de máquina para ser compreendida e executada pelo hardware.
+
+Dentre as classificações para as linguagens de programação, a que classifica por paradigmas, avalia como as instruções são compostas e organizadas para formar o programa . Os paradigmas 
+com maior variedade de linguagens de programação são:
+
+Imperativo
+
+Elementos de código em formato de blocos que se interligam através de três tipos de instrução, da chamada Programação Estruturada.
+
+*Sequência:
+As instruções são organizadas de forma sequencial (tarefa 1 finaliza, entra tarefa 2).
+
+*Seleção:
+Onde as instruções podem ser executados baseadas na avaliação de uma condição (IF (Condição=V) THEN Sequencia1 ELSE Sequencia2.
+
+*Iteração:
+Onde as instruções podem ser repetitivas até uma condição ser atingida.
+
+Orientada a Objeto (OO)
+
+Elementos de código em formato de objetos que se interligam.
+
+Um objeto é composto de atributos (dados) e métodos (ações).
+
+Os objetos são agrupados em classes.
+
+Exemplo: Classe ALUNO.
+
+Atributos: Nome, Matricula, Telefone, endereço
+Métodos: Incluir Aluno, Matricular em curso, Incluir Disciplina
+
+Classe:
+Tipo de Objeto.
+
+Atributos:
+Variáveis que estão dentro de cada objeto da classe.
+
+Método:
+Ação que a classe pode realizar.
+
+Além da linguagem de programação, o software também pode ser classificado como:
+
+Software básico
+
+São softwares que permitem a operação e programação de computador, como as linguagens de programação e o sistema operacional.
+
+O Sistema Operacional é um software que gerencia o uso do computador/dispositivos móveis, facilitando a vida do usuário e garantindo o melhor funcionamento possível da máquina. O Sistema 
+operacional gerencia o uso do processador, da memória, das unidades de disco (fixa e removível) e todos os periféricos (impressoras, scanners, e etc).
+
+Exemplos de sistemas operacionais: Windows, MacOs, Ios, Android.
+
+Linguagem de programação >>>>>>>>>> Sistema Operacional >>>>>>>>>>>> Hardware.
+
+Monotarefa
+Executa somente um processo de cada vez.
+
+Monousuário
+
+Somente é permitida a utilização de um usuário de cada vez.
+
+Logotipo Windows
+
+Multitarefa
+Os processos são compartilhados e enfileirados a espera do processador. É distribuído de modo que pareça ser executado simultaneamente.
+
+Multiprocessamento
+
+Distribui para mais de um processador.
+
+Multiusuário
+
+Vários usuários utilizam ao mesmo tempo.
+
+Software aplicativo
+
+O software aplicativo, como diz o nome, revela alguma utilidade (aplicativo) ao usuário, como por exemplo: editores de texto, planilhas eletrônicas, folha de pagamento, contas a pagar, 
+aplicativos diversos de celulares e etc.
+
+Usuário >>>>>>>>>> Software aplicativo.
+
+mostra o fluxo do conjunto de software, básico (sistema operacional e linguagem de programação) e aplicativo, à serviço do usuário.
+
+Um conjunto de camadas, de forma a tornar o computador (hardware e software) uma ferramenta de trabalho ao usuário.
+
+Usúario >>>>>>>> Software de aplicativo >>>>>>>>> Linguagem de programação >>>>>>>>> Sistema Operacional >>>>>>>> Hardware.
+
+
+O software pode ser classificado de acordo com a sua forma de cópia e distribuição (licença de uso). Em geral, o software pode ser:
+
+
+1. Software Gratuito ou Freeware
+
+2. Software Livre
+
+3. Comercial
+
+4. Adware
+
+5. Demo
+
+6. Trial
+
+7. Shareware
+
+1*
+Programa de computador cujo uso não implica o pagamento de licença de uso. O Freeware pode ser copiado e distribuído gratuitamente.
+
+O Freeware pode ser utilizado sem pagar, mas o código fonte não é disponibilizado, logo o freeware não pode ser modificado.
+
+Assim sendo o freeware só pode ser usado da forma como é disponibilizado.
+
+2*
+Programa de computador cuja utilização, cópia e distribuição não possui restrição. É comum o código fonte estar disponível para manuseá-lo, e dessa forma o software pode ser modificado, 
+por quem desejar, sem que seja necessária a permissão ou que se pague ao autor.
+
+3*
+Programa onde deve-se pagar um valor para sua aquisição e/ou uso.
+
+4*
+Programa de computador que executa automaticamente algum tipo de publicidade após sua instalação ou durante sua utilização.
+
+5*
+Fração de um programa. Funciona como material promocional para dar a oportunidade do produto ser avaliado. É restrito de suas funcionalidades apenas para teste.
+
+Por exemplo sistema de contas a pagar que permite apenas 5 movimentações no mês.
+
+6*
+Programa semelhante ao demo, mas com funcionalidades disponíveis por tempo determinado.
+
+Após o prazo de uso do software Trial é preciso adquirir a licença.
+
+7*
+Programa de computador que possui limitações de tempo e/ou funcionalidades. Ao final do tempo estabelecido, o programa pode requisitar o pagamento para uso do software completo ou pode 
+continuar rodando sem todas as suas funcionalidades ou, ainda, interromper o seu uso.
+
+O desenvolvimento de software é um processo com grande dependência da subjetividade humana, de difícil automação.
+
+A partir de meado dos anos 80, após a crise, o software passou a ser desenvolvimento de forma mais ordenada, usando conceitos da engenharia, quando foi cunhado o tempo Engenharia de 
+Software.
+
+A atividade de desenvolvimento de software passa ser vista como um processo, organizado em fases, cada qual com uma finalidade, objetivando um software de maior qualidade e um processo de 
+desenvolvimento menos subjetivo.
+
+O processo de desenvolvimento do software, deve estabelecer:
+
+Quais as fases do processo?
+Qual a finalidade de cada fase?
+Ordem e ligação entre as fases
+Artefatos (modelos) / produtos gerados pela fase
+Documentação de cada fase
+A imagem mostra as Fases mais comuns, presentes em alguns dos principais modelos de processos de desenvolvimento de software
+
+
+Concepção: fase onde o sistema é concebido e avaliada a sua viabilidade (técnica, econômica, tempo). Caso viável o desenvolvimento segue nas fases seguintes e caso contrário é interrompido.
+
+Requisitos: Em muitos modelos de processos de desenvolvimento, a fase de requisitos pode estar junta com a de Analise, mas a finalidade é identificar as necessidades dos usuários para 
+definir os requisitos do sistema.
+
+Análise: fase de estudo, onde é definido O QUE o sistema deve fazer, independente da tecnologia que venha a ser usada. Define-se, dentre outras coisas as funcionalidades que o sistema 
+precisa ter.
+
+Projeto: onde define-se as tecnologias a serem usadas: linguagem de programação e banco de dados. É também a fase de definição da arquitetura do software e seus respectivos elementos. E 
+fase do COMO fazer o software.
+
+Codificação: é a escrita de cada programa que vai compor o sistema, na linguagem de programação selecionada. Depende tecnicamente da qualidade do programador para gerar códigos inteligíveis
+e de fácil manutenção.
+
+Testes: Verificação de erros no sistema e apuração se o mesmo executa as ações previstas e necessárias a seus usuários. Abrange um conjunto de testes em diferentes momentos da fase de 
+codificação. Deve-se testar, inicialmente, cada programa separadamente e depois o conjunto integrado de programas.
+
+Homologação: fase onde os usuários atestam que o software atende (ou não) as suas necessidades, liberando-os (ou não) para uso.
+
+Implantação: fase onde o sistema é posto em uso, no ambiente do usuário, o que requer instalação dos softwares , treinamento a usuários e acompanhamento do uso por um período de tempo 
+(acordado previamente, em contrato, preferencialmente).
+
+Manutenção: uma vez implantado, o sistema precisa sobreviver ao longo dos anos, adequando-se as mudanças da empresa e do contexto onde a mesma esta inserida.
+
+Características do processo de desenvolvimento de software
+
+Dependente do componente humano
+Pouca automação no processo
+Pouca aplicação da visão de projeto
+Pressão dos usuários: rapidez a baixo custo
+Dificuldade de comunicação entre os membros da equipe
+Problemas:
+
+Instabilidade dos requisitos, que mudam com frequência.
+O software hoje é grande, complexo e com interface para outros sistemas.
+A gestão do processo está mais complexa, em função de agregar mais recursos (humanos e tempo).
+Consequencias aos problemas acima.
+
+Prazos extrapolam
+Custos extrapolam
+Software sem qualidade
+Sistema de informação
+Sistema = Conjunto de partes, independentes, cada qual com seu objetivo e colaborando por um objetivo comum.
+
+Informação = Dados (fatos isolados) agrupados e relacionados (processados), com sentido lógico.
+
+-Dados: chq 1235 de 1.250,00, chq 1236 de 750,00
+
+-Dado: saldo anterior é 5.000,00
+
+-Informação: saldo atual é 3.000,00
+
+Sistema de Informação = Conjunto de elementos inter-relacionados que coleta (entrada), manipula (processamento), armazena e dissemina (saída).
