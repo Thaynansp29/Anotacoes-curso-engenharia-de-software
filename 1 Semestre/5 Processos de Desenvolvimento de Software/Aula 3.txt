@@ -1,0 +1,81 @@
+Modelagem
+Serve para verificar a qualidade dos requisitos, estudados na aula anterior, que se tornarão precisos e detalhados o suficiente para as atividades do próximo passo no processo de 
+desenvolvimento de software.
+
+Análise
+Atividade que utiliza o conceito de orientação a objeto,  utilizando a UML como notação. Tem como objetivo modelar o problema, não a solução.
+
+UML
+Unified Modeling Language, linguagem de modelagem unificada, utilizada em engenharia de software para visualizar o desenho do sistema e a intercomunicação entre objetos.
+
+Objeto e classe
+Objeto
+
+Estrutura de dados encapsulada por procedimentos. Essa estrutura são os atributos e operações.
+
+Classe
+
+Conjunto de objetos similares agrupados em que a etapa de análise está mais voltada para sua realização.
+
+Vejamos um exemplo para entender melhor.
+
+Classe: Pessoa.
+
+Objetos: Pessoas.
+
+Identificação de classes
+
+Identificar quais são as classes chaves. Fazer o levantamento com base em suas responsabilidades e colaborações. Utiliza-se em larga escala o cartão CRC (Class-Responsability-Collaborator).
+
+Organização das classes
+
+Organizar as classes em três tipos:
+
+Entidade
+Representa conceitos do domínio do problema herdada dos modelos de negócio.
+
+Fronteira
+Representa interfaces externas que estão dentro do produto, como interface de usuário e conexão com outros sistemas. Facilita o desenho das interfaces.
+
+Controle
+Organização que não pertence à entidade e nem à fronteira. Normalmente é associada a um caso de uso.
+
+Identificação dos relacionamentos
+
+Ajuda a filtrar e refinar as classes.
+
+Pode se por:
+
+1. Associação
+Indica a relação entre duas classes em que o objeto de uma classe consegue obter informações da outra a que foi associado.
+
+2. Agregação
+Indica um associação, mas com a classe se apossando das informações de um objeto da outra.
+
+Identificação dos atributos
+
+A cada classe é atribuída uma característica responsável por tomar alguma ação.
+
+Análise comportamental
+
+Aplicada depois que os requisitos forem detalhados, validando-os e indicando as dificuldades de implementação no plano de conceito.
+
+Diagrama de interação
+
+Mensagens que são trocadas, ao longo do tempo, para execução de alguma tarefa.
+
+Mensagens e Operações: representam um mecanismo de interação, ou seja, um objeto só poderá receber uma mensagem invocada por uma classe.
+
+A mensagem tem as seguintes partes:
+
+1.Receptor	2.Operação	3.Parâmetro
+
+Interação: como as mensagens trafegarão para a execução de uma tarefa.
+
+Diagrama de sequência: ordem temporal das ações que serão executadas.
+
+Identificação das operações
+
+Todas as mensagem devem se mapeadas para executarem alguma operação. Podem ser: Incluir, Alterar, Excluir, dentre outras.
+
+Podem ser: Incluir, Alterar, Excluir, dentre outras.
