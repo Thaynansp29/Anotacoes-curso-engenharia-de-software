@@ -1,0 +1,53 @@
+A fase de implementação, ou codificação, tem como objetivo escrever o programa em uma linguagem de programação, seguindo normas e diretrizes da empresa à qual o desenvolvedor esteja ligado.
+
+Na fase da implementação, o analista ou desenvolvedor detalha e implementa o que foi definido na etapa de desenho, através de componentes de código de programa e documentação detalhada.
+
+A implementação, é o processo que realiza a transformação do desenho em diversos tipos de componentes de código de programação.
+
+O código de programação pode ser dividido em 3 tipos:
+
+Código Fonte:
+Conjunto de instruções geradas através de uma linguagem de programação, de maneira lógica e estruturada; após o processo de compilação ou interpretação, transformar-se-á em código objeto.
+
+Código Objeto:
+Resultado da compilação do código fonte.
+
+Código Máquina:
+Sequência binária de ações diretamente direcionadas para o processador da máquina.
+
+Compilador:
+Programa que faz uma leitura do código fonte, desenvolvido em uma linguagem de alto nível, e transcreve para um novo tipo de linguagem chamada de baixo nível.
+
+Interpretador:
+Programa que, além de fazer a leitura do código fonte e transformá-lo em código objeto, efetua a execução do mesmo sequencialmente.
+
+Linguagem de baixo nível:
+Linguagem de programação que utiliza a arquitetura do processador para executar as ações. Esta linguagem é a que mais se aproxima dos códigos de execução direta do processador, ou seja, 
+linguagem de máquina.
+
+Linguagem de alto nível:
+Comumente chamada de linguagem de programação, esta linguagem se aproxima mais da linguagem humana, ou seja, linguagem com um padrão de entendimento humano bem definido. Para essa linguagem
+não é levado em consideração a arquitetura do computador, nem as características do processador e seus registradores, visto que, na fase de interpretação ou compilação, esses programas 
+transformarão em linguagem de baixo nível ou de máquina.
+
+Linguagem de primeira geração
+Desenvolvida no inicio da era dos computadores, esta linguagem é interpretada pelos microprocessadores. Cada microprocessador possui uma linguagem própria de entendimento, o que pode 
+ocasionar erros de programação em processadores de uma mesma família de fabricantes.
+
+Ex: Linguagem binária. 0 e 1.
+
+Linguagem de segunda geração
+Surgida em meados dos anos 50,  foi considerada a primeira linguagem de alto nível, visto que era de fácil entendimento e, portanto, considerada mais humana.
+
+Ex: Assembly
+
+Linguagem de terceira geração
+Em meados dos anos 80, surgiram com os conceitos de programação estruturada e programação orientada a objetos. Ex: Pascal, Cobol, C, C++
+
+Linguagem de quarta geração
+É característica dessa linguagem dar suporte para execução de rotinas auxiliares a linguagens de terceira geração.
+
+Ex: Linguagem de consulta, utilizada para conexão com banco de dados. (SQL)
+
+Uma vez que o desenho será a base da implementação, o processo de documentação de uso do produto passa a ter importância nesta fase, onde a documentação e a programação devem andar lado a 
+lado.
